@@ -3,27 +3,9 @@
 ++++++++++++ COMANDOS BÁSICOS COM INSTRUMENTOS +++++++++++++++
 ==============================================================
 
-# FAZER TODOS INSTRUMENTOS EM .PDF
-make instrumentos_pdf
+# Gerar um livro em pdf
+make instrumento.pdf
 
-
-# FAZER TODOS INSTRUMENTOS DE CLAVE DE SOL EM .PS
-make all_sol
-
-
-# FAZER TODOS INSTRUMENTOS DE CLAVE DE FÁ EM .PS
-make all_fa
-
-# FAZER TODOS INSTRUMENTOS DE CLAVE DE SOL EM .PDF
-make all_pdf_sol
-
-
-# FAZER TODOS INSTRUMENTOS DE CLAVE DE FÁ EM .PDF
-make all_pdf_fa
-
-# FAZER .PS DE UM INSTRUMENTO APENAS
-# ex.:
-make clarinete.ps
 
 # LIMPAR TODOS OS ARQUIVOS .PS .PDF .EPS .LYTEX(APENAS INSTRUMENTOS)
 make cleanall
@@ -42,6 +24,9 @@ git add arquivo
 # gravar um commit
 git commit -m "aqui será o texto referente à gravação"
 
+# enviar path para o repositório central
+git push
+
 
 ==============================================================
 +++++++++++++++++ OUTROS COMANDOS BÁSICOS ++++++++++++++++++++
@@ -51,11 +36,4 @@ git commit -m "aqui será o texto referente à gravação"
 ps2pdf arquivo
 
 # Ler arquivo pdf:
-acroread arquivo
-gv arquivo
-
-# Diretorio anterior:
-cda    
-
-# Executar
-sh
+evince arquivo
