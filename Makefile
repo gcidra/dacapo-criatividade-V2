@@ -13,6 +13,7 @@ file-regencia = dacapo-reg-vol2.lytex
 file-percussao = dacapo-perc-vol2.lytex
 # file-percussao = teste.lytex
 
+
 vpath %.reg reg
 vpath %.ly ly
 
