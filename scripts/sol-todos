@@ -1,0 +1,1 @@
+ls; make cleanall; time make all_sol; gv flauta.ps; gv oboe.ps; gv clarinete.ps; gv saxalto.ps; gv saxtenor.ps; gv saxgenes.ps; gv trompete.ps; gv trompa.ps; ls

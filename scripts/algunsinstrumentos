@@ -1,0 +1,1 @@
+ls; make cleanall; time make flauta.ps clarinete.ps saxalto.ps trombone.ps tubasib.ps; gv flauta.ps; gv clarinete.ps; gv saxalto.ps; gv trombone.ps; gv tubasib.ps; ls

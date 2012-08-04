@@ -1,0 +1,1 @@
+ls; make cleanall; time make all_fa; gv trombone.ps; gv tubamib.ps; gv tubasib.ps; ls

@@ -1,0 +1,2211 @@
+% -*- latex -*-
+% -*- coding: latin-1 -*-
+
+\documentclass[twoside,12pt]{article}
+\usepackage{graphicx}
+% \usepackage{artigos}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,top=2cm,bottom=2cm,left=2cm,right=2cm]{geometry}
+\usepackage{nameref}
+\usepackage{fancyhdr}
+\usepackage[brazil]{babel}              % Acrescentado por Givaldo de Cidra
+\usepackage{url}
+%% \usepackage{makeidx}                    % pkg para índice
+\usepackage{setspace}
+\usepackage{titletoc}
+\usepackage{lastpage}
+\usepackage{wrapfig}
+
+\titlecontents{section}
+[2 em]
+{}
+{\contentslabel{2em}}
+{\hspace*{-2.3em}}
+{\titlerule*[1pc]{.}\contentspage}
+
+
+\newcommand{\instrumento}[1]{ \textit{#1} }
+\newcommand{\letraquadrada}[1]{ \Large{\framebox[1.1\width]{#1} }}
+\newcommand{\quadtitulo}[1]{ \large{\textbf{#1} }}
+\newcommand{\quadtexto}[1]{\small{\textbf{#1}}}
+
+
+%\setlength\@tempdima{1.5em}%
+
+\pagestyle{fancy}                       % Sets fancy header and footer
+\fancyhf{}
+\fancyfoot[RLOEF]{\bfseries\rightmark}     % Oculta o nome das seções
+
+%%Página Ímpar
+\fancyfoot[LO]{\textit{Da Capo Criatividade - Vol. 2 - \instrumento{Rodape}}}
+\fancyfoot[RO]{\thepage}
+
+%%Página Par
+\fancyfoot[LE]{\textit{Joel Barbosa}}
+\fancyfoot[RE]{\thepage}
+
+\renewcommand{\headrulewidth}{0.0pt}    % Width of head rule
+\renewcommand{\footrulewidth}{0.0pt}    % Width of foot rule
+
+
+% não espaçar pra encher as páginas:
+\raggedbottom
+
+\begin{document}
+
+\graphicspath{
+  {../figs/}
+  {../figs/posicoes/}
+  {../figs/quadro/}
+}
+
+
+% \instrumento{Original}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% INICIO CAPAS
+
+%%%%%%%%%%%% FOLHA DE ROSTO
+\thispagestyle{empty}
+
+\begin{flushleft}
+  \textbf{\huge{\instrumento{InstrCapa}}}
+\end{flushleft}
+\vspace*{0.3ex}
+
+\begin{flushleft}
+  \textbf{\large{\textit{ %#escrita#%}}}
+\end{flushleft}
+\vspace*{14ex}
+
+
+\begin{center}
+\textbf{\huge{DA CAPO CRIATIVIDADE}}
+\vspace*{4ex}
+
+\textbf{\Large{Método Elementar para o Ensino Individual e/ou Coletivo
+    de Instrumentos de Banda}}
+\vspace*{4ex}
+
+\textbf{\Large{Volume 2}}
+\vspace*{18ex}
+
+\textbf{\huge{Joel Barbosa}}
+\vspace*{18ex}
+
+\includegraphics[scale=0.5]{logo-keyboard}
+\vspace*{2ex}
+
+\textbf{\Large{ANO 2010}}
+\vspace*{4ex}
+
+\textbf{Copyright by Joel L. da Silva Barbosa \\
+Todos os direitos reservados \\
+IMPRESSO NO BRASIL \\
+KEYBOARD EDITORA MUSICAL LTDA. \\
+CAIXA POSTAL 300 \\
+JUNDIAÍ  -  SP  -  CEP 13201-970 \\
+E-mail: contato@keyboard.art.br \\
+site: www.keyboard.art.br }
+\end{center}
+\vspace*{2ex}
+
+\begin{flushright}
+  \includegraphics[scale=0.7]{%#ISBN-V2-fig#%}
+\end{flushright}
+
+
+%%%%%%%%%%%% VERSO-FOLHA DE ROSTO
+\newpage
+\thispagestyle{empty}
+
+Nenhuma parte deste livro poderá ser reproduzida ou transmitida sejam
+quais forem os meios: eletrônicos, fotográfico, gravação ou quaisquer
+outros sem a permissão explícita por escrito do autor:
+\textbf{JOEL L. da SILVA BARBOSA}
+\vspace*{20ex}
+
+\begin{tabular}{|p{15cm}|}
+\hline
+\\
+BARBOSA, J. L. da Silva \\
+\\
+DA CAPO CRIATIVIDADE \instrumento{Original} Vol 2. Jundiaí, São Paulo: \\
+Keyboard Editora Musical Ltda. 2010, p. \pageref{LastPage} \\
+\\
+Didático/Pedagógico \\
+ISBN nº %#ISBN-V2#% \\
+\\
+Copyright 2010 by Keyboard Editora Musical Ltda. \_Todos os direitos reservado\_ \\
+R: Rangel Pestana 1044 - Jundiaí - São Paulo - CEP 13201-000 \\
+e-mail: contato@keyboard.art.br \\
+\\
+\hline
+\end{tabular}
+\vspace*{30ex}
+
+\begin{flushleft}
+  Editoração: Givaldo de Cidra\\
+  Capa: Reprodução da Colagem de Silvio Alvarez\\
+\end{flushleft}
+
+\begin{flushleft}
+  Editado e Impresso por Keyboard Editora Musical Ltda\\
+\end{flushleft}
+
+\begin{flushleft}
+  Registro na Fundação Biblioteca Nacional\\
+  Ministério da Cultura\\
+  Escritório de Direitos Autorais\\
+\end{flushleft}
+
+\begin{flushleft}
+  Nº %#ISBN-V2#% \\
+  Autor: Joel L da Silva Barbosa \\
+  Título da Obra: DA CAPO CRIATIVIDADE \instrumento{Original} Vol. 2 \\
+\end{flushleft}
+
+%%%%%%%%%%%% FOLHA DO MAESTRO MARCELO
+\newpage
+\pagenumbering{arabic}
+\section*{Aos Leitores}
+\label{sec:maestro-marcelo}
+\addcontentsline{toc}{section}{Aos Leitores}
+
+\input {maestro-marcelo}
+
+
+%%%%%%%%%%%% FOLHA DA BIOGRAFIA
+\newpage
+\section*{Sobre o Autor}
+\addcontentsline{toc}{section}{Sobre o Autor}
+
+\input {biografia-joel}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% FINAL CAPAS
+
+\newpage
+\section*{Agradecimentos}
+\addcontentsline{toc}{section}{Agradecimentos}
+
+A Pedro Kroeger pela consultoria e apoio computacional,\\
+A Givaldo de Cidra pela editoração,\\
+A Pablo Sotuyo Blanco pelo fornecimento de partituras,\\
+% da obra ``Missa e Credo'' de Damião Barbosa de Araujo,\\
+A Bertalan Fodor pelas dicas com o programa Lilypond,\\
+Aos colegas que trocaram idéias comigo sobre este trabalho,\\
+% A Weril Instrumentos Musicais Ltda pelo patrocínio,\\
+% A Keyboard Editora Musical Ltda pela capa e publicação,\\
+A UFBA pelo apoio institucional e\\
+Aos cooperadores do programa Lilypond (\url{http://www.lilypond.org}), através do qual as partes musicais foram digitalizadas.\\
+\break
+\newpage
+
+
+\break
+
+\section*{Palavras aos alunos e ao professor/regente}
+\addcontentsline{toc}{section}{Palavras aos alunos e ao professor/regente}
+
+O livro Da Capo Criatividade é para ser utilizado em paralelo ao
+método Da Capo, mas pode ser trabalhado independentemente deste. Ele
+complementa as atividades propostas no método, possuindo atividades de
+aquecimento, teoria, imitação e criatividade. As atividades de
+aquecimento incluem notas longas em escalas. Elas desenvolvem a
+técnica instrumental individual e possibilitam trabalhar a sonoridade
+do grupo. Conhecimentos de teoria da música são possibilitados por
+meio de letras que dividem as melodias em frases e semi-frases,
+auxiliando sua compreensão e, conseqüentemente, sua interpetação. A
+imitação amplia a capacidade de percepção. Finalmente, a criatividade,
+habilidade fundamental na formação do músico, é desenvolvida por meio de
+improvisação e composição.
+
+Assim como o método Da Capo, o Da Capo Criatividade pode ser usado
+também em aulas individuais, em aulas de pequenos grupos de
+instrumentos de famílias semelhantes ou variadas e com grandes grupos
+como bandas tradicionais, marciais e sinfônicas. Ele pode ser
+trabalhado por uma única familia de instrumentos, como metais, por
+exemplo, ou apenas clarineta, com ou sem o acompanhamento de
+instrumentos de percussão ou harmonia.
+
+Os livros compõem o Da Capo Criatividade são: flauta, oboé, clarineta, fagote,
+saxofone alto, saxfone tenor, trompete, trompa, sax gênis, trombone,
+bombardino, tuba e percussão. Há livros de bombardino e tuba em
+diferentes tonalidades, claves e sistemas de escrita.
+
+Para maiores explicações e dicas, além das contidas abaixo, indicamos
+o site: 
+
+\url{http://www.dacapo.mus.br.}
+
+
+\subsection*{I - Explicações e dicas}
+\addcontentsline{toc}{section}{Explicações e dicas}
+
+\begin{enumerate}
+
+
+\item As cabeças de mínimas e semínimas desacompanhadas de hastes indicam
+  notas que devem ser usadas para improvisação. As cabeças de mínimas
+  são notas pertencentes ao acorde, consonantes, enquanto as de
+  semínimas são notas que causam dissonâncias; notas de passagem, por
+  exemplo.
+
+  \begin[fragment]{lilypond}
+    \transpose c c {
+      \keepWithTag #'cl
+      \include "cl-ex1.ly"
+    }
+  \end{lilypond}
+
+\item As cabeças de notas em formato de barra indicam atividades de
+  imitação (atividades de se tocar ``de ouvido''). Elas são notas que
+  servem de dicas para a imitação, informando as notas utilizadas pelo
+  improvisador. As notas do exemplo abaixo indicam as
+  notas que podem ter sido utilizadas pelo improvisador do exemplo
+  anterior:
+
+
+  \begin[fragment]{lilypond}
+    \transpose c c {
+      \keepWithTag #'cl
+      \include "cl-ex2.ly"
+    }
+  \end{lilypond}
+
+
+\item Nas músicas com mais de uma voz, defina diferentes grupos
+  instrumentais para cada voz, escolhendo, por exemplo, os de registro
+  agudo para a voz superior (melodia), os de registro médio para as
+  vozes intermediárias (harmonia) e os de registro mais grave para a
+  inferior (baixo). Porém, experimente outras distribuições dos
+  instrumentos por vozes, utilizando apenas instrumentos de metais,
+  por exemplo. Também utilize, algumas vezes, apenas um instrumentista
+  por voz, formando trios, quartetos, quintetos etc.
+
+\item Há letras e números sobre os compassos e semi-frases
+  dos exercícios e das melodias para facilitar as atividades. Nas
+  letras ou números que não são de improvisação e imitação, pode-se
+  usar: a) a banda toda, b) diferentes grupos instrumentais e/ou c) um
+  instrumentista, mudando-o ou não a cada letra.
+
+\item As notas pequenas, utilizadas em alguns exercícios de alguns
+  instrumentos, a \ref{sec:impr-em-barata}, por exemplo, indicam notas
+  que ainda não foram aprendidas nos exercícios correspondentes do
+  método Da Capo.
+
+\item Os exercícios de improvisação sobre melodias têm na
+  \textbf{Parte 1} a melodia, com a letra da música, e nas
+  \textbf{Parte 2} e \textbf{Parte 3} improvisação ou melodia e
+  improvisação. Repita as Partes 2 e 3 várias vezes, até que todos
+  improvisem, em seguida, volte ao início e termine na indicação de
+  \textbf{\textit{Fim}}.
+
+\item Nos exercícios de variações, depois de tocar a última
+  variação volte ao início e termine na indicação de
+  \textbf{\textit{Fim}}.
+
+\item Sobre as notas de improvisação aparecem, em algumas atividades,
+  nomes de notas (Dó, Fá, Sol etc). Eles indicam os acordes a que
+  pertencem as notas da improvisação, sendo Dó para o acorde de Dó
+  maior. Os acordes menores são indicados com a palavra ``menor'', por
+  exemplo: Ré menor.
+
+  \begin[fragment]{lilypond}
+    \transpose c c {
+      \keepWithTag #'cl
+      \include "cl-ex3.ly"
+    }
+  \end{lilypond}
+
+\item O nome das notas nos títulos das atividades indicam o som
+  real. Por exemplo, na atividade \ref{sec:diversao-modal},
+  intitulada \textit{``\nameref{sec:diversao-modal}''}, a nota Sol é
+  o som real que o instrumento produz, a nota de efeito, e não, necessariamente, a nota
+  escrita no pentagrama. Se verificarmos as partes da clarineta e do
+  trompete, veremos que elas têm a nota Lá escrita, em
+  vez de Sol.
+
+\end{enumerate}
+
+\subsection*{II - Quanto a improvisação}
+\addcontentsline{toc}{section}{Quanto a improvisação}
+
+\begin{enumerate}
+
+\item Quem deve improvisar no Método? 
+
+  O professor, os alunos e/ou convidados.
+
+\item Quem escolhe os improvisadores e sua ordem ou seqüência? 
+
+  O professor e/ou aluno(s).
+
+\item Como determinar a ordem dos improvisadores?  
+
+  Pela ordem que estão sentados, por nomes (João, Maria etc) ou por
+  instrumentos. A ordem pode ser comunicada antes de iniciar a música
+  ou ir sendo anunciada durante a improvisação. Neste último caso, o
+  professor, um aluno ou o improvisador anterior diz o nome ou aponta
+  gestualmente o próximo improvisador, enquanto o grupo continua
+  tocando. Para que o improvisador anterior indique o próximo, ele
+  deve deixar, obviamente, uma pausa no fim do improviso.
+
+
+\item A fim de ganhar tempo, pode-se criar ordens fixas de
+  improvisadores, seqüências padronizadas, e nomeá-las. Por exemplo:
+
+  \textbf { Padrão de Improvisação 1 }:
+
+  Primeiro improvisador: Maria da flauta, 
+
+  Segundo: João da clarineta, 
+
+  Terceiro: José do trompete e
+
+  Quarto: Luiza do trombone.
+
+  Assim, em vez de criar e explicar uma diferente ordem cada vez que for
+  tocar um dado exercicío, basta dizer com que Padrão ele será
+  tocado.
+
+\item A fim de facilitar a ordem de quem improvisa, use as letras ou
+  números colocados sobre os compassos e semi-frases das
+  melodias. Observe que a letra ``i'' ou ``I'' não é utilizada.
+
+\item Com que acompanhamento improvisar? 
+
+  Mude o acompanhamento rítmico proposto nas lições que têm
+  improvisação, variando, de acordo com a possibilidade da melodia,
+  utilizando ritmos de samba, marcha, baião, xaxado, maracatu, coco
+  etc. No final dos livros de percussão e regência há um apêndice com
+  esses ritmos escritos. Aproveite para ensiná-los ``de ouvido'' para
+  os percussionistas.
+
+\end{enumerate}
+
+\subsection* {III - Quanto a imitação}
+\addcontentsline{toc}{section}{Quanto a imitação}
+
+\begin{enumerate}
+
+\item Quem faz imitações no Método? 
+
+  Um aluno, um grupo (metais, madeiras, clarinetas, meninas, meninos
+  etc) ou a banda toda.
+
+
+\item Quem escolhe os imitadores e sua ordem ou seqüência? 
+
+  O professor, um aluno e/ou um grupo de alunos.
+
+\item Como determinar a ordem dos imitadores? 
+
+  Da mesma forma que se faz com a improvisação. Por nomes (João,
+  Maria etc), gêneros (meninos, meninas),
+  instrumentos, naipes (madeiras, metais) ou pela ordem que estão
+  sentados (linha da frente, primeiro da linha etc). A ordem pode
+  ser definida antes de iniciar a música ou ir sendo comunicada
+  durante a improvisação. Neste último caso, o professor, um aluno ou
+  o improvisador diz o nome ou aponta gestualmente quem, ou que grupo,
+  fará a imitação. Isto desenvolve a concentação dos participantes.
+
+\item A fim de ganhar tempo, pode-se criar também ordens fixas de
+  imitadores, seqüências padronizadas, e nomeá-las. Por exemplo:
+
+  \textbf {Padrão de Imitação A  }:
+
+  Primeiros imitadores: Flautas e clarinetas, 
+
+  Segundos: Saxofones, 
+
+  Terceiros: Trompetes e trompas
+
+  Quartos: Trombones e bombardinos.
+
+\item Utilize as letras ou números colocados sobre os compassos e
+  semi-frases das melodias para distribuir a ordem dos alunos que
+  farão a imitação.
+
+\end{enumerate}
+
+\break
+\subsection* {IV - Relação com os exercícios do método Da Capo}
+\addcontentsline{toc}{section}{Relação com os exercícios do método Da Capo}
+
+Para praticar as atividades do Da Capo Criatividade em conjunto com as
+do método Da Capo, foi inserida a tabela abaixo que mostra a relação entre os
+exercícios dos dois livros. Pratique os exercícios da coluna
+\textit{Da Capo Criatividade} após ter aprendido os exercícios da
+coluna \textit{Da Capo}.
+
+
+\begin{table}[htbp]
+  \centering
+  \begin{tabular}{||ll||}
+    \hline
+    \emph{Da Capo} & \emph{Da Capo Criatividade}  \\
+    \hline
+
+    % FAZER COM TODOS AS LIÇÕES
+    51 - 55 & \ref{sec:escala-e-graficos} \\  %% esse foi apenas para o volume 2
+    56 -58 & \ref{sec:escala-tres-vozes} - \ref{sec:completando-a-melodia} \\
+    59 - 62 & \ref{sec:diversao-modal} - \ref{sec:dando-musica-ao-texto} \\
+    63 - 66 & \ref{sec:brincando-em-fa-maior} - \ref{sec:impr-quando-eu-era-pequenino} \\
+    67 - 69 & \ref{sec:impr-atirei-pau-gato} - \ref{sec:impr-cachorrinho} \\
+    70 - 74 & \ref{sec:escalas-modais-lab} - \ref{sec:boas-festas} \\
+    75 - 79 & \ref{sec:impr-na-corda-viola} - \ref{sec:vari-cravo-branco-janela} \\
+    80 - 81 & - \\
+    82 - 86 & - \\
+    87 - 90 & \ref{sec:cromatismo} - \ref{sec:que-tal-terminar-melodia} \\
+    91 - 95 & \ref{sec:so-para-clarineta} - \ref{sec:desafio} \\
+    96 - 100 & \ref{sec:eu-fui-jardim-celeste} - \ref{sec:vari-terezinha}\\
+    101 - 105 & \ref{sec:impr-engenho-novo} - \ref{sec:impr-mata-tira} \\
+    106 - 111 & \ref{sec:escala-em-si-bemol} - \ref{sec:requiescat} \\
+    112 - 117 & \ref{sec:missa-e-credo} - \ref{sec:comp-toque-colegas} \\
+
+
+    \hline
+  \end{tabular}
+  % \caption{Correspondência entre os exercícios dos métodos Da Capo e
+  %   Da Capo Criatividade}
+  \label{tab:relacao-exercicios}
+\end{table}
+
+
+\section*{V - História}
+\addcontentsline{toc}{section}{História dos Instrumentos}
+
+\input {%%historia-instrumento}
+
+
+\newpage
+\section*{VI - Quadro de Dedilhado}
+\addcontentsline{toc}{section}{Quadro de Dedilhado}
+
+\includegraphics[scale=3.15]{ded-instrumento}
+
+\break
+
+
+%%%%%%%%%%%%%%%%%%  EXERCÍCIOS
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%% INICIO QUADRO 13 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[ht]
+  \centering
+  \renewcommand{\tablename}{Quadro}
+ \caption{}
+  \label{Quadro_13}
+  \begin{tabular}[t]{|l|l|l|}
+    \hline
+
+    %%% PRÓXIMA LINHA
+    \letraquadrada{A}   &   \letraquadrada{B}    &   \letraquadrada{C}
+   
+
+    %%% PRÓXIMA LINHA
+    \\
+    \quadtitulo{%#nota-11#%} 
+    &
+    \quadtitulo{Pausa de colcheia}
+    &
+    \quadtitulo{Primeira e segunda casa}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \begin[fragment]{lilypond}
+      \transpose c c {
+        \keepWithTag #'cl
+        \include "notas-11.ly"
+      }
+    \end{lilypond}
+    &
+    \includegraphics[scale=1]{colcheia-pausa}
+    &
+    \includegraphics[scale=1]{%#fig-clave#%casa1e2}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \includegraphics[scale=3.15]{%#fig-posicoes#%-11}    &\em    &\em
+
+
+    %%% FINAL DAS LINHAS
+  \\
+  \hline
+  \end{tabular}
+\end{table}    
+
+%%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Escala a três vozes}
+\label{sec:escala-tres-vozes}
+
+\subsection*{Parte 1}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-64.ly"}
+\end{lilypond}
+
+%%break-tpa
+%%break-saxh
+%%break-tbn
+%%break-bomdo
+%%break-bomsibsib
+%%break-bomsibDo
+%%break-tbamibDo
+%%break-tbasibsib8acima
+\subsection*{Parte 2}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-64conta.ly"}
+\end{lilypond}
+
+
+\subsection*{Parte 3}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-64contb.ly"}
+\end{lilypond}
+
+Pratique este número com %#fasustenido#% também.
+
+\section{Improvisando em A Barata}
+\label{sec:impr-em-barata}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-65.ly"}
+\end{lilypond}
+
+Volte ao início e termine no \textbf{\textit{Fim}}.
+
+%%break-bomdo
+%%break-bomsibsib
+%%break-bomsibDo
+%%break-tbamibDo
+%%break-tbasibsib8acima
+\section{Escala do modo lídio sobre si bemol e Gráficos}
+\label{sec:escala-e-graficos}
+
+\subsection*{Improvise com Gráficos}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-63.ly"}
+\end{lilypond}
+
+\begin{enumerate}
+
+\item Pratique este número com %#fanatural#%.
+
+\item Pratique este número com %#fanatural#% e %#sibemol#%.
+
+\item Pratique este número com %#fasustenido#% e %#sibemol#%.
+
+\end{enumerate}
+
+%%break-bomdo
+%%break-bomsibsib
+%%break-bomsibDo
+%%break-tbamibDo
+%%break-tbasibsib8acima
+\section{Completando a melodia }
+\label{sec:completando-a-melodia}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-66.ly"}
+\end{lilypond}
+
+%%%%%%%%%%%%%%%%%%%%%%%% INICIO QUADRO 14 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[ht]
+  \centering
+ \renewcommand{\tablename}{Quadro}
+ \caption{}
+  \label{Quadro_14}
+  \begin{tabular}[t]{|l|l|}
+    \hline
+
+    %%% PRÓXIMA LINHA
+    \letraquadrada{A}   &   \letraquadrada{B}
+   
+
+    %%% PRÓXIMA LINHA
+    \\
+    \quadtitulo{%#nota-12#%} 
+    &
+    \quadtitulo{Sinais de dinâmica}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \begin[fragment]{lilypond}
+      \transpose c c {
+        \keepWithTag #'cl
+        \include "notas-12.ly"
+      }
+    \end{lilypond}
+    &
+    \includegraphics[scale=1]{sinais-dinamica}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \includegraphics[scale=3.15]{%#fig-posicoes#%-12}    &\em
+
+
+    %%% FINAL DAS LINHAS
+  \\
+  \hline
+  \end{tabular}
+\end{table}    
+
+%%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Diversão no modo dórico sobre sol}
+\label{sec:diversao-modal}
+\subsection*{Parte 1}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-67a.ly"}
+\end{lilypond}
+
+
+
+\subsection*{Parte 2}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-67b.ly"}
+\end{lilypond}
+
+%%break-bomdo
+%%break-bomsibsib
+%%break-bomsibDo
+%%break-tbamibDo
+%%break-tbasibsib8acima
+\subsection*{Parte 3}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-67c.ly"}
+\end{lilypond}
+
+%%break-fl
+%%break-ob
+%%break-fg
+%%break-tpa
+%%break-saxa
+%%break-saxh
+%%break-saxt
+%%break-tbn
+\subsection*{Parte 4}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-67d.ly"}
+\end{lilypond}
+
+
+\subsection*{Parte 5}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-67e.ly"}
+\end{lilypond}
+
+
+\subsection*{Parte 6}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-67f.ly"}
+\end{lilypond}
+
+Toque este número substituindo o %#fasustenido#% por %#fanatural#%.
+
+%%break-tpt
+%%break-bomsibClaveSol
+%%break-bomdo
+%%break-bomsibsib
+%%break-bomsibDo
+%%break-tbamibDo
+%%break-tbasibDo
+%%break-tbasibsib8acima
+%%break-tbasibsib8abaixo
+\section{Dando música ao texto}
+\label{sec:dando-musica-ao-texto}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-68.ly"}
+\end{lilypond}
+
+
+Cantando vou a seca do sertão,
+
+Onde a vida aprendeu a resistir.
+
+Não morre, não; sem chuva, vai dormir
+
+E, com a água, desperta em emoção. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% INICIO QUADRO 15 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[ht]
+  \centering
+ \renewcommand{\tablename}{Quadro}
+ \caption{}
+  \label{Quadro_15}
+  \begin{tabular}[t]{|l|l|l|}
+    \hline
+
+    %%% PRÓXIMA LINHA
+    \letraquadrada{A}   &   \letraquadrada{B}   &   \letraquadrada{C}
+   
+
+    %%% PRÓXIMA LINHA
+    \\
+    \quadtitulo{%#nota-13#%} 
+    &
+    \quadtitulo{Mezzo forte}
+    &
+    \quadtitulo{Semínima pontuada}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \begin[fragment]{lilypond}
+      \transpose c c {
+        \keepWithTag #'cl
+        \include "notas-13.ly"
+      }
+    \end{lilypond}
+    &
+    \includegraphics[scale=1]{mezzo-forte}
+    &
+    \includegraphics[scale=1]{seminima-pontuada}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \includegraphics[scale=3.15]{%#fig-posicoes#%-13}    &\em    &\em
+
+
+    %%% FINAL DAS LINHAS
+  \\
+  \hline
+  \end{tabular}
+\end{table}    
+
+%%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%break-tbasibDo
+%%break-tbasibsib8abaixo
+\section{Brincando em fá maior}
+\label{sec:brincando-em-fa-maior}
+\subsection*{Parte 1}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-69a.ly"}
+\end{lilypond}
+
+
+\subsection*{Parte 2}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-69b.ly"}
+\end{lilypond}
+
+Toque este número substituindo o %#fasustenido#% por %#fanatural#%, 
+obtendo assim a escala mixolídia sobre o %#notafa#%.
+
+
+\section{Improvisando em Quando Eu Era Pequenino}
+\label{sec:impr-quando-eu-era-pequenino}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-70.ly"}
+\end{lilypond}
+
+Volte ao início e termine no \textbf{\textit{Fim}}.
+
+%%%%%%%%%%%%%%%%%%%%%%%% INICIO QUADRO 16 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[ht]
+  \centering
+ \renewcommand{\tablename}{Quadro}
+ \caption{}
+  \label{Quadro_16}
+  \begin{tabular}[t]{|p{7cm}|p{5cm}|}
+    \hline
+
+    %%% PRÓXIMA LINHA
+    \letraquadrada{A}   &   \letraquadrada{B}
+   
+
+    %%% PRÓXIMA LINHA
+    \\
+    \quadtitulo{Acento} 
+    &
+    \quadtitulo{Vivo}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    >  &\em
+
+    %%% PRÓXIMA LINHA
+    \\
+    \quadtexto{Tocar a nota acentuada com mais ênfase, ou seja, com um
+      ataque mais forte.}
+    &
+    \quadtexto{Bem rápido}
+
+
+    %%% FINAL DAS LINHAS
+  \\
+  \hline
+  \end{tabular}
+\end{table}    
+
+%%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Improvisando em Atirei o Pau no Gato}
+\label{sec:impr-atirei-pau-gato}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-71.ly"}
+\end{lilypond}
+
+Volte ao início e termine no \textbf{\textit{Fim}}.
+
+\break
+\section{Amarelinha vertical}
+\label{sec:amarelinha-vertical}
+
+\includegraphics[scale=0.91]{amarelinha-jogocl}
+
+
+Este jogo é semelhante a brincadeira de amarelinha. O objetivo é
+atingir o céu, partindo da terra. Para alcançá-lo, é necessário galgar
+uma casa de cada vez, sempre partindo da casa 1 e retornando a
+ela. Por exemplo: 1, 1-2-1, 1-2-3-2-1, 1-2-3-4-3-2-1,
+1-2-3-4-5-4-3-2-1 etc. Se você errar uma nota, um ritmo ou um sinal de
+expressão, perde a vez e outro começa. Quando voltar a sua vez,
+recomece da casa 1, ou seja: 1, 1-2-1, 1-2-3-2-1 etc. Vencem aqueles
+que atingirem o céu.
+
+
+
+\section{Improvisando em Cachorrinho}
+\label{sec:impr-cachorrinho}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-74.ly"}
+\end{lilypond}
+
+Volte ao início e termine no \textbf{\textit{Fim}}.
+
+%%%%%%%%%%%%%%%%%%%%%%%% INICIO QUADRO 17 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[ht]
+  \centering
+ \renewcommand{\tablename}{Quadro}
+ \caption{}
+  \label{Quadro_17}
+  \begin{tabular}[t]{|l|l|}
+    \hline
+
+    %%% PRÓXIMA LINHA
+    \letraquadrada{A}   &   \letraquadrada{B}
+   
+
+    %%% PRÓXIMA LINHA
+    \\
+    \quadtitulo{%#nota-14#%}
+    &
+    \quadtitulo{Pausa de colcheia (continuação)}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \begin[fragment]{lilypond}
+      \transpose c c {
+        \keepWithTag #'cl
+        \include "notas-14.ly"
+      }
+    \end{lilypond}
+    &
+    \includegraphics[scale=1]{colcheia-pausa2}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \includegraphics[scale=3.15]{%#fig-posicoes#%-14}     &\em
+
+
+    %%% FINAL DAS LINHAS
+  \\
+  \hline
+  \end{tabular}
+\end{table}    
+%%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%break-cl
+\section{Escala do modo lídio sobre lá bemol}
+\label{sec:escalas-modais-lab}
+\subsection*{Parte 1}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-75a.ly"}
+\end{lilypond}
+
+%%break-bomsibClaveSol
+\subsection*{Parte 2}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-75b.ly"}
+\end{lilypond}
+
+
+\subsection*{Parte 3}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-75c.ly"}
+\end{lilypond}
+
+Pratique este número substituindo o %#fanatural#% pelo %#fasustenido#%.
+
+
+%%break-cl
+\section{Cai, Cai Balão}
+\label{sec:cai-cai-balao}
+Copie a melodia de \textit{\nameref{sec:cai-cai-balao}} e escreva uma
+segunda voz.
+
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-pautasembarrafinal.ly"}
+\end{lilypond}
+
+
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-pauta.ly"}
+\end{lilypond}
+
+
+\break
+\section{Roda e Chicotinho Queimado}
+\label{sec:roda-e-chicotinho-queimado}
+
+\includegraphics[scale=0.91]{chicotinho-jogocl}
+
+Roda:
+
+Esta brincadeira consiste em tocar os números, rodando no sentido
+horário ou anti-horário, e repetindo cada um deles três vezes. Quem
+errar é eliminado. Após alguém ser eliminado se inicia o jogo do
+início. Vencem os que conseguirem dar três rodadas sem errar.
+
+Chicotinho queimado:
+
+Este jogo é semelhante a brincadeira de mesmo nome. São seis
+jogadores. Cada um dos cinco números do jogo fica com um participante
+e um sexto paticipante fica livre. Os cinco iniciam tocando juntos e
+ficam repetindo os trechos musicais de seu número. O sexto
+participante repete cada número duas vezes, sem interrupção, em
+sentido horário ou anti-horário como se estivesse rodando em torno dos
+cinco participantes. Se ele não tocar um dos números duas vezes, ou
+seja, tocar uma ou três vezes ou não tocá-lo, pulá-lo, o participante
+deste número deve interromper o jogo. Se ele não interromper, ele é
+eliminado do jogo. Se ele interromper, será eliminado quem estava
+rodando e ele passa a rodar no lugar do eliminado. Vencem aqueles que
+não forem eliminados.
+
+
+\section{Faca Amolada}
+\label{sec:faca-amolada}
+Aprenda ``de ouvido'' a música \textit{\nameref{sec:faca-amolada}} de
+Milton Nascimento e Ronaldo Bastos. Decore-a, improvise e depois escreva uma variação
+para ela.
+
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-pauta.ly"}
+\end{lilypond}
+
+
+\section{Escala de mi bemol maior}
+\label{sec:escala-de-mib-maior}
+\subsection*{Parte 1}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-77a.ly"}
+\end{lilypond}
+
+
+%%break-cl
+%%break-tpt
+\subsection*{Parte 2}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-77b.ly"}
+\end{lilypond}
+
+Pratique este número substituindo o %#sibemol#% pelo %#sinatural#%, 
+obtendo assim a escala lídia sobre o %#mibemol#%.
+
+%%break-bomdo
+%%break-bomsibsib
+%%break-bomsibDo
+%%break-tbamibDo
+%%break-tbasibsib8acima
+\section{Boas Festas}
+\label{sec:boas-festas}
+
+Aprenda ``de ouvido'' a música \textit{\nameref{sec:boas-festas}} de
+Assis Valente. Decore-a, improvise e depois escreva uma variação para
+ela.
+
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-pauta.ly"}
+\end{lilypond}
+
+%%%%%%%%%%%%%%%%%%%%%%%% INICIO QUADRO 18 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[ht]
+  \centering
+ \renewcommand{\tablename}{Quadro}
+ \caption{}
+  \label{Quadro_18}
+  \begin{tabular}[t]{|l|l|}
+    \hline
+
+    %%% PRÓXIMA LINHA
+    \letraquadrada{A}   &   \letraquadrada{B}
+   
+
+    %%% PRÓXIMA LINHA
+    \\
+    \quadtitulo{%#nota-15#%}
+    &
+    \quadtitulo{Sinal de repetição}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \begin[fragment]{lilypond}
+      \transpose c c {
+        \keepWithTag #'cl
+        \include "notas-15.ly"
+      }
+    \end{lilypond}
+    &
+    \includegraphics[scale=1]{sinal-repeticao2}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \includegraphics[scale=3.15]{%#fig-posicoes#%-15}     &\em
+
+
+    %%% FINAL DAS LINHAS
+  \\
+  \hline
+  \end{tabular}
+\end{table}    
+%%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Improvisando  Na Corda da Viola}
+\label{sec:impr-na-corda-viola}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-79.ly"}
+\end{lilypond}
+
+Volte ao início e termine no \textbf{\textit{Fim}}.
+
+\break
+\section{Balão}
+\label{sec:balao}
+
+\includegraphics[scale=0.94]{balao-jogocl}
+
+Esta atividade consiste em passear pelas casas.   
+
+Regras:
+
+
+\begin{enumerate}
+
+\item Só pode iniciar na casa 1 e terminar na 9.
+
+\item Só pode passar de uma casa para outra se ambas estiverem
+  conectadas por um traço do balão, não importando se o número é maior
+  ou menor que o anterior.
+  
+\end{enumerate}
+
+
+Concessões:
+
+\begin{enumerate}
+
+\item Vale voltar a uma casa uma segunda vez durante o paseio, inclusive à casa 9.
+
+\item Não precisa utilizar-se de todos os números antes de concluir na casa 9. 
+
+\item Os participantes podem iniciar juntos ou um após o outro.
+
+\end{enumerate}
+
+Exemplo:
+
+Você pode fazer uma ordem assim 1-3-6-8-5-2-1-2-4-7-9.
+
+
+
+\section{Variações sobre Cravo Banco na Janela}
+\label{sec:vari-cravo-branco-janela}
+
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-80a.ly"}
+\end{lilypond}
+
+
+\subsection*{Variação 1}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-80b.ly"}
+\end{lilypond}
+
+
+
+\subsection*{Variação 2}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-80c.ly"}
+\end{lilypond}
+
+
+%%break-tbn
+\subsection*{Variação 3}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-80d.ly"}
+\end{lilypond}
+
+
+
+\subsection*{Variação 4 - Esta você escreve!}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-80e.ly"}
+\end{lilypond}
+
+
+Volte à melodia principal, ou \textbf{Tema}, e termine no
+\textbf{\textit{Fim}}.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% INICIO QUADRO 19 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[ht]
+  \centering
+ \renewcommand{\tablename}{Quadro}
+ \caption{}
+  \label{Quadro_19}
+  \begin{tabular}[t]{|l|}
+    \hline
+
+    %%% PRÓXIMA LINHA
+    \quadtitulo{%#nota-16#%}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \begin[fragment]{lilypond}
+      \transpose c c {
+        \keepWithTag #'cl
+        \include "notas-16.ly"
+      }
+    \end{lilypond}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \includegraphics[scale=3.15]{%#fig-posicoes#%-16}
+
+
+    %%% FINAL DAS LINHAS
+  \\
+  \hline
+  \end{tabular}
+\end{table}    
+%%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Cromatismo}
+\label{sec:cromatismo}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-73.ly"}
+\end{lilypond}
+
+
+\section{Improvisando sobre a Canção do Cego}
+\label{sec:impr-cancao-cego}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-81.ly"}
+\end{lilypond}
+
+Volte ao início e termine no \textbf{\textit{Fim}}.
+
+\section{Brincando com escalas sobre sol}
+\label{sec:brinc-com-escala-sol}
+\subsection*{Parte 1}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-82a.ly"}
+\end{lilypond}
+
+%%break-fl
+%%break-ob
+%%break-saxa
+%%break-saxt
+%%break-tbn
+%%break-bomsibClaveSol
+%%break-tbasibDo
+%%break-tbasibsib8abaixo
+\subsection*{Parte 2}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-82b.ly"}
+\end{lilypond}
+
+%%break-fg
+%%break-bomdo
+%%break-bomsibsib
+%%break-bomsibDo
+%%break-tbamibDo
+%%break-tbasibsib8acima
+\subsection*{Parte 3}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-82c.ly"}
+\end{lilypond}
+
+\begin{enumerate}
+
+\item Pratique este número com %#fanatural#%, mantendo o %#sibemol#%.
+
+\item Pratique este número com %#sinatural#%, mantendo o %#fasustenido#%.
+
+\item Pratique este número com %#fasinaturais#%.
+
+\end{enumerate}
+
+\section{Improvisando em torno de sol}
+\label{sec:impr-em-torno-sol}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-83.ly"}
+\end{lilypond}
+
+
+\section{Improvisando em Maracujá}
+\label{sec:impr-em-maracuja}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-84.ly"}
+\end{lilypond}
+
+Volte ao início e termine no \textbf{\textit{Fim}}.
+
+\break
+\section{Pata Choca}
+\label{sec:pata-choca}
+
+Siga as instruções de
+\textit{\nameref{sec:roda-e-chicotinho-queimado}}, número
+\ref{sec:roda-e-chicotinho-queimado} na página
+\pageref{sec:roda-e-chicotinho-queimado}.
+
+\includegraphics[scale=1]{patachoca-jogocl}
+
+\section{Duo e Banda}
+\label{sec:duo-e-banda}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-85.ly"}
+\end{lilypond}
+
+* Notas em formato de ``X'' = Toque qualquer nota, mas siga o ritmo indicado.
+
+** Solo = Apenas um instrumento por voz.
+
+*** Notas em formato de barra = Toque qualquer nota grave ou aguda de
+acordo com a notação.
+
+**** Banda = Indica que a terceira voz pode ser feita pela banda
+completa ou parte dela.
+
+
+
+\section{Que tal terminar esta melodia?}
+\label{sec:que-tal-terminar-melodia}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-85a.ly"}
+\end{lilypond}
+
+%%%%%%%%%%%%%%%%%%%%%%%%% INICIO QUADRO 20 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[ht]
+  \centering
+ \renewcommand{\tablename}{Quadro}
+ \caption{}
+  \label{Quadro_20}
+  \begin{tabular}[t]{|p{3cm}|p{3cm}|p{3cm}|l|}
+    \hline
+
+    %%% PRÓXIMA LINHA
+    \letraquadrada{A}   &\letraquadrada{B}    &\letraquadrada{C}      &    \letraquadrada{D}
+   
+
+    %%% PRÓXIMA LINHA
+    \\
+    \quadtitulo{%#nota-17#%}
+    &
+    \quadtitulo{%#nota-18#%}
+    &
+    \quadtitulo{%#nota-19#%}
+    &
+    \quadtitulo{Stacatto}
+
+    %%% PRÓXIMA LINHA
+    \\
+    \begin[fragment]{lilypond}
+      \transpose c c {
+        \keepWithTag #'cl
+        \include "notas-17.ly"
+      }
+    \end{lilypond}
+    &
+    \begin[fragment]{lilypond}
+      \transpose c c {
+        \keepWithTag #'cl
+        \include "notas-18.ly"
+      }
+    \end{lilypond}
+    &
+    \begin[fragment]{lilypond}
+      \transpose c c {
+        \keepWithTag #'cl
+        \include "notas-19.ly"
+      }
+    \end{lilypond}
+    &
+    \includegraphics[scale=1]{stacatto}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \includegraphics[scale=3.15]{%#fig-posicoes#%-17}
+    &
+    \includegraphics[scale=3.15]{%#fig-posicoes#%-18}
+    &
+    \includegraphics[scale=3.15]{%#fig-posicoes#%-19}
+    &
+    \em
+
+
+    %%% FINAL DAS LINHAS
+  \\
+  \hline
+  \end{tabular}
+\end{table}    
+%%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Só para clarineta}
+\label{sec:so-para-clarineta}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-85b.ly"}
+\end{lilypond}
+
+
+\section{Dois por dez}
+\label{sec:dois-por-dez}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-85c.ly"}
+\end{lilypond}
+
+%%break-cl
+%%break-fl
+%%break-ob
+%%break-fg
+%%break-tpt
+%%break-tpa
+%%break-saxa
+%%break-saxh
+%%break-saxt
+%%break-tbn
+%%break-bomsibClaveSol
+%%break-bomdo
+%%break-bomsibsib
+%%break-bomsibDo
+%%break-tbamibDo
+%%break-tbasibDo
+%%break-tbasibsib8abaixo
+\section{Cum Sancto Spiritu}
+\label{sec:cum-sancto-spiritu}
+% CORAL
+\flushright
+
+Padre José Maurício (1767-1830)
+
+Adaptado por Joel Barbosa
+\flushleft
+
+
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-86.ly"}
+\end{lilypond}
+
+Extraído do Gloria in Excelsis da Missa de Santa Cecília (1826) do
+Padre Jose Maurício, editado pelo Projeto Memória Musical Brasileira e
+publicado pela Funarte em 1984.
+
+\section{Escala de dó menor antiga a três vozes}
+\label{sec:escala-do-menor-antiga-3vozes}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-87.ly"}
+\end{lilypond}
+
+
+Toque substituindo o %#sibemol#% pelo %#sinatural#%.
+
+\break
+\section{Amarelinha espiral}
+\label{sec:amarelinha-espiral}
+
+Siga as instruções de \textit{\nameref{sec:amarelinha-vertical}},
+número \ref{sec:amarelinha-vertical} na página
+\pageref{sec:amarelinha-vertical}. A terra e o céu de
+\textit{\nameref{sec:amarelinha-vertical}} correspondem a casa 1 e 16
+de \textit{\nameref{sec:amarelinha-espiral}}, respectivamente.
+
+
+\includegraphics[scale=1]{espiral-jogocl}
+
+
+\section{Doce e Raivoso}
+\label{sec:doce-e-raivoso}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-89.ly"}
+\end{lilypond}
+
+Os trechos indicados por \textbf{solo} devem ser tocados por apenas um
+instrumentista, enquanto o trecho marcado por \textbf{Tutti} por todos
+aqueles selecionados para aquela voz.  
+
+As notas em formato de triângulo indicam notas agudas, em formato de
+barra, notas de registro médio, e em formato de ``x'', notas graves.
+
+\section{Desafio}
+\label{sec:desafio}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-90.ly"}
+\end{lilypond}
+
+Repita o trecho ``A'' quantas vezes necessárias para definir o vencedor.
+
+Vence o concorrente que conseguir imitar melhor o outro. 
+
+Pratique o \textit{\nameref{sec:desafio}} substituindo o %#fasustenido#% por 
+%#fanatural#%, ou seja, na escala mixolídia.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% INICIO QUADRO 21 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[ht]
+  \centering
+ \renewcommand{\tablename}{Quadro}
+ \caption{}
+  \label{Quadro_21}
+  \begin{tabular}[t]{|l|l|}
+    \hline
+
+    %%% PRÓXIMA LINHA
+    \letraquadrada{A} &   \letraquadrada{B}
+   
+
+    %%% PRÓXIMA LINHA
+    \\
+    \quadtitulo{%#nota-20#%}
+    &
+    \quadtitulo{%#nota-21#%}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \begin[fragment]{lilypond}
+      \transpose c c {
+        \keepWithTag #'cl
+        \include "notas-20.ly"
+      }
+    \end{lilypond}
+    &
+    \begin[fragment]{lilypond}
+      \transpose c c {
+        \keepWithTag #'cl
+        \include "notas-21.ly"
+      }
+    \end{lilypond}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \includegraphics[scale=3.15]{%#fig-posicoes#%-20}
+    &
+    \includegraphics[scale=3.15]{%#fig-posicoes#%-21}
+
+    %%% FINAL DAS LINHAS
+  \\
+  \hline
+  \end{tabular}
+\end{table}    
+
+%%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\section{Eu Fui ao  Jardim Celeste}
+\label{sec:eu-fui-jardim-celeste}
+Vamos por dinâmica e completar a segunda voz.\\
+
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-91.ly"}
+\end{lilypond}
+
+
+\section{Improvisando em Terezinha}
+\label{sec:impr-terezinha}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-92-a.ly"}
+\end{lilypond}
+
+Repita e termine no \textbf{\textit{Fim}}.
+
+
+\section{Variações sobre Terezinha}
+\label{sec:vari-terezinha}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-92a.ly"}
+\end{lilypond}
+
+
+
+\subsection*{Variação 1}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-92b.ly"}
+\end{lilypond}
+
+
+
+\subsection*{Variação 2}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-92c.ly"}
+\end{lilypond}
+
+
+
+\subsection*{Variação 3}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-92d.ly"}
+\end{lilypond}
+
+
+%%break-cl
+%%break-fl
+%%break-ob
+%%break-fg
+%%break-tpt
+%%break-tpa
+%%break-saxa
+%%break-saxh
+%%break-saxt
+%%break-tbn
+%%break-bomsibClaveSol
+%%break-bomdo
+%%break-bomsibsib
+%%break-bomsibDo
+%%break-tbamibDo
+%%break-tbasibsib8acima
+\subsection*{Variação 4}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-92e.ly"}
+\end{lilypond}
+
+
+
+\subsection*{Variação 5 - Esta você escreve!}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-92f.ly"}
+\end{lilypond}
+
+
+Volte à melodia principal, ou \textbf{Tema}, e termine no
+\textbf{\textit{Fim}}.
+
+%%%%%%%%%%%%%%%%%%%%%%%% INICIO QUADRO 22 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[ht]
+  \centering
+ \renewcommand{\tablename}{Quadro}
+ \caption{}
+  \label{Quadro_22}
+  \begin{tabular}[t]{|l|}
+    \hline
+    \\[10pt]
+
+    %%% PRÓXIMA LINHA
+    \quadtitulo{D.C. al Fine (Da Capo al Fine)}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \quadtexto{Voltar ao começo e terminar no \textit{Fine}}
+
+    %%% FINAL DAS LINHAS
+  \\[30pt]
+  \hline
+  \end{tabular}
+\end{table}    
+
+%%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Improvisando em Engenho Novo}
+\label{sec:impr-engenho-novo}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-93a.ly"}
+\end{lilypond}
+
+
+\section{Variações sobre Ciranda, Cirandinha}
+\label{sec:vari-ciranda-cirandinha}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-93b-a.ly"}
+\end{lilypond}
+
+
+\subsection*{Variação 1}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-93b-b.ly"}
+\end{lilypond}
+
+
+
+\subsection*{Variação 2}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-93b-c.ly"}
+\end{lilypond}
+
+
+
+\subsection*{Variação 3}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-93b-d.ly"}
+\end{lilypond}
+
+
+
+\subsection*{Variação 4 - Esta você escreve!}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-93b-e.ly"}
+\end{lilypond}
+
+
+Volte à melodia principal, ou \textbf{Tema}, e termine no
+\textbf{\textit{Fim}}.
+
+\section{Improvisando em Mata, Tira}
+\label{sec:impr-mata-tira}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-93c.ly"}
+\end{lilypond}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%% INICIO QUADRO 23 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[ht]
+  \centering
+ \renewcommand{\tablename}{Quadro}
+ \caption{}
+  \label{Quadro_23}
+  \begin{tabular}[t]{|p{4cm}|l|l|}
+    \hline
+
+    %%% PRÓXIMA LINHA
+    \letraquadrada{A}    &    \letraquadrada{B}     &    \letraquadrada{C}
+   
+
+    %%% PRÓXIMA LINHA
+    \\
+    \quadtitulo{D.S ao Fine (Dal Segno al Fine)}
+    &
+    \quadtitulo{Fórmula de compasso}
+    &
+    \quadtitulo{%#nota-22#%}
+
+    %%% PRÓXIMA LINHA
+    \\
+    \includegraphics[scale=1]{segno}
+    &
+    \includegraphics[scale=1]{quaternario}
+    &
+    \begin[fragment]{lilypond}
+      \transpose c c {
+        \keepWithTag #'cl
+        \include "notas-22.ly"
+      }
+    \end{lilypond}
+
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \em
+    &
+    \em
+    &
+    \includegraphics[scale=3.15]{%#fig-posicoes#%-22}
+
+
+    %%% FINAL DAS LINHAS
+  \\
+  \hline
+  \end{tabular}
+\end{table}    
+
+%%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Escala em si bemol a três vozes}
+\label{sec:escala-em-si-bemol}
+\subsection*{Parte 1}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-94.ly"}
+\end{lilypond}
+
+
+\subsection*{Parte 2}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-94conta.ly"}
+\end{lilypond}
+
+%%break-tbasibDo
+\subsection*{Parte 3}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-94contb.ly"}
+\end{lilypond}
+
+\begin{enumerate}
+
+\item Pratique este número substituindo o %#sinatural#% pelo %#sibemol#%, 
+  escala mixolídia.
+
+\item Pratique este número substituindo o %#fanatural#% pelo
+  %#fasustenido#%, escala lídia.
+
+\item Pratique este número substituindo o %#sinatural#% pelo 
+  %#sibemol#% e o %#fanatural#% pelo %#fasustenido#%.
+
+\end{enumerate}
+
+\section{Como terminar esta melodia?}
+\label{sec:como-terminar-melodia}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-94a.ly"}
+\end{lilypond}
+
+
+\section{Qui Tollis}
+\label{sec:qui-tollis}
+% CORAL
+\flushright
+
+Padre Jose Maurício (1767-1830)
+Adaptado por Joel Barbosa
+
+\flushleft
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-96.ly"}
+\end{lilypond}
+
+Extraído do Gloria in Excelsis da Missa de Santa Cecília (1826) do
+Padre Jose Maurício, editado pelo Projeto Memória musical Brasileira
+e publicado pela Funarte em 1984.
+
+%%break-cl
+%%break-tpt
+%%break-bomsibClaveSol
+%%break-bomsibsib
+%%break-bomsibDo
+\section{Escrevendo a segunda voz para Senhora Dona Sancha}
+\label{sec:escr-2voz-senhora-dona-sancha}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-95.ly"}
+\end{lilypond}
+
+%%break-tbamibDo
+%%break-tbasibsib8acima
+\section{Requiescat}
+\label{sec:requiescat}
+% CORAL
+\flushright
+
+Anônimo
+
+Adaptado por Joel Barbosa
+\flushleft
+
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-97.ly"}
+\end{lilypond}
+
+Extraído do Memento do Volume IX -  Música Fúnebre da coleção Acervo da
+Música Brasileira - Restauração e Difusão de Partituras, 2003,
+trabalho coordenado por Paulo Castagna e publicado pela Fundação
+Cultural e Educacional da Arquidiocese de Mariana, BH.
+
+%%break-tbasibsib8abaixo
+\section{Missa e Credo}
+\label{sec:missa-e-credo}
+% CORAL
+\flushright
+Damião Barbosa de Araújo (1835)
+
+Adaptado por Joel Barbosa
+\flushleft
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-98.ly"}
+\end{lilypond}
+
+
+Adaptado para banda da edição de Pablo Sotuyo Blanco (copyright
+2003-2006). [Ms 6.20, Arquivo Histórico Municipal da Fundação Gregório
+de Matos, Salvador, BA].
+
+\section{Duelo}
+\label{sec:duelo}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-99.ly"}
+\end{lilypond}
+
+\begin{enumerate}
+
+\item Repita o trecho de ``A'' a ``B'' quantas vezes necessárias para efinir
+  o vencedor
+
+\item Vence o duelo aquele que improvisar usando as notas certas, não sair
+  do compasso e fizer mais bonito.
+
+\end{enumerate} 
+
+\section{Improvisando em A Árvore da Montanha }
+\label{sec:impr-arvore-da-montanha}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-100.ly"}
+\end{lilypond}
+
+
+\section{Compondo em ré menor}
+\label{sec:compondo-em-re-menor}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-100a.ly"}
+\end{lilypond}
+
+
+\section{Escala de fá maior a três vozes}
+\label{sec:escala-de-fa-maior-3vozes}
+
+
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-101.ly"}
+\end{lilypond}
+
+
+\begin{enumerate}
+
+\item Pratique substituindo o %#fasustenido#% por %#fanatural#%.
+
+\item Pratique substituindo o %#sinatural#% pelo %#sibemol#%.
+
+\item Pratique substituindo o %#fasustenido#% por %#fanatural#% e 
+  %#sinatural#% por %#sibemol#%.
+
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%% INICIO QUADRO 24 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[ht]
+  \centering
+ \renewcommand{\tablename}{Quadro}
+ \caption{}
+  \label{Quadro_24}
+  \begin{tabular}[t]{|c|}
+    \hline
+    \\[7pt]
+
+    %%% PRÓXIMA LINHA
+    \quadtitulo{Colcheia e semínima pontuada}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \includegraphics[scale=1]{colcheia-seminima-pontuada}
+
+
+    %%% FINAL DAS LINHAS
+  \\[10pt]
+  \hline
+  \end{tabular}
+\end{table}    
+
+%%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Improvisando em Melão, Melão}
+\label{sec:impr-melao-melao}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-104.ly"}
+\end{lilypond}
+
+
+%%break-tbasibsib8abaixo
+\section{Variações sobre Carneirinho, Carneirão}
+\label{sec:vari-carneirinho-carneirao}
+\subsection*{Cânone}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-105ba.ly"}
+\end{lilypond}
+
+
+\subsection*{Variação 1}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-105bb.ly"}
+\end{lilypond}
+
+
+\subsection*{Variação 2}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-105bc.ly"}
+\end{lilypond}
+
+%%break-bomsibDo
+\subsection*{Variação 3}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-105bd.ly"}
+\end{lilypond}
+
+
+\subsection*{Variação 4 - Esta você escreve!}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-105be.ly"}
+\end{lilypond}
+
+
+
+Volte à melodia principal, ou \textbf{Tema}, e termine no
+\textbf{\textit{Fim}}.
+
+%%break-tpt
+%%break-bomsibClaveSol
+\section{Escravo de Jó ou Chapeuzinho Vermelho}
+\label{sec:escravo-de-jo-chapeuzinho-vermelho}
+Escolha uma destas melodias e componha uma variação para ela.
+
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-pauta.ly"}
+\end{lilypond}
+
+%%break-cl
+%%break-fl
+%%break-ob
+%%break-fg
+\section{Escolha uma música para aprender ``de ouvido'' e apresente  a
+  seus colegas.  }
+\label{sec:escolha-musica-apresente-colegas}
+
+%%break-bomsibDo
+%%break-tbasibDo
+%%break-tbasibsib8abaixo
+\section{Componha uma música e toque para seus colegas. }
+\label{sec:comp-toque-colegas}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-106.ly"}
+\end{lilypond}
+
+
+%%% comentado até aqui
+
+% \newpage
+% \section{Material de Apoio}
+% \label{sec:material-de-apoio}
+
+
+% \newpage
+
+% \input{indice}
+
+\newpage
+
+  \tableofcontents
+
+\newpage
+\renewcommand\listtablename{Lista dos Quadros}
+  \listoftables
+
+\end{document}
+
+
+
+% Número da lição:
+% \ref{sec:impr-com-dlim}
+
+% Nome da lição:
+% \nameref{sec:impr-com-dlim} 
+
+% Página da lição:
+% \pageref{sec:impr-com-dlim}

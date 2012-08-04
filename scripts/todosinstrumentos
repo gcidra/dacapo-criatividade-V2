@@ -1,0 +1,1 @@
+ls; make cleanall; time make instrumentos_pdf; gv flauta.pdf; gv oboe.pdf; gv clarinete.pdf; gv saxalto.pdf; gv saxtenor.pdf; gv saxgenes.pdf; gv trompete.pdf; gv trompa.pdf; gv trombone.pdf; gv tubamib.pdf; gv tubasib.pdf; ls

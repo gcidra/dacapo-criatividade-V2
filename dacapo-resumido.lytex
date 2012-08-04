@@ -1,0 +1,694 @@
+% -*- latex -*-
+% -*- coding: latin-1 -*-
+
+\documentclass[twoside,12pt]{article}
+\usepackage{graphicx}
+% \usepackage{artigos}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,top=2cm,bottom=2cm,left=2cm,right=2cm]{geometry}
+\usepackage{nameref}
+\usepackage{fancyhdr}
+\usepackage[brazil]{babel}              % Acrescentado por Givaldo de Cidra
+\usepackage{url}
+%% \usepackage{makeidx}                    % pkg para índice
+\usepackage{setspace}
+\usepackage{titletoc}
+\usepackage{lastpage}
+\usepackage{wrapfig}
+
+\titlecontents{section}
+[2 em]
+{}
+{\contentslabel{2em}}
+{\hspace*{-2.3em}}
+{\titlerule*[1pc]{.}\contentspage}
+
+
+\newcommand{\instrumento}[1]{ \textit{#1} }
+\newcommand{\letraquadrada}[1]{ \Large{\framebox[1.1\width]{#1} }}
+\newcommand{\quadtitulo}[1]{ \large{\textbf{#1} }}
+\newcommand{\quadtexto}[1]{\small{\textbf{#1}}}
+
+%\setlength\@tempdima{1.5em}%
+
+\pagestyle{fancy}                       % Sets fancy header and footer
+\fancyhf{}
+\fancyfoot[RLOEF]{\bfseries\rightmark}     % Oculta o nome das seções
+
+%%Página Ímpar
+\fancyfoot[LO]{\textit{Da Capo Criatividade - Resumido - \instrumento{Rodape}}}
+\fancyfoot[RO]{\thepage}
+
+%%Página Par
+\fancyfoot[LE]{\textit{Joel Barbosa}}
+\fancyfoot[RE]{\thepage}
+
+\renewcommand{\headrulewidth}{0.0pt}    % Width of head rule
+\renewcommand{\footrulewidth}{0.0pt}    % Width of foot rule
+
+
+% não espaçar pra encher as páginas:
+\raggedbottom
+
+\begin{document}
+
+\graphicspath{
+  {../figs/}
+  {../figs/posicoes/}
+  {../figs/quadro/}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% INICIO CAPAS
+
+%%%%%%%%%%%% FOLHA DE ROSTO
+\thispagestyle{empty}
+
+\begin{flushleft}
+  \textbf{\huge{\instrumento{InstrCapa}}}
+\end{flushleft}
+
+\vspace*{18ex}
+
+\begin{center}
+\textbf{\huge{DA CAPO CRIATIVIDADE}}
+\vspace*{4ex}
+
+\textbf{\Large{Método Elementar para o Ensino Individual e/ou Coletivo
+    de Instrumentos de Banda}}
+\vspace*{4ex}
+
+\textbf{\Large{Resumido}}
+\vspace*{18ex}
+
+\textbf{\huge{Joel Barbosa}}
+\vspace*{18ex}
+
+% \includegraphics[scale=0.5]{logo-keyboard}
+\vspace*{2ex}
+
+\textbf{\Large{ANO 2011}}
+\vspace*{4ex}
+
+\textbf{Copyright by Joel L. da Silva Barbosa \\
+Todos os direitos reservados \\
+IMPRESSO NO BRASIL \\
+% KEYBOARD EDITORA MUSICAL LTDA. \\
+% CAIXA POSTAL 300 \\
+% JUNDIAÍ  -  SP  -  CEP 13201-970 \\
+% E-mail: contato@keyboard.art.br \\
+% site: www.keyboard.art.br 
+}
+
+\end{center}
+\vspace*{2ex}
+
+% \begin{flushright}
+%   \includegraphics[scale=0.7]{%#ISBN-V1-fig#%}
+% \end{flushright}
+
+
+\break
+
+
+%%%%%%%%%%%%%%%%%%  EXERCÍCIOS
+\newpage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% INICIO QUADRO 01 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[ht]
+  \centering
+  \renewcommand{\tablename}{Quadro}
+  \caption{}
+  \label{Quadro_01}
+  \begin{tabular}[t]{|ll|l|l|}
+    \hline
+
+    %%% PRÓXIMA LINHA
+    \letraquadrada{A}   &   \em    &    \letraquadrada{B}    &    \letraquadrada{C}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \quadtitulo{%#nota-01#%}
+    &
+    \quadtitulo{%#nota-02#%}
+    &
+    \quadtitulo{Compasso}
+    &
+    \quadtitulo{Fórmula de compasso}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \begin[fragment]{lilypond}
+      \transpose c c {
+        \keepWithTag #'cl
+        \include "notas-01.ly"
+      }
+    \end{lilypond}
+    &
+    \begin[fragment]{lilypond}
+      \transpose c c { 
+        \keepWithTag #'cl
+        \include "notas-02.ly" 
+      }
+    \end{lilypond}
+    &
+    \includegraphics[scale=1]{compasso-vazio}
+    &
+    \includegraphics[scale=1]{4tempos-por-compasso}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \includegraphics[scale=3.15]{%#fig-posicoes#%-01}
+    &
+    \includegraphics[scale=3.15]{%#fig-posicoes#%-02}
+    &
+    \em
+    &
+    \em
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \hline
+    \letraquadrada{D}
+    &
+    \em
+    &
+    \letraquadrada{E}
+    &
+    \letraquadrada{F}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \quadtitulo{Semibreve}
+    &
+    \em
+    &
+    \quadtitulo{Mínima}
+    &
+    \quadtitulo{Pausa de semibreve}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \includegraphics[scale=1]{semibreve}
+    &
+    \em
+    &
+    \includegraphics[scale=1]{minima}
+    &
+    \includegraphics[scale=1]{semibreve-pausa}
+
+
+
+    %%% FINAL DAS LINHAS
+  \\
+  \hline
+  \end{tabular}
+\end{table}    
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Improvisando com uma nota}
+\label{sec:improvisando-com-uma-nota}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-00bb.ly"
+  }
+\end{lilypond}
+
+Instruções para este e os demais exercícios e melodias:
+
+\begin{enumerate}
+\item As notas de improvisação, letras ``b'', ``d'', ``f'' e ``h'', devem
+  ser tocadas por diferentes instrumentistas, inicialmente um por
+  letra, depois dois ou mais, simultaneamente.
+
+\item As notas normais, letras ``a'', ``c'', ``e'', ``g'' e ``j'',
+  podem ser tocadas por toda a banda ou, cada uma delas, por
+  diferentes grupos de instrumentos.
+
+\item Varie o ritmo da percussão, experimentando diferentes gêneros.
+
+\item Repita o exercício diversas vezes, sem interrupção, para que
+  todos possam improvisar.
+  
+\end{enumerate}
+
+\section{Improvisando e imitando com a nota fá}
+\label{sec:impr-imit-nota-fa}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-01.ly"
+  }
+\end{lilypond}
+
+Mais instrução para este e os demais exercícios e melodias:
+
+\begin{enumerate}
+
+\item Siga as intruções do exercício anterior e acrescente o seguinte: Cada
+  compasso de imitação, letras ``c'' e ``g'', pode ser tocado por um
+  instrumentista, um grupo ou a banda toda. A ordem dos imitadores pode 
+  ser definida antes de começar a tocar ou  durante a execução,
+  por voz ou gesto, pelo professor ou pelo improvisador. 
+
+\item No caso de exercícios com imitação não é possível usar dois
+  instrumentistas improvisando simultaneamente.
+
+\item Ouça seus colegas tocando e observe se eles improvisam e se imitam
+  dentro do compasso, baseando-se na lição anterior.
+
+\end{enumerate}
+
+\section{Improvisando e imitando com a nota dó}
+\label{sec:impr-imit-nota-do}
+% Baseando-se na lição anterior, ouça seus colegas tocando e observe se
+% eles improvisam e se imitam dentro do compasso.
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-02.ly"
+  }
+\end{lilypond}
+
+
+\section{Improvisando com duas notas }
+\label{sec:impr-duas-notas}
+
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-03.ly"
+  }
+\end{lilypond}
+
+
+\section{Improvisando e imitando com duas notas}
+\label{sec:impr-imit-duas-notas}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-04.ly"
+  }
+\end{lilypond}
+
+
+\section{Improvisando com duas notas também}
+\label{sec:impr-duas-notas-tb}
+% Ouça seus colegas tocando e observe se eles improvisam e se imitam
+% dentro do compasso, baseando-se na lição anterior.
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-05.ly"
+  }
+\end{lilypond}
+
+\section{Berimbau}
+\label{sec:berimbau}
+
+Aprenda ``de ouvido'' a introdução instrumental da música
+\textit{\nameref{sec:berimbau}} de Baden Powell e Vinícius de Moraes,
+no Álbum: \textit{Baden Powell - E-Collection Baden Powell} (disc
+1). Decore-o, improvise e depois escreva uma variação para ele.
+
+Inicie com a nota %#nota-Cl-Fa#%.
+
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-pauta.ly"
+  }
+\end{lilypond}
+
+%%%%%%%%%%%%%%%%%%%%%%%% INICIO QUADRO 02 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[ht]
+  \centering
+    \renewcommand{\tablename}{Quadro}
+  \caption{}
+  \label{Quadro_02}
+  \begin{tabular}[t]{|l|l|l|}
+    \hline
+
+    %%% PRÓXIMA LINHA
+    \letraquadrada{A}    &    \letraquadrada{B}    &    \letraquadrada{C}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \quadtitulo{Pausa de mínima}
+    &
+    \quadtitulo{Barra final}
+    &
+    \quadtitulo{Barra de compasso}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \includegraphics[scale=1]{minima-pausa}
+    &
+    \includegraphics[scale=1]{barra-final}
+    &
+    \includegraphics[scale=1]{barra-compasso}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \hline
+    \letraquadrada{D}
+    &
+    \multicolumn{2}{|l|}{
+    \letraquadrada{E}}
+   
+
+    %%% PRÓXIMA LINHA
+    \\
+    \quadtitulo{Semínima}
+    &
+    \multicolumn{2}{|l|}{
+    \quadtitulo{Fórmula de compasso}}
+
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \includegraphics[scale=1]{seminima}
+    &
+    \multicolumn{2}{|l|}{
+    \includegraphics[scale=1]{formula-4tempos-por-compasso}}
+
+
+    %%% FINAL DAS LINHAS
+  \\
+  \hline
+  \end{tabular}
+\end{table}    
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% INICIO QUADRO 03 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[ht]
+  \centering
+    \renewcommand{\tablename}{Quadro}
+  \caption{}
+  \label{Quadro_03}
+  \begin{tabular}[t]{|l|l|l|}
+    \hline
+
+    %%% PRÓXIMA LINHA
+    \letraquadrada{A}    &    \letraquadrada{B}    &    \letraquadrada{C}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \quadtitulo{%#nota-03#%}
+    &
+    \quadtitulo{Sinal de respiração}
+    &
+    \quadtitulo{Pauta ou pentagrama}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \begin[fragment]{lilypond}
+      \transpose c c { 
+        \keepWithTag #'cl
+        \include "notas-03.ly" 
+      }
+    \end{lilypond}
+    &
+    \includegraphics[scale=1]{respiracao}
+    &
+    \includegraphics[scale=1]{pauta}
+
+    %%% PRÓXIMA LINHA
+    \\
+    \includegraphics[scale=3.15]{%#fig-posicoes#%-03}
+    &
+    \em
+    &
+    \em
+
+
+    %%% FINAL DAS LINHAS
+  \\
+  \hline
+  \end{tabular}
+\end{table}    
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\break
+
+
+\section{Improvisando e imitando com a nota ré}
+\label{sec:impr-imit-nota-re}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-07.ly"
+  }
+\end{lilypond}
+
+
+
+\section{Variações sobre Dlim-dlim-dlão}
+\label{sec:var-dlim}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-10a.ly"
+  }
+\end{lilypond}
+
+\subsection*{Variação 1}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-10b.ly"
+  }
+\end{lilypond}
+
+
+\subsection*{Variação 2}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-10c.ly"
+  }
+\end{lilypond}
+
+
+\subsection*{Variação 3}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-10d.ly"
+  }
+\end{lilypond}
+
+
+\subsection*{Variação 4 - Esta você escreve!}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-10e.ly"
+  }
+\end{lilypond}
+
+Volte à melodia principal, ou \textbf{Tema}, e termine no
+\textbf{\textit{Fim}}.
+
+
+
+\section{Improvisando em A Margarida}
+\label{sec:impr-em-marg}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-20.ly"}
+\end{lilypond}
+
+Volte ao início e termine no \textbf{\textit{Fim}}.
+
+
+\section{Escala do modo mixolídio sobre si bemol}
+\label{sec:escala-mixolidia-em-si-bemol}
+\subsection*{Parte 1}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-34.ly"}
+\end{lilypond}
+
+
+
+\section{Improvisando em Quando Eu Era Pequenino}
+\label{sec:impr-quando-eu-era-pequenino}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-70.ly"}
+\end{lilypond}
+
+Volte ao início e termine no \textbf{\textit{Fim}}.
+
+
+\break
+\section{Amarelinha vertical}
+\label{sec:amarelinha-vertical}
+
+\includegraphics[scale=0.9]{amarelinha-jogocl}
+
+
+Este jogo é semelhante a brincadeira de amarelinha. O objetivo é
+atingir o céu, partindo da terra. Para alcançá-lo, é necessário galgar
+uma casa de cada vez, sempre partindo da casa 1 e retornando a
+ela. Por exemplo: 1, 1-2-1, 1-2-3-2-1, 1-2-3-4-3-2-1,
+1-2-3-4-5-4-3-2-1 etc. Se você errar uma nota, um ritmo ou um sinal de
+expressão, perde a vez e outro começa. Quando voltar a sua vez,
+recomece da casa 1, ou seja: 1, 1-2-1, 1-2-3-2-1 etc. Vencem aqueles
+que atingirem o céu.
+
+
+\break
+\section{Roda e Chicotinho Queimado}
+\label{sec:roda-e-chicotinho-queimado}
+
+\includegraphics[scale=0.9]{chicotinho-jogocl}
+
+Roda:
+
+Esta brincadeira consiste em tocar os números, rodando no sentido
+horário ou anti-horário, e repetindo cada um deles três vezes. Quem
+errar é eliminado. Após alguém ser eliminado se inicia o jogo do
+início. Vencem os que conseguirem dar três rodadas sem errar.
+
+Chicotinho queimado:
+
+Este jogo é semelhante a brincadeira de mesmo nome. São seis
+jogadores. Cada um dos cinco números do jogo fica com um participante
+e um sexto paticipante fica livre. Os cinco iniciam tocando juntos e
+ficam repetindo os trechos musicais de seu número. O sexto
+participante repete cada número duas vezes, sem interrupção, em
+sentido horário ou anti-horário como se estivesse rodando em torno dos
+cinco participantes. Se ele não tocar um dos números duas vezes, ou
+seja, tocar uma ou três vezes ou não tocá-lo, pulá-lo, o participante
+deste número deve interromper o jogo. Se ele não interromper, ele é
+eliminado do jogo. Se ele interromper, será eliminado quem estava
+rodando e ele passa a rodar no lugar do eliminado. Vencem aqueles que
+não forem eliminados.
+
+
+\section{Duo e Banda}
+\label{sec:duo-e-banda}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-85.ly"}
+\end{lilypond}
+
+* Notas em formato de ``X'' = Toque qualquer nota, mas siga o ritmo indicado.
+
+** Solo = Apenas um instrumento por voz.
+
+*** Notas em formato de barra = Toque qualquer nota grave ou aguda de
+acordo com a notação.
+
+**** Banda = Indica que a terceira voz pode ser feita pela banda
+completa ou parte dela.
+
+
+
+\section{Improvisando em Terezinha}
+\label{sec:impr-terezinha}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-92-a.ly"}
+\end{lilypond}
+
+Repita e termine no \textbf{\textit{Fim}}.
+
+
+\section{Variações sobre Terezinha}
+\label{sec:vari-terezinha}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-92a.ly"}
+\end{lilypond}
+
+
+
+\subsection*{Variação 1}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-92b.ly"}
+\end{lilypond}
+
+
+
+\subsection*{Variação 2}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-92c.ly"}
+\end{lilypond}
+
+\subsection*{Variação 3}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-92d.ly"}
+\end{lilypond}
+
+
+\subsection*{Variação 4}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-92e.ly"}
+\end{lilypond}
+
+
+
+\subsection*{Variação 5 - Esta você escreve!}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-92f.ly"}
+\end{lilypond}
+
+
+Volte à melodia principal, ou \textbf{Tema}, e termine no
+\textbf{\textit{Fim}}.
+
+
+
+
+\newpage
+
+  \tableofcontents
+
+\end{document}

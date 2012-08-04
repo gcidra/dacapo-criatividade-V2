@@ -1,0 +1,286 @@
+\version "2.10.33"
+
+%\header {title = "Requiescat - soprano e contralto - fl, ob cl tpt"}
+
+\relative c'' {
+
+                                % CLARINETE
+
+  \tag #'cl {
+
+
+          \time 2/4
+          \key c \major
+                                %	c2^\markup {\bold  { 1 \tiny \raise #0.5 "a"   voz}  }
+
+          c2^\markup {\bold Andante} g 
+          g4 r
+          r r8 c
+          c2
+          c4 r
+          r r8 b
+          d2
+          c4 r
+
+          \bar "|."
+
+
+
+  }
+
+                                % FLAUTA
+
+  \tag #'fl {
+
+          \key c \major
+          \time 2/4
+
+          c2^\markup {\bold Andante}
+          g 
+          g4 r
+          r r8 c
+          c2
+          c4 r
+          r r8 b
+          d2
+          c4 r
+
+          \bar "|."
+
+
+
+  }
+
+                                % OBOÉ
+
+  \tag #'ob {
+
+          \key c \major
+          \time 2/4
+
+          c2^\markup {\bold Andante}
+          g 
+          g4 r
+          r r8 c
+          c2
+          c4 r
+          r r8 b
+          d2
+          c4 r
+
+          \bar "|."
+
+
+
+  }
+
+                                % SAX ALTO
+
+  \tag #'saxa {
+
+
+          \key c \major
+          \time 2/4
+
+          g8^\markup {\bold Andante} e g f
+          f2
+          e4 r
+          r r8 g
+          bes2
+          a4 r
+          r r8 g
+          g2
+          g4 r
+
+          \bar "|."
+
+
+  }
+
+                                % SAX TENOR
+
+  \tag #'saxt {
+
+
+          \key c \major
+          \time 2/4
+
+          g8^\markup {\bold Andante} e g f
+          f2
+          e4 r
+          r r8 g
+          bes2
+          a4 r
+          r r8 g
+          g2
+          g4 r
+
+          \bar "|."
+
+
+  }
+
+                                % SAX GENES
+
+  \tag #'saxg {
+
+          \key c \major
+          \time 2/4
+
+          g8^\markup {\bold Andante} e g f
+          f2
+          e4 r
+          r r8 g
+          bes2
+          a4 r
+          r r8 g
+          g2
+          g4 r
+
+          \bar "|."
+
+
+  }
+
+                                % TROMPETE
+
+  \tag #'tpt {
+
+
+          \key c \major
+          \time 2/4
+
+          c'2^\markup {\bold Andante}
+          g 
+          g4 r
+          r r8 c
+          c2
+          c4 r
+          r r8 b
+          d2
+          c4 r
+
+          \bar "|."
+
+
+  }
+
+                                % TROMPA
+
+  \tag #'tpa {
+
+
+          \key c \major
+          \time 2/4
+
+          g8^\markup {\bold Andante} e g f
+          f2
+          e4 r
+          r r8 g
+          bes2
+          a4 r
+          r r8 g
+          g2
+          g4 r
+
+          \bar "|."
+
+  }
+
+
+                                % TROMBONE
+
+  \tag #'tbn {
+
+
+
+          \key c \major
+          \time 2/4
+          \clef bass
+
+          e8^\markup {\bold Andante} c e d
+          d2
+          c4 r
+          r r8 e
+          g2
+          f4 r
+          r r8 d
+          f2
+          e4 r
+
+          \bar "|."
+
+
+  }
+
+                                % TUBA MIB
+
+  \tag #'tbamib {
+
+    \key c \major
+    \time 2/4
+    \clef bass
+
+    c2^\markup {\bold Andante}
+    g'
+    c,4 r8 c
+    c'2
+    c,
+    f4 r8 f
+    g2
+    g
+    c,4 r
+    \bar "|."
+
+  }
+
+                                % TUBA SIB
+
+  \tag #'tbasib {
+    \key c \major
+    \time 2/4
+    \clef bass
+
+    c2^\markup {\bold Andante}
+    g'
+    c,4 r8 c
+    c'2
+    c,
+    f4 r8 f
+    g2
+    g
+    c,4 r
+
+    \bar "|."
+
+  }
+
+
+                                % VIOLA
+
+  \tag #'vla {
+
+          \key c \major
+          \time 2/4
+          \clef alto
+
+          c'2
+          g 
+          g4 r
+          r r8 c
+          c2
+          c4 r
+          r r8 b
+          d2
+          c4 r
+
+          \bar "|."
+
+
+
+  }
+
+                                % FINAL
+
+
+}

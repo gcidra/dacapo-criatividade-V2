@@ -1,0 +1,57 @@
+\version "2.10.33"
+
+\new ChoirStaff <<
+  \drummode <<
+    \drums {
+      \override Staff.TimeSignature #'style = #'()
+      \time 2/4 
+      \override Score.RehearsalMark #'font-size = #-2
+      \set Score.markFormatter = #format-mark-numbers
+
+      rb4^\markup{"Prato Suspenso"} rb
+      rb2:32
+      rb4 rb
+      rb2:32
+      rb8 rb rb rb
+      rb rb rb rb
+      rb4 rb
+      rb2:32
+
+      \bar "|." 
+    }
+
+    \drums {
+      \override Staff.TimeSignature #'style = #'()
+      \time 2/4 
+      \override Score.RehearsalMark #'font-size = #-2
+      \set Score.markFormatter = #format-mark-numbers
+      \context DrumVoice = "1" { }
+      \context DrumVoice = "2" { }
+
+      <<
+
+        {
+          sn8 sn sn4
+          sn sn
+          sn8 sn sn4
+          sn sn
+          sn sn sn sn
+          sn8 sn sn4
+          sn sn
+        }
+
+        \\
+
+        {
+          bd2
+          bd4 bd
+          bd2
+          bd4 bd
+          bd2 bd bd
+          bd4 bd
+        }
+
+      >>
+    }
+  >>
+>>

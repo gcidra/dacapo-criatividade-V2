@@ -1,0 +1,318 @@
+% -*- latex -*-
+% -*- coding: latin-1 -*-
+
+\documentclass[twoside,12pt]{article}
+\usepackage{graphicx}
+% \usepackage{artigos}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,top=2cm,bottom=2cm,left=2cm,right=2cm]{geometry}
+\usepackage{nameref}
+\usepackage{fancyhdr}
+\usepackage[brazil]{babel}              % Acrescentado por Givaldo de Cidra
+\usepackage{url}
+%\usepackage{makeidx}                    % pkg para índice remissivo
+\usepackage{setspace}
+\usepackage{titletoc}
+
+%% novos pacotes
+\usepackage{lastpage}
+\usepackage{wrapfig}
+
+
+\pagestyle{empty}
+
+
+
+% \usepackage{ifthen}
+
+\titlecontents{section}
+[2 em]
+{}
+{\contentslabel{2em}}
+{\hspace*{-2.3em}}
+{\titlerule*[1pc]{.}\contentspage}
+
+
+% \newcommand{\betweenLilyPondSystem}[1]{
+% \ifthenelse{\equal{#1}{1}}{\nopagebreak\linebreak
+% }{\linebreak}
+% }
+
+\newcommand{\instrumento}[1]{ \textit{#1} }
+
+\pagestyle{fancy}                       % Sets fancy header and footer
+
+% \renewcommand{\sectionmark}[1]{%          % Lower case Section marker style
+%   \markright{\thesection.\ #1}}           
+% \fancyhead[LE,RO]{\bfseries\thepage}    % Page number (boldface)
+% in left on even pages and right on odd pages
+% \fancyhead[LO]{\bfseries\leftmark}        % Chapter in the right on even pages
+% \fancyhead[LO]{\bfseries\leftmark}        % Chapter in the right on even pages
+
+% cabeçalhos originais
+% \fancyhead[RLOE]{\bfseries\rightmark}     % Oculta o nome das seções
+% \fancyhead[RO]{\textbf{\instrumento{Original}}}
+% \fancyhead[LE]{\textbf{Da Capo Criatividade}}
+
+\fancyhf{}
+\fancyfoot[RLOEF]{\bfseries\rightmark}     % Oculta o nome das seções
+
+%%Página Ímpar
+\fancyfoot[LO]{\textit{Da Capo Criatividade - Vol. 2 - \instrumento{Rodape}}}
+\fancyfoot[RO]{\thepage}
+
+
+%%Página Par
+\fancyfoot[LE]{\textit{Joel Barbosa}}
+\fancyfoot[RE]{\thepage}
+
+\renewcommand{\headrulewidth}{0.0pt}    % Width of head rule
+\renewcommand{\footrulewidth}{0.0pt}    % Width of foot rule
+
+% não espaçar pra encher as páginas:
+\raggedbottom
+
+% \makeindex
+
+\newcommand{\tpt}[1]{Trompete \\ Bombardino \\ Trombone}
+\newcommand{\letraquadrada}[1]{ \Large{\framebox[1.1\width]{#1} }}
+\newcommand{\quadtitulo}[1]{ \large{\textbf{#1} }}
+\newcommand{\quadtexto}[1]{\small{\textbf{#1}}}
+
+
+\begin{document}
+\graphicspath{
+  {../figs/}
+  {../figs/posicoes/}
+  {../figs/quadro/}
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% INICIO CAPAS
+
+%%%%%%%%%%%% FOLHA DE ROSTO
+\thispagestyle{empty}
+
+\begin{flushleft}
+  \textbf{\huge{\instrumento{InstrCapa}}}
+\end{flushleft}
+\vspace*{0.3ex}
+
+\begin{flushleft}
+  \textbf{\large{\textit{ %#escrita#%}}}
+\end{flushleft}
+\vspace*{14ex}
+
+\begin{center}
+\textbf{\huge{DA CAPO CRIATIVIDADE}}
+\vspace*{4ex}
+
+\textbf{\Large{Método Elementar para o Ensino Individual e/ou Coletivo
+    de Instrumentos de Banda}}
+\vspace*{4ex}
+
+\textbf{\Large{Volume 2}}
+\vspace*{18ex}
+
+\textbf{\huge{Joel Barbosa}}
+\vspace*{18ex}
+
+\includegraphics[scale=0.5]{logo-keyboard}
+\vspace*{2ex}
+
+\textbf{\Large{ANO 2010}}
+\vspace*{4ex}
+
+\textbf{Copyright by Joel L. da Silva Barbosa \\
+Todos os direitos reservados \\
+IMPRESSO NO BRASIL \\
+KEYBOARD EDITORA MUSICAL LTDA. \\
+CAIXA POSTAL 300 \\
+JUNDIAÍ  -  SP  -  CEP 13201-970 \\
+E-mail: contato@keyboard.art.br \\
+site: www.keyboard.art.br }
+\end{center}
+\vspace*{2ex}
+
+\begin{flushright}
+  \includegraphics[scale=0.7]{%#ISBN-V2-fig#%}
+\end{flushright}
+
+
+%%%%%%%%%%%% VERSO-FOLHA DE ROSTO
+\newpage
+\thispagestyle{empty}
+
+Nenhuma parte deste livro poderá ser reproduzida ou transmitida sejam
+quais forem os meios: eletrônicos, fotográfico, gravação ou quaisquer
+outros sem a permissão explícita por escrito do autor:
+\textbf{JOEL L. da SILVA BARBOSA}
+\vspace*{20ex}
+
+\begin{tabular}{|p{15cm}|}
+\hline
+\\
+BARBOSA, J. L. da Silva \\
+\\
+DA CAPO CRIATIVIDADE \instrumento{Original} Vol 2. Jundiaí, São Paulo: \\
+Keyboard Editora Musical Ltda. 2010, p. \pageref{LastPage} \\
+\\
+Didático/Pedagógico \\
+ISBN nº %#ISBN-V2#% \\
+\\
+Copyright 2010 by Keyboard Editora Musical Ltda. \_Todos os direitos reservado\_ \\
+R: Rangel Pestana 1044 - Jundiaí - São Paulo - CEP 13201-000 \\
+e-mail: contato@keyboard.art.br \\
+\\
+\hline
+\end{tabular}
+\vspace*{30ex}
+
+\begin{flushleft}
+  Editoração: Givaldo de Cidra\\
+  Capa: Reprodução da Colagem de Silvio Alvarez\\
+\end{flushleft}
+
+\begin{flushleft}
+  Editado e Impresso por Keyboard Editora Musical Ltda\\
+\end{flushleft}
+
+\begin{flushleft}
+  Registro na Fundação Biblioteca Nacional\\
+  Ministério da Cultura\\
+  Escritório de Direitos Autorais\\
+\end{flushleft}
+
+\begin{flushleft}
+  Nº %#ISBN-V2#% \\
+  Autor: Joel L da Silva Barbosa \\
+  Título da Obra: DA CAPO CRIATIVIDADE \instrumento{Original} Vol. 2 \\
+\end{flushleft}
+
+%%%%%%%%%%%% FOLHA DO MAESTRO MARCELO
+\newpage
+\pagenumbering{arabic}
+\section*{Aos Leitores}
+\label{sec:maestro-marcelo}
+\addcontentsline{toc}{section}{Aos Leitores}
+
+\input {maestro-marcelo}
+
+
+%%%%%%%%%%%% FOLHA DA BIOGRAFIA
+\newpage
+\section*{Sobre o Autor}
+\addcontentsline{toc}{section}{Sobre o Autor}
+
+\input {biografia-joel}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% FINAL CAPAS
+
+
+
+\newpage
+% \pagenumbering{roman} % páginas em algarismos romanos
+
+
+% \instrumento{Original}
+
+% \section{I - Arquivo de Testes  - Dacapo CriAtividade}
+
+% Nesse exemplo pode-se ver como será impresso o arquivo final do ``Dacapo
+% CriAtividade''.
+
+% \subsection{Instrumento: \textbf {\instrumento{Original} } }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% 
+% INSIRA O CÓDIGO A PARTIR DAQUI:
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+
+\section{Improvisando com Dlim-dlim-dlão}
+\label{sec:impr-com-dlim}
+
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-08bb.ly"
+  }
+\end{lilypond}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% 
+% FINAL DO CÓDIGO
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+
+\end{document}
+
+
+\begin[fragment]{lilypond}
+  \override Staff.TimeSignature #'transparent = ##t
+  \key f \major
+  s
+\end{lilypond}
+
+
+
+elevar os markups
+\once \override TextScript #'padding = #2
+^\markup { \bold{\italic{D.C. al Fine}}}
+^\markup {\column {\bold {\line {Parte 1} \line {1 \tiny \raise #0.5 "a"   voz}}}}
+
+falta fazer esse daí de cima
+
+
+\pagenumbering{roman} % páginas em algarismos romanos
+\pagenumbering{arabic}  % fim da numeração das páginas em algarismos
+                        % romanos
+
+-\parenthesize % colocar parênteses nas articulações
+
+
+\key d \minor
+          d'2\p^\markup {\column {\line {\bold {Andante} } \line {\bold {1 \tiny \raise #0.5 "a"   voz}}}}
+          e f g a bes 
+
+          <<
+            {
+              \override NoteHead #'font-size = #-4
+              c d c 
+            }
+            \\	
+            {
+              \revert NoteHead #'font-size 
+              c,2 d c 
+            }
+          >>
+
+          bes' a g f e d1\fermata
+          
+          \bar "||"
+          \mark \default
+          
+          d2\< f a\! 
+
+          <<
+            {
+              \override NoteHead #'font-size = #-4
+              d2
+            }
+            \\	
+            {
+              \revert NoteHead #'font-size 
+              d,2
+            }
+          >>
+
+          a'\> f\!
+          d1\fermata 

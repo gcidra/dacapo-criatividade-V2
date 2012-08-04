@@ -1,0 +1,61 @@
+
+==============================================================
+++++++++++++ COMANDOS BÁSICOS COM INSTRUMENTOS +++++++++++++++
+==============================================================
+
+# FAZER TODOS INSTRUMENTOS EM .PDF
+make instrumentos_pdf
+
+
+# FAZER TODOS INSTRUMENTOS DE CLAVE DE SOL EM .PS
+make all_sol
+
+
+# FAZER TODOS INSTRUMENTOS DE CLAVE DE FÁ EM .PS
+make all_fa
+
+# FAZER TODOS INSTRUMENTOS DE CLAVE DE SOL EM .PDF
+make all_pdf_sol
+
+
+# FAZER TODOS INSTRUMENTOS DE CLAVE DE FÁ EM .PDF
+make all_pdf_fa
+
+# FAZER .PS DE UM INSTRUMENTO APENAS
+# ex.:
+make clarinete.ps
+
+# LIMPAR TODOS OS ARQUIVOS .PS .PDF .EPS .LYTEX(APENAS INSTRUMENTOS)
+make cleanall
+
+
+==============================================================
+++++++++++++ COMANDOS BÁSICOS  - CONTROLE DE VERSÃO ++++++++++
+==============================================================
+
+# verificar o os arquivos foram alterados:
+git status
+
+# incluir um arquivo no controle de versão:
+git add arquivo
+
+# gravar um commit
+git commit -m "aqui será o texto referente à gravação"
+
+
+==============================================================
++++++++++++++++++ OUTROS COMANDOS BÁSICOS ++++++++++++++++++++
+==============================================================
+
+# Transformar arquivo ps em pdf:
+ps2pdf arquivo
+
+# Ler arquivo pdf:
+acroread arquivo
+gv arquivo
+
+# Diretorio anterior:
+cda    
+
+# Executar
+sh

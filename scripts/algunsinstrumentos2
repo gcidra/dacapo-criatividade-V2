@@ -1,0 +1,1 @@
+ls; make cleanall; time make oboe.ps saxtenor.ps trompete.ps trompa.ps tubamib.ps; gv oboe.ps; gv saxtenor.ps; gv trompete.ps; gv trompa.ps; gv tubamib.ps; ls

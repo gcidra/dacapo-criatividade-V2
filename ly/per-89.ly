@@ -1,0 +1,68 @@
+%-*- coding: utf-8 -*-
+
+\version "2.10.00"
+
+%%\header {title = "cum sancto spiritu"}
+
+\drums {
+
+%%((
+%{
+%%))
+  \set Staff.instrumentName = \markup {"Percussão"}
+  \set Staff.shortInstrumentName = "Perc"
+%%((
+%}
+%%))
+
+
+  \override Staff.TimeSignature #'style = #'()
+  \time 4/4 
+  \partial 4*2
+
+  \context DrumVoice = "1" { }
+  \context DrumVoice = "2" { }
+
+  <<
+    {
+      sn2 
+      sn2 sn2
+      sn2 sn2
+      sn2 sn2
+      sn2 r2
+      sn2 r2
+      sn2 r2
+      sn2 r2
+      sn2 r2
+      sn2 r2
+      sn2 r2
+      sn2 r2
+      sn2 r2
+      sn2 r2
+      sn2 r2\fermata
+      \bar "|."
+      
+    }
+    \\{
+      bd2\mf
+      bd2 bd2
+      bd2 bd2
+      bd2 bd2
+      bd1
+      bd1
+      bd2 r2
+      bd1\f 
+      bd1
+      bd1
+      bd1
+      bd1
+      bd1
+      bd1
+      bd1\fermata
+
+
+    }
+  >>
+}
+
+

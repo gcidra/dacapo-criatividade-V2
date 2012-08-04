@@ -1,0 +1,105 @@
+% CLARINETE
+
+\tag #'cl {
+
+**notas**
+
+
+}
+
+% FLAUTA
+
+\tag #'fl {
+
+**notas**
+
+
+}
+
+% OBOÉ
+
+\tag #'ob {
+
+**notas**
+
+
+}
+
+% SAX ALTO
+
+\tag #'saxa {
+
+**notas**
+
+
+}
+
+% SAX TENOR
+
+\tag #'saxt {
+
+**notas**
+
+
+}
+
+% SAX GENES
+
+\tag #'saxg {
+
+**notas**
+
+
+}
+
+% TROMPETE
+
+\tag #'tpt {
+
+**notas**
+
+
+}
+
+% TROMPA
+
+\tag #'tpa {
+
+**notas**
+
+
+}
+
+
+% TROMBONE
+
+\tag #'tbn {
+\clef bass
+
+**notas**
+
+
+}
+
+% TUBA MIB
+
+\tag #'tbamib {
+\clef bass
+
+**notas**
+
+
+}
+
+% TUBA SIB
+
+\tag #'tbasib {
+\clef bass
+
+**notas**
+
+
+}
+
+% END DOCUMENT
+}

@@ -1,0 +1,835 @@
+\version "2.10.33"
+
+%\header {title = 64 - escala de si bemol a 3 vozes}
+
+\relative c' {
+
+  \override Score.BarNumber #'transparent = ##t
+
+                                % CLARINETE
+
+  \tag #'cl {
+
+    \new ChoirStaff <<
+      <<
+        \new Staff
+        {
+          \key c \major
+
+          c2\p^\markup {\column {\line {\bold {Andante} } \line {\bold {1 \tiny \raise #0.5 "a"   voz}}}}
+          d e f g a 
+          b c d c b
+          a g f e d c
+          b c r 
+
+          \bar "||"
+          \mark \default
+          c2\f e4 g 
+          c2
+          g4 e 
+          c2 r 
+          c1
+
+          \bar "|."
+        }
+
+        \new Staff
+        {
+          \key c \major
+
+          r1^\markup {\bold  { 2 \tiny \raise #0.5 "a"   voz}  } 
+          c2\p d e f g a 
+          b c d c b
+          a g f e d c
+          b c
+          \breathe
+          c2\f e4 g 
+          c2
+          g4 e 
+          c2 
+          c1
+	}
+
+        \new Staff
+        {
+          \key c \major
+
+          r1^\markup {\bold  { 3 \tiny \raise #0.5 "a"   voz}  } 
+          r
+          c2\p d e f g a 
+          b c d c b
+          a g f e d c
+          r
+          c2\f e4 g 
+          c2
+          g4 e  
+          c1
+	}
+
+      >>
+    >>
+
+
+
+  }
+
+                                % FLAUTA
+
+  \tag #'fl {
+
+    \new ChoirStaff <<
+      <<
+        \new Staff
+        {
+          \key c \major
+
+          c2\p^\markup {\column {\line {\bold {Andante} } \line {\bold {1 \tiny \raise #0.5 "a"   voz}}}}
+          d e f g a 
+          b c d c b
+          a g f e d c
+          b c r 
+
+          \bar "||"
+          \mark \default
+          c2\f e4 g 
+          c2
+          g4 e 
+          c2 r 
+          c1
+
+          \bar "|."
+        }
+
+        \new Staff
+        {
+          \key c \major
+
+          r1^\markup {\bold  { 2 \tiny \raise #0.5 "a"   voz}  } 
+          c2\p d e f g a 
+          b c d c b
+          a g f e d c
+          b c
+          \breathe
+          c2\f e4 g 
+          c2
+          g4 e 
+          c2 
+          c1
+	}
+
+        \new Staff
+        {
+          \key c \major
+
+          r1^\markup {\bold  { 3 \tiny \raise #0.5 "a"   voz}  } 
+          r
+          c2\p d e f g a 
+          b c d c b
+          a g f e d c
+          r
+          c2\f e4 g 
+          c2
+          g4 e  
+          c1
+	}
+
+      >>
+    >>
+
+
+
+  }
+
+                                % OBOÉ
+
+  \tag #'ob {
+
+    \new ChoirStaff <<
+      <<
+        \new Staff
+        {
+          \key c \major
+
+          c2\p^\markup {\column {\line {\bold {Andante} } \line {\bold {1 \tiny \raise #0.5 "a"   voz}}}}
+          d e f g a 
+          b c d c b
+          a g f e d c
+          b c r 
+
+          \bar "||"
+          \mark \default
+          c2\f e4 g 
+          c2
+          g4 e 
+          c2 r 
+          c1
+
+          \bar "|."
+        }
+
+        \new Staff
+        {
+          \key c \major
+
+          r1^\markup {\bold  { 2 \tiny \raise #0.5 "a"   voz}  } 
+          c2\p d e f g a 
+          b c d c b
+          a g f e d c
+          b c
+          \breathe
+          c2\f e4 g 
+          c2
+          g4 e 
+          c2 
+          c1
+	}
+
+        \new Staff
+        {
+          \key c \major
+
+          r1^\markup {\bold  { 3 \tiny \raise #0.5 "a"   voz}  } 
+          r
+          c2\p d e f g a 
+          b c d c b
+          a g f e d c
+          r
+          c2\f e4 g 
+          c2
+          g4 e  
+          c1
+	}
+
+      >>
+    >>
+
+
+
+  }
+
+                                % SAX ALTO
+
+  \tag #'saxa {
+
+    \new ChoirStaff <<
+      <<
+        \new Staff
+        {
+          \key c \major
+
+          c2\p^\markup {\column {\line {\bold {Andante} } \line {\bold {1 \tiny \raise #0.5 "a"   voz}}}}
+          d e f g a 
+          b c d c b
+          a g f e d c
+          b c r 
+
+          \bar "||"
+          \mark \default
+          c2\f e4 g 
+          c2
+          g4 e 
+          c2 r 
+          c1
+
+          \bar "|."
+        }
+
+        \new Staff
+        {
+          \key c \major
+
+          r1^\markup {\bold  { 2 \tiny \raise #0.5 "a"   voz}  } 
+          c2\p d e f g a 
+          b c d c b
+          a g f e d c
+          b c
+          \breathe
+          c2\f e4 g 
+          c2
+          g4 e 
+          c2 
+          c1
+	}
+
+        \new Staff
+        {
+          \key c \major
+
+          r1^\markup {\bold  { 3 \tiny \raise #0.5 "a"   voz}  } 
+          r
+          c2\p d e f g a 
+          b c d c b
+          a g f e d c
+          r
+          c2\f e4 g 
+          c2
+          g4 e  
+          c1
+	}
+
+      >>
+    >>
+
+
+
+  }
+
+                                % SAX TENOR
+
+  \tag #'saxt {
+
+    \new ChoirStaff <<
+      <<
+        \new Staff
+        {
+          \key c \major
+
+          c2\p^\markup {\column {\line {\bold {Andante} } \line {\bold {1 \tiny \raise #0.5 "a"   voz}}}}
+          d e f g a 
+          b c b c b
+          a g f e d c
+          b c r 
+
+          \bar "||"
+          \mark \default
+          c2\f e4 g 
+          c2
+          g4 e 
+          c2 r 
+          c1
+
+          \bar "|."
+        }
+
+        \new Staff
+        {
+          \key c \major
+
+          r1^\markup {\bold  { 2 \tiny \raise #0.5 "a"   voz}  } 
+          c2\p d e f g a 
+          b c b c b
+          a g f e d c
+          b c
+          \breathe
+          c2\f e4 g 
+          c2
+          g4 e 
+          c2 
+          c1
+	}
+
+        \new Staff
+        {
+          \key c \major
+
+          r1^\markup {\bold  { 3 \tiny \raise #0.5 "a"   voz}  } 
+          r
+          c2\p d e f g a 
+          b c b c b
+          a g f e d c
+          r
+          c2\f e4 g 
+          c2
+          g4 e  
+          c1
+	}
+
+      >>
+    >>
+
+
+
+  }
+
+                                % SAX GENES
+
+  \tag #'saxg {
+
+    \new ChoirStaff <<
+      <<
+        \new Staff
+        {
+          \key c \major
+
+          c2\p^\markup {\column {\line {\bold {Andante} } \line {\bold {1 \tiny \raise #0.5 "a"   voz}}}}
+          d e f g a 
+          b, c d c b
+          a' g f e d c
+          b c r 
+
+          \bar "||"
+          \mark \default
+          c2\f e4 g 
+          c,2
+          g'4 e 
+          c2 r 
+          c1
+
+          \bar "|."
+        }
+
+        \new Staff
+        {
+          \key c \major
+
+          r1^\markup {\bold  { 2 \tiny \raise #0.5 "a"   voz}  } 
+          c2\p d e f g a 
+          b, c d c b
+          a' g f e d c
+          b c
+          \breathe
+          c2\f e4 g 
+          c,2
+          g'4 e 
+          c2 
+          c1
+	}
+
+        \new Staff
+        {
+          \key c \major
+
+          r1^\markup {\bold  { 3 \tiny \raise #0.5 "a"   voz}  } 
+          r
+          c2\p d e f g a 
+          b, c d c b
+          a' g f e d c
+          r
+          c2\f e4 g 
+          c,2
+          g'4 e  
+          c1
+	}
+
+      >>
+    >>
+
+
+
+  }
+
+                                % TROMPETE
+
+  \tag #'tpt {
+
+    \new ChoirStaff <<
+      <<
+        \new Staff
+        {
+          \key c \major
+
+          c2\p^\markup {\column {\line {\bold {Andante} } \line {\bold {1 \tiny \raise #0.5 "a"   voz}}}}
+          d e f g a 
+          b c d c b
+          a g f e d c
+          b c r 
+
+          \bar "||"
+          \mark \default
+          c2\f e4 g 
+          c2
+          g4 e 
+          c2 r 
+          c1
+
+          \bar "|."
+        }
+
+        \new Staff
+        {
+          \key c \major
+
+          r1^\markup {\bold  { 2 \tiny \raise #0.5 "a"   voz}  } 
+          c2\p d e f g a 
+          b c d c b
+          a g f e d c
+          b c
+          \breathe
+          c2\f e4 g 
+          c2
+          g4 e 
+          c2 
+          c1
+	}
+
+        \new Staff
+        {
+          \key c \major
+
+          r1^\markup {\bold  { 3 \tiny \raise #0.5 "a"   voz}  } 
+          r
+          c2\p d e f g a 
+          b c d c b
+          a g f e d c
+          r
+          c2\f e4 g 
+          c2
+          g4 e  
+          c1
+	}
+
+      >>
+    >>
+
+
+
+  }
+
+                                % TROMPA
+
+  \tag #'tpa {
+
+    \new ChoirStaff <<
+      <<
+        \new Staff
+        {
+          \key c \major
+
+          c2\p^\markup {\column {\line {\bold {Andante} } \line {\bold {1 \tiny \raise #0.5 "a"   voz}}}}
+          d e f g a 
+          b, c d c b
+          a' g f e d c
+          b c r 
+
+          \bar "||"
+          \mark \default
+          c2\f e4 g 
+          c,2
+          g'4 e 
+          c2 r 
+          c1
+
+          \bar "|."
+        }
+
+        \new Staff
+        {
+          \key c \major
+
+          r1^\markup {\bold  { 2 \tiny \raise #0.5 "a"   voz}  } 
+          c2\p d e f g a 
+          b, c d c b
+          a' g f e d c
+          b c
+          \breathe
+          c2\f e4 g 
+          c,2
+          g'4 e 
+          c2 
+          c1
+	}
+
+        \new Staff
+        {
+          \key c \major
+
+          r1^\markup {\bold  { 3 \tiny \raise #0.5 "a"   voz}  } 
+          r
+          c2\p d e f g a 
+          b, c d c b
+          a' g f e d c
+          r
+          c2\f e4 g 
+          c,2
+          g'4 e  
+          c1
+	}
+
+      >>
+    >>
+
+
+
+  }
+
+
+                                % TROMBONE
+
+  \tag #'tbn {
+
+
+    \new ChoirStaff <<
+      <<
+        \new Staff
+        {
+          \clef bass
+          \key c \major
+
+          c2\p^\markup {\column {\line {\bold {Andante} } \line {\bold {1 \tiny \raise #0.5 "a"   voz}}}}
+          d e f g a 
+          b c d c b
+          a g f e d c
+          b c r 
+
+          \bar "||"
+          \mark \default
+          c2\f e4 g 
+          c2
+          g4 e 
+          c2 r 
+          c1
+
+          \bar "|."
+        }
+
+        \new Staff
+        {
+          \clef bass
+          \key c \major
+
+          r1^\markup {\bold  { 2 \tiny \raise #0.5 "a"   voz}  } 
+          c2\p d e f g a 
+          b c d c b
+          a g f e d c
+          b c
+          \breathe
+          c2\f e4 g 
+          c2
+          g4 e 
+          c2 
+          c1
+	}
+
+        \new Staff
+        {
+          \clef bass
+          \key c \major
+
+          r1^\markup {\bold  { 3 \tiny \raise #0.5 "a"   voz}  } 
+          r
+          c2\p d e f g a 
+          b c d c b
+          a g f e d c
+          r
+          c2\f e4 g 
+          c2
+          g4 e  
+          c1
+	}
+
+      >>
+    >>
+
+
+
+  }
+
+                                % TUBA MIB
+
+  \tag #'tbamib {
+
+
+    \new ChoirStaff <<
+      <<
+        \new Staff
+        {
+          \clef bass
+          \key c \major
+
+          c2\p^\markup {\column {\line {\bold {Andante} } \line {\bold {1 \tiny \raise #0.5 "a"   voz}}}}
+          d e f g a 
+          b, c d c b
+          a' g f e d c
+          b c r 
+
+          \bar "||"
+          \mark \default
+          c2\f e4 g 
+          c,2
+          g'4 e 
+          c2 r 
+          c1
+
+          \bar "|."
+        }
+
+        \new Staff
+        {
+          \clef bass
+          \key c \major
+
+          r1^\markup {\bold  { 2 \tiny \raise #0.5 "a"   voz}  } 
+          c2\p d e f g a 
+          b, c d c b
+          a' g f e d c
+          b c
+          \breathe
+          c2\f e4 g 
+          c,2
+          g'4 e 
+          c2 
+          c1
+	}
+
+        \new Staff
+        {
+          \clef bass
+          \key c \major
+
+          r1^\markup {\bold  { 3 \tiny \raise #0.5 "a"   voz}  } 
+          r
+          c2\p d e f g a 
+          b, c d c b
+          a' g f e d c
+          r
+          c2\f e4 g 
+          c,2
+          g'4 e  
+          c1
+	}
+
+
+      >>
+    >>
+
+
+
+  }
+
+                                % TUBA SIB
+
+  \tag #'tbasib {
+
+
+    \new ChoirStaff <<
+      <<
+        \new Staff
+        {
+          \clef bass
+          \key c \major
+
+          c2\p^\markup {\column {\line {\bold {Andante} } \line {\bold {1 \tiny \raise #0.5 "a"   voz}}}}
+          d e f g a 
+          b c d c b
+          a g f e d c
+          b c r 
+
+          \bar "||"
+          \mark \default
+          c2\f e4 g 
+          c2
+          g4 e 
+          c2 r 
+          c1
+
+          \bar "|."
+        }
+
+        \new Staff
+        {
+          \clef bass
+          \key c \major
+
+          r1^\markup {\bold  { 2 \tiny \raise #0.5 "a"   voz}  } 
+          c2\p d e f g a 
+          b c d c b
+          a g f e d c
+          b c
+          \breathe
+          c2\f e4 g 
+          c2
+          g4 e 
+          c2 
+          c1
+	}
+
+        \new Staff
+        {
+          \clef bass
+          \key c \major
+
+          r1^\markup {\bold  { 3 \tiny \raise #0.5 "a"   voz}  } 
+          r
+          c2\p d e f g a 
+          b c d c b
+          a g f e d c
+          r
+          c2\f e4 g 
+          c2
+          g4 e  
+          c1
+	}
+
+      >>
+    >>
+
+
+
+  }
+
+
+                                % VIOLA
+
+  \tag #'vla {
+
+    \new ChoirStaff <<
+      <<
+        \new Staff
+        {
+          \key c \major
+          \clef alto
+
+          c2\p^\markup {\column {\line {\bold {Andante} } \line {\bold {1 \tiny \raise #0.5 "a"   voz}}}}
+          d e f g a 
+          b c d c b
+          a g f e d c
+          b c r 
+
+          \bar "||"
+          \mark \default
+          c2\f e4 g 
+          c2
+          g4 e 
+          c2 r 
+          c1
+
+          \bar "|."
+        }
+
+        \new Staff
+        {
+          \key c \major
+          \clef alto
+
+          r1^\markup {\bold  { 2 \tiny \raise #0.5 "a"   voz}  } 
+          c2\p d e f g a 
+          b c d c b
+          a g f e d c
+          b c
+          \breathe
+          c2\f e4 g 
+          c2
+          g4 e 
+          c2 
+          c1
+	}
+
+        \new Staff
+        {
+          \key c \major
+          \clef alto
+
+          r1^\markup {\bold  { 3 \tiny \raise #0.5 "a"   voz}  } 
+          r
+          c2\p d e f g a 
+          b c d c b
+          a g f e d c
+          r
+          c2\f e4 g 
+          c2
+          g4 e  
+          c1
+	}
+
+      >>
+    >>
+
+
+
+  }
+
+
+                                % FINAL
+
+
+}
