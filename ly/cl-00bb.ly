@@ -107,11 +107,35 @@
     g1^\markup {\small \bold {"j"}}
   }
 
+                    % TROMPA OP
+  \tag #'tpaop {
+
+    g,1^\markup {\small \bold {"a"}}
+
+    \override Stem #'transparent = ##t
+    g4^\markup {\small \bold {"b"}} s4 s4 s4 
+
+    g1^\markup {\small \bold {"c"}}
+
+    g4^\markup {\small \bold {"d"}} s4 s4 s4
+    
+    g1^\markup {\small \bold {"e"}} 
+
+    g4^\markup {\small \bold {"f"}} s4 s4 s4
+    
+    g1^\markup {\small \bold {"g"}} 
+
+    g4^\markup {\small \bold {"h"}} s4 s4 s4
+    
+    g1^\markup {\small \bold {"j"}}
+
+  }
+
                                 % TROMBONE
   \tag #'tbn {
 
     \clef bass
-    g1^\markup {\small \bold {"a"}}
+    g'1^\markup {\small \bold {"a"}}
 
     \override Stem #'transparent = ##t
     g4^\markup {\small \bold {"b"}} s4 s4 s4 
