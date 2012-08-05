@@ -161,12 +161,50 @@
 
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    g,1^\markup {\small \bold {"a"}}
+
+    \override Stem #'transparent = ##t
+
+    g4^\markup {\small \bold {"b"}} s2. 
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-4
+
+    g4^\markup {\small \bold {"c"}} s2.
+    r1^\markup {\small \bold {"d"}}
+
+    \revert NoteHead #'style 
+    \revert NoteHead #'font-size
+
+    g1^\markup {\small \bold {"e"}} 
+
+    \override Stem #'transparent = ##t
+
+    g4^\markup {\small \bold {"f"}} s2.
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-4
+
+    g4^\markup {\small \bold {"g"}} s2.
+
+    \revert NoteHead #'style
+    \revert NoteHead #'font-size
+    
+    r1^\markup {\small \bold {"h"}} 
+    \bar "|."
+
+  }
+
                                 % TROMBONE
 
   \tag #'tbn {
 
     \clef bass
-    g1^\markup {\small \bold {"a"}}
+    g'1^\markup {\small \bold {"a"}}
 
     \override Stem #'transparent = ##t
 
