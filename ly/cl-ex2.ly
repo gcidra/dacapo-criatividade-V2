@@ -137,13 +137,28 @@
   }
 
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    c,,2*1/16^\markup{Fá}
+    d32
+    e2*1/16
+    f32
+    g2*1/16
+    a32
+    b
+    c2*1/16
+  }
+
+
                                 % TROMBONE
 
   \tag #'tbn {
 
     \clef bass
 
-    c,2*1/16^\markup{Sib}
+    c2*1/16^\markup{Sib}
     d32
     e2*1/16
     f32

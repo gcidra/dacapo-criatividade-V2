@@ -479,6 +479,62 @@
 
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
+    \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
+
+    c,,8^\markup{Fá}
+    d
+
+    \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
+    \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
+
+    e
+    f
+
+    \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
+    \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
+
+    g
+    a
+    b
+
+    \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
+    \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
+
+    c
+
+
+
+    \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
+    \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
+
+    d,^\markup{Sol menor}
+    e
+
+    \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
+    \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
+
+    f
+    g
+
+    \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
+    \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
+
+    a
+    b
+    c
+
+    \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
+    \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
+
+    d
+
+  }
+
 
                                 % TROMBONE
 
@@ -489,7 +545,7 @@
     \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
     \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
 
-    c,8^\markup{Sib}
+    c8^\markup{Sib}
     d
 
     \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
