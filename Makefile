@@ -21,7 +21,7 @@ all-reg := $(notdir $(patsubst %.ly,%.reg,$(wildcard ly/*.ly)))
 
 regencia = regencia
 percussao = percussao
-instrumentos_clave_de_sol = flauta oboe clarinete saxalto saxtenor saxhorn trompa trompa-op trompete bombardino-instSIB-clave-sol
+instrumentos_clave_de_sol = flauta oboe clarinete saxalto saxtenor saxhorn trompa trompaop trompete bombardino-instSIB-clave-sol
 instrumentos_clave_de_fa = fagote trombone bombardino-instDO-escDO bombardino-instSIB-escSIB bombardino-instSIB-escDO tuba-instMIB-escDO tuba-instMIB-escMIB tuba-instSIB-escDO tuba-instSIB-escSIB8acima tuba-instSIB-escSIB8abaixo
 listlivros = flauta oboe clarinete saxalto saxtenor saxhorn trompa trompete fagote trombone bombardino-instSIB-clave-sol bombardino-instDO-escDO bombardino-instSIB-escSIB bombardino-instSIB-escDO tuba-instMIB-escDO tuba-instMIB-escMIB tuba-instSIB-escDO tuba-instSIB-escSIB8acima tuba-instSIB-escSIB8abaixo
 
@@ -475,7 +475,7 @@ trompa.lytex: $(file) Makefile
 	-e 's/%#ISBN-V2-fig#%/cod-barra-tpa-v2/g' \
 	-e 's/transpose c c/transpose c f/g' $< > $@
 
-trompa-op.lytex: $(file) Makefile
+trompaop.lytex: $(file) Makefile
 	sed -e "s/keepWithTag #'cl/\keepWithTag #'tpaop/g" \
 	-e 's/instrumento{InstrCapa}/instrumento{Trompa em Fá - Opcional}/g' \
 	-e 's/instrumento{Original}/instrumento{Trompa em Fá - Opcional}/g' \
