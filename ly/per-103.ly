@@ -1,6 +1,6 @@
 %-*- coding: utf-8 -*-
 
-\version "2.10.00"
+\version "2.14.2"
 
 %\header {title = "escrevendo uma segunda voz senhora dona sancha"}
 

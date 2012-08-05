@@ -1,4 +1,4 @@
-\version "2.10.33"
+\version "2.14.2"
 
 %\header {title = "Missa de santa cecilia-1826-Gloria in fexcelsis Qui Tollis-Andante sustenuto "}
 %Pdre Jose Mauricio - projeto memoria musical brasileira ed. funarte - 1984 

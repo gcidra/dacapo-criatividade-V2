@@ -1,6 +1,6 @@
 % -*- coding: latin-1 -*-
 
-\version "2.10.00"
+\version "2.14.2"
 
 %\header { texidoc="escala e graficos"}
 
