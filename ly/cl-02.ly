@@ -81,11 +81,28 @@
 
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    g,1^\markup {\small \bold {"a"}}
+    r^\markup {\small \bold {"b"}}
+    r^\markup {\small \bold {"c"}}
+    r1^\markup {\small \bold {"d"}}
+
+    g1^\markup {\small \bold {"e"}} 
+    r^\markup {\small \bold {"f"}}
+    r^\markup {\small \bold {"g"}}
+
+    r^\markup {\small \bold {"h"}}
+     \bar "|."
+
+  }
                                 % TROMBONE
 
   \tag #'tbn {
     \clef bass
-    g1^\markup {\small \bold {"a"}}
+    g'1^\markup {\small \bold {"a"}}
     r^\markup {\small \bold {"b"}}
     r^\markup {\small \bold {"c"}}
     r1^\markup {\small \bold {"d"}}
