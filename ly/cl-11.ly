@@ -220,12 +220,37 @@
 
     }
 
+                                % TROMPA OP
+
+    \tag #'tpaop {
+      e,4^\markup {\column {{\bold "Parte 1"} {\bold {"a"}}}}
+      e e d2  
+      d4^\markup {\bold {"b"}} e e e d2 
+      d4^\markup { \bold {"c"}} d d d e e
+      e^\markup { \bold {"d"}} e e e d2^\markup {\italic \bold "Fim"} r4
+
+      \bar "||"
+
+      \break
+
+      \override Stem #'transparent = ##t
+      \override Beam #'transparent = ##t
+      d4^\markup {\column {\bold {"Parte 2"} {\bold "a1"}}} e f 
+      d e f
+      d^\markup {\bold {"b1"}} e f
+      d e f
+      d^\markup {\bold {"c1"}} e f
+      d e f
+      d^\markup {\bold {"d1"}} e f
+      d e f
+
+    }
 
                                 % TROMBONE
 
     \tag #'tbn {
       \clef bass
-      e4^\markup {\column {{\bold "Parte 1"} {\bold {"a"}}}}
+      e'4^\markup {\column {{\bold "Parte 1"} {\bold {"a"}}}}
       e e d2  
       d4^\markup {\bold {"b"}} e e e d2 
       d4^\markup { \bold {"c"}} d d d e e

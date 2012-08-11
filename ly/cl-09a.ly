@@ -93,12 +93,21 @@
       e^\markup { \bold {"d"}} e e e d2^\markup {\italic \bold "Fim"} r4
     }
 
+                                % TROMPA OP
+
+    \tag #'tpaop {
+      e,4^\markup {\bold {"a"}}
+      e e d2 
+      d4^\markup {\bold {"b"}} e e e d2 \breathe
+      d4^\markup { \bold {"c"}} d d d e e
+      e^\markup { \bold {"d"}} e e e d2^\markup {\italic \bold "Fim"} r4
+    }
 
                                 % TROMBONE
 
     \tag #'tbn {
       \clef bass
-      e4^\markup {\bold {"a"}}
+      e'4^\markup {\bold {"a"}}
       e e d2 
       d4^\markup {\bold {"b"}} e e e d2 \breathe
       d4^\markup { \bold {"c"}} d d d e e
