@@ -104,6 +104,16 @@
 
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+    { s1^\markup {\bold \hspace #1.0 Melodia} \break }
+
+    \bar "|."
+
+    { s1^\markup {\bold \hspace #1.0 Variação} \break }
+
+  }
 
                                 % TROMBONE
 

@@ -1,6 +1,6 @@
 % -*- coding: utf-8 -*-
 \version "2.14.2"
-letraA = { a }
+
                                 %\header { texidoc="1 - Improvisando e Imitando com o Fa - Instrumentos em si bemol" }
 
 \relative c' {
@@ -14,8 +14,7 @@ letraA = { a }
                                 % CLARINETE
 
   \tag #'cl {
-    % g'1^\markup {\small \bold {"a"}}
-    g'1^\markup {\small \bold {\letraA}}
+    g'1^\markup {\small \bold {"a"}}
     r^\markup {\small \bold {"b"}}
     r^\markup {\small \bold {"c"}}
     r1^\markup {\small \bold {"d"}}

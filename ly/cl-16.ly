@@ -368,12 +368,55 @@
 
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+    \mark \default c,1
+    \mark \default d
+    \mark \default e
+    \mark \default f
+    \mark \default g
+    r
+    \mark \default g
+    \mark \default f
+    \mark \default e
+    \mark \default d
+    \mark \default c
+
+    \bar "||"
+    r
+
+    \bar "||"
+
+    \mark \default c4 c c c
+    \mark \default d d d d 
+    \mark \default e e e e
+    \mark \default f f f f
+    \mark \default g g g g
+    r1
+    \mark \default g4 g g g
+    \mark \default f f f f
+    \mark \default e e e e
+    \mark \default d d d d
+    \mark \default c1
+    \bar "||"
+    r1
+    \bar "||"
+
+    \mark \default c4 d e f g f e d c4 r g' r 
+    \mark \default c,4 d e f g f e d c4 r g' r 
+
+    \mark \default c,4 e g e d f g f 
+    \mark \default c e g e d f g g
+    \mark \default c,1 
+
+  }
 
                                 % TROMBONE
 
   \tag #'tbn {
     \clef bass
-    \mark \default c1
+    \mark \default c'1
     \mark \default d
     \mark \default e
     \mark \default f

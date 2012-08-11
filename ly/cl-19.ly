@@ -757,6 +757,99 @@
 
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+    \new ChoirStaff <<
+      <<
+        <<
+          \new Staff {
+
+            \override Score.BarNumber #'transparent = ##t
+            \time 2/4
+
+            c,4^\markup { \column {\bold {Allegro} \line {\bold {Parte 1} - Melodia } \line {\bold {a \hspace #1.0 1 \tiny \raise #0.5 "a"  voz }}}}
+            
+
+            d e d
+            c^\markup {\bold "b" }
+            d e d
+            \breathe
+            c^\markup {\bold "c" }
+            d e f
+            e^\markup {\bold "d" }
+            d c r4^\markup {\bold \italic Fim} 
+            \bar "||"
+            \break
+
+            \override Stem #'transparent = ##t
+            \override Beam #'transparent = ##t
+
+            c4*2/5^\markup { \column {\line { \bold {Parte 2} - Improvise com as notas da escala.} \bold {a1 } } } 
+            d4*2/5 e4*2/5 f4*2/5 g4*2/5
+            c,4*2/5 d4*2/5 e4*2/5 f4*2/5 g4*2/5
+            c,4*2/5^\markup {\bold "b1" } d4*2/5 e4*2/5 f4*2/5 g4*2/5
+            c,4*2/5 d4*2/5 e4*2/5 f4*2/5 g4*2/5
+            c,4*2/5^\markup {\bold "c1" } d4*2/5 e4*2/5 f4*2/5 g4*2/5
+            c,4*2/5 d4*2/5 e4*2/5 f4*2/5 g4*2/5
+            c,4*2/5^\markup {\bold "d1" } d4*2/5 e4*2/5 f4*2/5 g4*2/5
+
+            \revert Stem #'transparent
+
+            c,4 r4
+            \bar "|."
+          }
+
+
+          \context Lyrics = mainlyrics \lyricmode {
+
+            A bar -- qui -- nha li -- gei -- ri -- nha
+            vo -- ga, vo -- ga sem pa -- rar.
+          }
+
+
+        >>
+        \new Staff
+        {
+          \once \override TextScript #'padding = #2
+          r4^\markup {\bold  { 2 \tiny \raise #0.5 "a"   voz}  } g'
+          r <f g>  
+          r4 g  
+          r <f g>  
+          r4 g  
+          r <f g>  
+          r4 <f g>  
+          <e g> r  
+
+          r4 g
+          r <f g>  
+          r4 g  
+          r <f g>  
+          r4 g  
+          r <f g>  
+          r4 <f g>   
+          <e g> r  
+        }
+
+
+        \new Staff
+        {
+          
+          c2^\markup {\bold  { 3 \tiny \raise #0.5 "a"   voz}  } g'2 
+          c,2 g'2 
+          c,2 g'2
+          g2 c,4 r
+
+          c2 g'2 
+          c,2 g'2 
+          c,2 g'2
+          g2 c,4 r
+        }
+      >>
+    >>
+
+
+  }
 
                                 % TROMBONE
 
@@ -771,7 +864,7 @@
             \time 2/4
             \clef bass
 
-            c4^\markup { \column {\bold {Allegro} \line {\bold {Parte 1} - Melodia } \line {\bold {a \hspace #1.0 1 \tiny \raise #0.5 "a"  voz }}}}
+            c'4^\markup { \column {\bold {Allegro} \line {\bold {Parte 1} - Melodia } \line {\bold {a \hspace #1.0 1 \tiny \raise #0.5 "a"  voz }}}}
             
 
             d e d
