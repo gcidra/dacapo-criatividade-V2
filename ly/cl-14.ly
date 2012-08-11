@@ -116,12 +116,24 @@
 
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+    d,2^\markup {\small \bold {"a"}} e f r
+    
+    f^\markup {\small \bold {"b"}} e4 d e2 r 
+
+    e^\markup {\small \bold {"c"}} d4 e f2 r
+
+    e^\markup {\small \bold {"d"}} f4 e d1 
+
+  }
 
                                 % TROMBONE
 
   \tag #'tbn {
     \clef bass
-    d2^\markup {\small \bold {"a"}} e f r
+    d'2^\markup {\small \bold {"a"}} e f r
     
     f^\markup {\small \bold {"b"}} e4 d e2 r 
 

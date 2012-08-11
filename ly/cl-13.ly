@@ -871,12 +871,118 @@
 
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+    f,2 r4 e2 r4 \bar "||"
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t
+    \mark \default  s8 d e f g s
+    s8 d e f g s \bar "||"
+    \revert NoteHead #'transparent
+    \revert Stem #'transparent 
+
+
+    \mark \default f2 f4 e2 r4 \bar "||"
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t
+    \mark \default  s8 d e f g s 
+    s8 d e f g s \bar "||"
+    \revert NoteHead #'transparent
+    \revert Stem #'transparent 
+
+
+    \mark \default f4 f f e2 r4 \bar "||"
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t	
+    \mark \default  s8 d e f g s 
+    s8 d e f g s \bar "||"
+    \revert NoteHead #'transparent
+    \revert Stem #'transparent 	
+    
+    
+    \mark \default f4 e f e2 r4 \bar "||"
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t	
+    \mark \default  s8 d e f g s 
+    s8 d e f g s \bar "||"
+    \revert NoteHead #'transparent
+    \revert Stem #'transparent 	
+
+    \mark \default f4 e d e2 r4 \bar "||"
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t	
+    \mark \default  s8 d e f g s 
+    s8 d e f g s \bar "||"
+    \revert NoteHead #'transparent
+    \revert Stem #'transparent 	
+
+
+    \mark \default d4 f d e2 r4 \bar "||"
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t	
+    \mark \default  s8 d e f g s
+    s8 d e f g s \bar "||"
+    \revert NoteHead #'transparent
+    \revert Stem #'transparent 	
+
+
+    \mark \default d4 e f e2 r4 \bar "||"
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t	
+    \mark \default  s8 d e f g s 
+    s8 d e f g s \bar "||"
+    \revert NoteHead #'transparent
+    \revert Stem #'transparent 	
+
+
+    \mark \default e4 d e e2 r4 \bar "||"
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t	
+    \mark \default  s8 d e f g s 
+    s8 d e f g s \bar "||"
+    \revert NoteHead #'transparent
+    \revert Stem #'transparent 	
+
+
+
+    \mark \default e4 d d e2 r4 \bar "||"
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t	
+    \mark \default  s8 d e f g s
+    s8 d e f g s \bar "||"
+    \revert NoteHead #'transparent
+    \revert Stem #'transparent 
+
+
+    \mark \default d4 e e e2 r4 \bar "||"
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t	
+    \mark \default  s8 d e f g s 
+    s8 d e f g s \bar "||"
+    \revert NoteHead #'transparent
+    \revert Stem #'transparent 
+
+
+    \mark \default e4 e e e2 r4 \bar "||"
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t	
+    \mark \default  s8 d e f g s 
+    s8 d e f g s \bar "||"
+    \revert NoteHead #'transparent
+    \revert Stem #'transparent
+
+
+    \mark \default e4 d e f2 r4 
+    f2 f4 f2 r4 \bar "||"
+
+  }
 
                                 % TROMBONE
 
   \tag #'tbn {
     \clef bass
-    f2 r4 e2 r4 \bar "||"
+    f'2 r4 e2 r4 \bar "||"
     \override Stem #'transparent = ##t
     \override Beam #'transparent = ##t
     \mark \default  s8 d e f g s
