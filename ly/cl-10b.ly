@@ -66,6 +66,19 @@
 
       \bar "||"
       \break
+    }
+
+                                % TROMPA OP
+
+    \tag #'tpaop {
+
+      g,2^\markup {\bold {"a1"}}
+      e g4 f e2 \breathe
+      g4^\markup {\small \bold {"b1"}} f e f g f e2 \breathe 
+      g4^\markup {\small \bold {"c1"}} f e f g f e2 
+
+      \bar "||"
+      \break
 
     }
 
@@ -75,7 +88,7 @@
 
       \clef bass
 
-      g2^\markup {\bold {"a1"}}
+      g'2^\markup {\bold {"a1"}}
       e g4 f e2 \breathe
       g4^\markup {\small \bold {"b1"}} f e f g f e2 \breathe 
       g4^\markup {\small \bold {"c1"}} f e f g f e2 

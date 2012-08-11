@@ -67,15 +67,6 @@
     d4^\markup {\small \bold {"c4"}} e2 f4 e d2 s4
   }
 
-                                % TROMPETE
-
-  \tag #'tpt {
-
-    d4^\markup {\small \bold {"a4"}} e2 f4 d4 e2 s4 
-    d4^\markup {\small \bold {"b4"}} e f e d e2 s4
-    d4^\markup {\small \bold {"c4"}} e2 f4 e d2 s4
-  }
-
                                 % TROMPA
 
   \tag #'tpa {
@@ -85,12 +76,31 @@
     d4^\markup {\small \bold {"c4"}} e2 f4 e d2 s4
   }
 
+                                % TROMPETE
+
+  \tag #'tpt {
+
+    d4^\markup {\small \bold {"a4"}} e2 f4 d4 e2 s4 
+    d4^\markup {\small \bold {"b4"}} e f e d e2 s4
+    d4^\markup {\small \bold {"c4"}} e2 f4 e d2 s4
+  }
+
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    d,4^\markup {\small \bold {"a4"}} e2 f4 d4 e2 s4 
+    d4^\markup {\small \bold {"b4"}} e f e d e2 s4
+    d4^\markup {\small \bold {"c4"}} e2 f4 e d2 s4
+  }
+
+
                                 % TROMBONE
 
   \tag #'tbn {
 
     \clef bass
-    d4^\markup {\small \bold {"a4"}} e2 f4 d4 e2 s4 
+    d'4^\markup {\small \bold {"a4"}} e2 f4 d4 e2 s4 
     d4^\markup {\small \bold {"b4"}} e f e d e2 s4
     d4^\markup {\small \bold {"c4"}} e2 f4 e d2 s4
   }
