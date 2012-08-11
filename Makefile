@@ -476,7 +476,7 @@ trompa.lytex: $(file) Makefile
 	-e 's/transpose c c/transpose c f/g' $< > $@
 
 trompaop.lytex: $(file) Makefile 
-	sed -e "s/keepWithTag #'cl/\keepWithTag #'tpt/g" \
+	sed -e "s/keepWithTag #'cl/\keepWithTag #'tpaop/g" \
 	-e 's/instrumento{InstrCapa}/instrumento{Trompa em Fá - Opcional}/g' \
 	-e 's/instrumento{Original}/instrumento{Trompa em Fá - Opcional}/g' \
 	-e 's/instrumento{Rodape}/instrumento{Trompa}/g' \
