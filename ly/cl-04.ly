@@ -141,7 +141,6 @@
 
   }
 
-
                                 % TROMPETE
 
   \tag #'tpt {
@@ -185,12 +184,55 @@
 
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    f,2^\markup {\small \bold {"a"}} g
+
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t
+
+    f4^\markup {\small \bold {"b"}} g s2
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+
+    f4^\markup {\small \bold {"c"}} g s2
+    r1^\markup {\small \bold {"d"}}
+
+    \revert NoteHead #'style
+    \revert Stem #'transparent
+    \revert NoteHead #'font-size
+
+    
+    f2^\markup {\small \bold {"e"}} g 
+
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t
+
+    
+    f4^\markup {\small \bold {"f"}} g s2
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+
+    f4^\markup {\small \bold {"g"}} g s2
+    
+    \revert NoteHead #'style
+    \revert Stem #'transparent
+    \revert NoteHead #'font-size
+
+    f1^\markup {\small \bold {"h"}} 
+
+  }
+
                                 % TROMBONE
 
   \tag #'tbn {
 
     \clef bass
-    f2^\markup {\small \bold {"a"}} g
+    f'2^\markup {\small \bold {"a"}} g
 
     \override Stem #'transparent = ##t
     \override Beam #'transparent = ##t

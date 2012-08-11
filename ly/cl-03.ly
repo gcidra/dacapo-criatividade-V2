@@ -173,12 +173,92 @@
 
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    f2^\markup {\small \bold {"a"}} f 
+
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t
+
+    f4^\markup {\small \bold {"b"}} g s2
+
+    \revert Stem #'transparent
+    \revert Beam #'transparent
+
+    g2^\markup {\small \bold {"c"}} g
+
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t
+
+    f4^\markup {\small \bold {"d"}} g s2
+
+    \revert Stem #'transparent
+    \revert Beam #'transparent
+
+    f2^\markup {\small \bold {"e"}} g
+
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t
+
+    f4^\markup {\small \bold {"f"}} g s2
+
+    \revert Stem #'transparent
+    \revert Beam #'transparent
+    
+    g2^\markup {\small \bold {"g"}} g
+    
+    f1^\markup {\small \bold {"h"}} 
+
+  }
+
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    f,2^\markup {\small \bold {"a"}} f 
+
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t
+
+    f4^\markup {\small \bold {"b"}} g s2
+
+    \revert Stem #'transparent
+    \revert Beam #'transparent
+
+    g2^\markup {\small \bold {"c"}} g
+
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t
+
+    f4^\markup {\small \bold {"d"}} g s2
+
+    \revert Stem #'transparent
+    \revert Beam #'transparent
+
+    f2^\markup {\small \bold {"e"}} g
+
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t
+
+    f4^\markup {\small \bold {"f"}} g s2
+
+    \revert Stem #'transparent
+    \revert Beam #'transparent
+    
+    g2^\markup {\small \bold {"g"}} g
+    
+    f1^\markup {\small \bold {"h"}} 
+
+  }
+
                                 % TROMBONE
 
   \tag #'tbn {
 
     \clef bass
-    f2^\markup {\small \bold {"a"}} f 
+    f'2^\markup {\small \bold {"a"}} f 
 
     \override Stem #'transparent = ##t
     \override Beam #'transparent = ##t

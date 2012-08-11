@@ -353,6 +353,49 @@
     \revert NoteHead #'font-size
 
     e1^\markup {\small \bold {"h"}}
+}
+
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    e,1^\markup {\small \bold {"a"}}
+
+    \override Stem #'transparent = ##t
+    
+    
+    e4^\markup {\small \bold {"b"}} s4 s4 s4 
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+
+    e4^\markup {\small \bold {"c"}} s4 s4 s4
+    
+    \revert NoteHead #'style 
+    \revert NoteHead #'font-size
+    
+    e4^\markup {\small \bold {"d"}} s4 s4 s4
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+
+    s8^\markup {\small \bold {"e"}} e4 s4 s4.
+
+    \revert NoteHead #'style 
+    \revert NoteHead #'font-size
+
+    e4^\markup {\small \bold {"f"}} s4 s4 s4 
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+
+    
+    e4^\markup {\small \bold {"g"}} s4 s4 s4
+
+    \revert NoteHead #'style 
+    \revert NoteHead #'font-size
+
+    e1^\markup {\small \bold {"h"}}
   }
 
                                 % TROMBONE
@@ -361,7 +404,7 @@
 
     \clef bass
 
-    e1^\markup {\small \bold {"a"}}
+    e'1^\markup {\small \bold {"a"}}
 
     \override Stem #'transparent = ##t
     
