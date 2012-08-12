@@ -175,6 +175,27 @@
   }
 
 
+
+                                % TROMPA OP
+
+  \tag #'tpaop {
+    c8 e g bes2(  
+    bes8) bes a g 
+    e2 s8 s s s 
+    \break
+    s8 s s s s s s s
+    s s s s s s s s
+    s s s s	s s s s
+    \break
+    \hideNotes
+    d2 d8 e d c
+
+    \unHideNotes
+    d2( d8) e d c
+    c2 r8
+
+  }
+
                                 % TROMBONE
 
   \tag #'tbn {

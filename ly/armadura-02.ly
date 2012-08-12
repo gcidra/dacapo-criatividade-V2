@@ -47,8 +47,12 @@
     \key c \major
     s
   }
+  %% TROMPA OP
+  \tag #'tpaop {
+    \key c \major
+    s
+  }
   %% TROMBONE
-
   \tag #'tbn {
     \clef bass
     \key c \major

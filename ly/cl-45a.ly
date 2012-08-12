@@ -104,6 +104,17 @@
     }
 
 
+                                % TROMPA OP
+
+    \tag #'tpaop {
+      e8^\markup {\column {\bold {\circle {1}  A}} } f |g g g a g4 
+      g8^\markup {\bold B} a g4 g8 a g4
+      g8^\markup {\column {\bold {\circle {2}  C}}} a g f e d c4
+      e8^\markup {\bold D} e c4 e8 e c4^\markup  { \italic \bold Fim  } \bar "||" 
+
+
+    }
+
                                 % TROMBONE
 
     \tag #'tbn {

@@ -1372,6 +1372,175 @@
 
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+    r1
+
+    \bar "||"
+
+    \mark \default c1
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t
+    \override Voice.NoteHead #'stencil = #ly:text-interface::print
+    \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s2")
+
+    \mark \default c4 bes' s2
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-5
+    \override Voice.NoteHead #'stencil = #ly:text-interface::print
+    \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s2slash")
+
+    \mark \default c,4 bes' s2
+
+    \revert NoteHead #'style
+    \revert Stem #'transparent 
+    \revert Beam #'transparent
+    \revert NoteHead #'font-size
+    \revert Voice.NoteHead #'stencil
+
+    \revert Voice.NoteHead #'text
+    \bar "||"
+
+
+    \mark \default d,1
+
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t
+    \override Voice.NoteHead #'stencil = #ly:text-interface::print
+    \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s2")
+
+    \mark \default d4 bes' s2
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-5
+    \override Voice.NoteHead #'stencil = #ly:text-interface::print
+    \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s2slash")
+
+    \mark \default d,4 bes' s2
+
+    \revert NoteHead #'style
+    \revert Stem #'transparent 
+    \revert Beam #'transparent
+    \revert NoteHead #'font-size
+    \revert Voice.NoteHead #'stencil
+
+    \revert Voice.NoteHead #'text
+    \bar "||"
+
+
+    \mark \default e,1
+
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t
+    \override Voice.NoteHead #'stencil = #ly:text-interface::print
+    \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s2")
+
+    \mark \default e4 bes' s2
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-5
+    \override Voice.NoteHead #'stencil = #ly:text-interface::print
+    \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s2slash")
+
+    \mark \default e,4 bes' s2
+
+    \revert NoteHead #'style
+    \revert Stem #'transparent 
+    \revert Beam #'transparent
+    \revert NoteHead #'font-size
+    \revert Voice.NoteHead #'stencil
+
+    \revert Voice.NoteHead #'text
+    \bar "||"
+
+    \mark \default f1
+
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t
+    \override Voice.NoteHead #'stencil = #ly:text-interface::print
+    \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s2")
+
+    \mark \default f4 bes s2
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-5
+    \override Voice.NoteHead #'stencil = #ly:text-interface::print
+    \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s2slash")
+
+    \mark \default f4 bes s2
+
+    \revert NoteHead #'style
+    \revert Stem #'transparent 
+    \revert Beam #'transparent
+    \revert NoteHead #'font-size
+    \revert Voice.NoteHead #'stencil
+
+    \revert Voice.NoteHead #'text
+    \bar "||"
+
+
+    \mark \default g1
+
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t
+    \override Voice.NoteHead #'stencil = #ly:text-interface::print
+    \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s2")
+
+    \mark \default g4 bes s2
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-5
+    \override Voice.NoteHead #'stencil = #ly:text-interface::print
+    \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s2slash")
+
+    \mark \default g4 bes s2
+
+    \revert NoteHead #'style
+    \revert Stem #'transparent 
+    \revert Beam #'transparent
+    \revert NoteHead #'font-size
+    \revert Voice.NoteHead #'stencil
+
+    \revert Voice.NoteHead #'text
+    \bar "||"
+
+
+    \mark \default a1
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t
+    \override Voice.NoteHead #'stencil = #ly:text-interface::print
+    \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s2")
+
+    \mark \default a4 bes s2
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-5
+    \override Voice.NoteHead #'stencil = #ly:text-interface::print
+    \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s2slash")
+
+    \mark \default a4 bes s2
+
+    \revert NoteHead #'style
+    \revert Stem #'transparent 
+    \revert Beam #'transparent
+    \revert NoteHead #'font-size
+    \revert Voice.NoteHead #'stencil
+
+    \revert Voice.NoteHead #'text
+    \bar "||"
+
+
+    \bar "||"
+
+    \mark \default 
+    c,4 e g bes(
+    \stemDown bes) bes \stemUp g e 
+    c r c r
+    c1
+
+  }
 
                                 % TROMBONE
 

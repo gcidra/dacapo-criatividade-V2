@@ -125,6 +125,20 @@
   }
 
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+    a8^\markup {\bold A4} a 
+    a a a a 
+    a4 a8^\markup {\bold B4} a 
+    a a a a 
+    a4 a8^\markup {\bold C4} a 
+    a a a a 
+    a4 a8^\markup {\bold D4} a
+    a a a a 
+    a4 
+  }
+
                                 % TROMBONE
 
   \tag #'tbn {

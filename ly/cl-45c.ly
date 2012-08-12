@@ -91,6 +91,15 @@
 
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+    e8(^\markup {\bold A2} d) c( d e f) g4
+    g8^\markup {\bold B2} a g f e f g4
+    e8(^\markup {\bold C2} d) c( d e f) g4 
+    g8^\markup {\bold D2} a g f d e c4 
+
+  }
 
                                 % TROMBONE
 

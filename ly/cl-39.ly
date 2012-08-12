@@ -510,6 +510,68 @@
       >>
     }
   }
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    \transpose c c''{
+      \new ChoirStaff <<
+        <<
+          \new Staff
+          {
+
+            \override Score.BarNumber #'transparent = ##t
+                                %\override Score.RehearsalMark #'font-family = #'roman
+            \override Score.RehearsalMark #'font-size = #-2
+                                %\set Score.markFormatter = #format-marknumbers
+
+            \override Staff.TimeSignature #'style = #'()
+            \time 4/4 
+
+            \override NoteHead #'style = #'cross
+                                %\override NoteHead #'font-size = #6
+
+            \override Script #'padding = #3
+            \once \override TextScript #'padding = #2
+            r4^\markup {\bold  { 1 \tiny \raise #0.5 "a"   voz}} 
+            g8 g g4 g
+            r4 g8 g g g g4
+            r4 g8 g g4 g
+            r4 g8 g g4 r
+            \break
+            r4 g8 g g4 g
+            r4 g8 g g g g4
+            g8 g g g g g g4 
+            g r4 r2
+            
+            \bar "|."
+
+          }
+
+          \new Staff {
+
+            \override Staff.TimeSignature #'style = #'()
+            \time 4/4 
+            \override NoteHead #'style = #'slash
+            \override NoteHead #'font-size = #6
+            \once \override TextScript #'padding = #2
+            f,4^\markup  {\bold  { 2 \tiny \raise #0.5 "a"   voz}}
+            r r2
+            f,4 r r2
+            f,4 r r f,
+            f,4 r2 f,4
+
+            f,4 r r2
+            f,4 r r2
+            f,4 r2 f,4
+            f,4 r r2
+            \bar "|."
+
+          }
+        >>
+      >>
+    }
+  }
 
                                 % TROMBONE
 
