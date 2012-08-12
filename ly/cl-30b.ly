@@ -108,6 +108,17 @@
 
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+    \repeat volta 2 { 
+      e4(^\markup{\column {\bold {Allegro  A1}}}  g) e c( g') e
+      c(^\markup{\bold {B1}}  g') e c d2
+      d4(^\markup{\bold {C1}} f) d b( f') d
+      b(^\markup{\bold {D1}}  f') d b c2 
+    }
+
+  }
 
                                 % TROMBONE
 

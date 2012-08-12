@@ -136,6 +136,21 @@
     }
 
 
+                                % TROMPA OP
+
+    \tag #'tpaop {
+
+      \repeat volta 2 { 
+	e4^\markup {\column {\bold {Moderato  A}}} g g e c c  
+	e^\markup{\bold {B}} g g e d( d)
+	e^\markup{\bold {C}} f f d b b
+	d^\markup{\bold {D}} f f d c( c)^\markup { \italic \bold Fim  }
+
+      }
+
+
+    }
+
                                 % TROMBONE
 
     \tag #'tbn {

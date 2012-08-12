@@ -39,6 +39,10 @@
   \tag #'tpa {
     b
   }
+  %% TROMPA OP
+  \tag #'tpaop {
+    b 
+  }
   %% TROMBONE
 
   \tag #'tbn {

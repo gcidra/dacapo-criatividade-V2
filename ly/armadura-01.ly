@@ -47,6 +47,11 @@
     \key f \major
     s
   }
+  %% TROMPA OP
+  \tag #'tpaop {
+    \key f \major
+    s
+  }
   %% TROMBONE
 
   \tag #'tbn {
