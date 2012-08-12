@@ -72,7 +72,7 @@
 
     \tag #'tpaop {
 
-      g,4^\markup {\bold {"a2"}}
+      g4^\markup {\bold {"a2"}}
       f e2 | g4 f e2 \breathe
       g4^\markup {\small \bold {"b2"}} f g f | g f e2 \breathe 
       g4^\markup {\small \bold {"c2"}} f g f | e f e2 
@@ -89,7 +89,7 @@
 
       \clef bass
 
-      g'4^\markup {\bold {"a2"}}
+      g4^\markup {\bold {"a2"}}
       f e2 | g4 f e2 \breathe
       g4^\markup {\small \bold {"b2"}} f g f | g f e2 \breathe 
       g4^\markup {\small \bold {"c2"}} f g f | e f e2 

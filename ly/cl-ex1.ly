@@ -273,7 +273,7 @@
     \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
     \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
 
-    c,,16^\markup{Fá}
+    c,16^\markup{Fá}
     d
 
     \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
@@ -306,7 +306,7 @@
     \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
     \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
 
-    c16^\markup{Sib}
+    c,16^\markup{Sib}
     d
 
     \once \override Voice.NoteHead #'stencil = #ly:text-interface::print

@@ -264,7 +264,7 @@
 
   \tag #'tpaop {
 
-    f,2^\markup {\small \bold {"a"}} g
+    f2^\markup {\small \bold {"a"}} g
     r1^\markup {\small \bold {"b"}}
     r^\markup {\small \bold {"c"}}
     r^\markup {\small \bold {"d"}}
@@ -284,7 +284,7 @@
   \tag #'tbn {
     \clef bass
 
-    f'2^\markup {\small \bold {"a"}} g
+    f2^\markup {\small \bold {"a"}} g
     r1^\markup {\small \bold {"b"}}
     r^\markup {\small \bold {"c"}}
     r^\markup {\small \bold {"d"}}

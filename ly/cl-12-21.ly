@@ -63,17 +63,17 @@
     e4 f e | f2 r4 
   }
 
-                          % TROMPA OP
+                                % TROMPA OP
 
   \tag #'tpaop {
-    e,4 f e | f2 r4 
+    e4 f e | f2 r4 
   }
 
                                 % TROMBONE
 
   \tag #'tbn {
     \clef bass
-    e'4 f e | f2 r4 
+    e4 f e | f2 r4 
   }
 
                                 % TUBA MIB

@@ -110,7 +110,7 @@
                     % TROMPA OP
   \tag #'tpaop {
 
-    g,1^\markup {\small \bold {"a"}}
+    g1^\markup {\small \bold {"a"}}
 
     \override Stem #'transparent = ##t
     g4^\markup {\small \bold {"b"}} s4 s4 s4 
@@ -135,7 +135,7 @@
   \tag #'tbn {
 
     \clef bass
-    g'1^\markup {\small \bold {"a"}}
+    g1^\markup {\small \bold {"a"}}
 
     \override Stem #'transparent = ##t
     g4^\markup {\small \bold {"b"}} s4 s4 s4 

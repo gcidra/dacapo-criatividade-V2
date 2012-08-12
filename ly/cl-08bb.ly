@@ -598,7 +598,7 @@
             \time 4/4 
             \override Score.BarNumber #'transparent = ##t
 
-            g,2^\markup { \column {\line { \bold {Parte 1} - Melodia } \line
+            g2^\markup { \column {\line { \bold {Parte 1} - Melodia } \line
                                   {\bold {a \hspace #1.0 1 \tiny \raise #0.5 "a" voz } } } } e g4 g e2 \breathe
             g4^\markup {\small \bold {"b"}} g e e g g e2 \breathe g4^\markup {\small
                                                                      \bold {"c"}} g e e g g e2^\markup {\italic \bold "Fim"}
@@ -671,7 +671,7 @@
             \override Score.BarNumber #'transparent = ##t
 
             \clef bass
-            g'2^\markup { \column {\line { \bold {Parte 1} - Melodia } \line
+            g2^\markup { \column {\line { \bold {Parte 1} - Melodia } \line
                                   {\bold {a \hspace #1.0 1 \tiny \raise #0.5 "a" voz } } } } e g4 g e2 \breathe
             g4^\markup {\small \bold {"b"}} g e e g g e2 \breathe g4^\markup {\small
                                                                      \bold {"c"}} g e e g g e2^\markup {\italic \bold "Fim"}

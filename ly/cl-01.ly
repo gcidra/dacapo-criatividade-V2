@@ -165,7 +165,7 @@
 
   \tag #'tpaop {
 
-    g,1^\markup {\small \bold {"a"}}
+    g1^\markup {\small \bold {"a"}}
 
     \override Stem #'transparent = ##t
 
@@ -204,7 +204,7 @@
   \tag #'tbn {
 
     \clef bass
-    g'1^\markup {\small \bold {"a"}}
+    g1^\markup {\small \bold {"a"}}
 
     \override Stem #'transparent = ##t
 

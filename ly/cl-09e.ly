@@ -89,7 +89,7 @@
                                 % TROMPA OP
 
   \tag #'tpaop {
-    e,4 e e d e2 
+    e4 e e d e2 
     d4 d d e d2
     e4 e e d d2 
     e4 e2 d2 s4
@@ -99,7 +99,7 @@
 
   \tag #'tbn {
     \clef bass
-    e'4 e e d e2 
+    e4 e e d e2 
     d4 d d e d2
     e4 e e d d2 
     e4 e2 d2 s4

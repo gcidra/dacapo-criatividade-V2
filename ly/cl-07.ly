@@ -359,7 +359,7 @@
 
   \tag #'tpaop {
 
-    e,1^\markup {\small \bold {"a"}}
+    e1^\markup {\small \bold {"a"}}
 
     \override Stem #'transparent = ##t
     
@@ -404,7 +404,7 @@
 
     \clef bass
 
-    e'1^\markup {\small \bold {"a"}}
+    e1^\markup {\small \bold {"a"}}
 
     \override Stem #'transparent = ##t
     

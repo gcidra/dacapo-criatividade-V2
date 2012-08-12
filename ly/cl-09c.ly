@@ -94,7 +94,7 @@
 
   \tag #'tpaop {
 
-    d,4^\markup {\small \bold {"a2"}} e d e2 r4
+    d4^\markup {\small \bold {"a2"}} e d e2 r4
     e4^\markup {\small \bold {"b2"}} d e d2 r4
     d4^\markup {\small \bold {"c2"}} e d e d  
     e^\markup {\small \bold {"d2"}}  d e d d2 r4
@@ -104,7 +104,7 @@
 
   \tag #'tbn {
     \clef bass
-    d'4^\markup {\small \bold {"a2"}} e d e2 r4
+    d4^\markup {\small \bold {"a2"}} e d e2 r4
     e4^\markup {\small \bold {"b2"}} d e d2 r4
     d4^\markup {\small \bold {"c2"}} e d e d  
     e^\markup {\small \bold {"d2"}}  d e d d2 r4

@@ -188,7 +188,7 @@
 
   \tag #'tpaop {
 
-    f,2^\markup {\small \bold {"a"}} g
+    f2^\markup {\small \bold {"a"}} g
 
     \override Stem #'transparent = ##t
     \override Beam #'transparent = ##t
@@ -232,7 +232,7 @@
   \tag #'tbn {
 
     \clef bass
-    f'2^\markup {\small \bold {"a"}} g
+    f2^\markup {\small \bold {"a"}} g
 
     \override Stem #'transparent = ##t
     \override Beam #'transparent = ##t

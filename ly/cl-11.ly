@@ -223,7 +223,7 @@
                                 % TROMPA OP
 
     \tag #'tpaop {
-      e,4^\markup {\column {{\bold "Parte 1"} {\bold {"a"}}}}
+      e4^\markup {\column {{\bold "Parte 1"} {\bold {"a"}}}}
       e e d2  
       d4^\markup {\bold {"b"}} e e e d2 
       d4^\markup { \bold {"c"}} d d d e e
@@ -250,7 +250,7 @@
 
     \tag #'tbn {
       \clef bass
-      e'4^\markup {\column {{\bold "Parte 1"} {\bold {"a"}}}}
+      e4^\markup {\column {{\bold "Parte 1"} {\bold {"a"}}}}
       e e d2  
       d4^\markup {\bold {"b"}} e e e d2 
       d4^\markup { \bold {"c"}} d d d e e

@@ -90,6 +90,16 @@
     e4^\markup {\small \bold {"d3"}} e2 d2 r4
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    e4^\markup {\small \bold {"a3"}} e e d e2 
+    d4^\markup {\small \bold {"b3"}} d d e d2 \breathe
+    e4^\markup {\small \bold {"c3"}} e e d d2 
+    e4^\markup {\small \bold {"d3"}} e2 d2 r4
+  }
+
                                 % TROMBONE
 
   \tag #'tbn {

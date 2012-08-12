@@ -141,7 +141,7 @@
 
   \tag #'tpaop {
 
-    c,,2*1/16^\markup{Fá}
+    c,2*1/16^\markup{Fá}
     d32
     e2*1/16
     f32
@@ -158,7 +158,7 @@
 
     \clef bass
 
-    c2*1/16^\markup{Sib}
+    c,2*1/16^\markup{Sib}
     d32
     e2*1/16
     f32

@@ -85,7 +85,7 @@
 
   \tag #'tpaop {
 
-    g,1^\markup {\small \bold {"a"}}
+    g1^\markup {\small \bold {"a"}}
     r^\markup {\small \bold {"b"}}
     r^\markup {\small \bold {"c"}}
     r1^\markup {\small \bold {"d"}}
@@ -102,7 +102,7 @@
 
   \tag #'tbn {
     \clef bass
-    g'1^\markup {\small \bold {"a"}}
+    g1^\markup {\small \bold {"a"}}
     r^\markup {\small \bold {"b"}}
     r^\markup {\small \bold {"c"}}
     r1^\markup {\small \bold {"d"}}
