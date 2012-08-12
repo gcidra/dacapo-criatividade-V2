@@ -1342,7 +1342,7 @@
                           % TROMPA OP
 
   \tag #'tpaop {
-    \mark \default c,1
+    \mark \default c1
     \override Stem #'transparent = ##t
     \override Beam #'transparent = ##t
                                 %\once \override Voice.NoteHead #'stencil = #ly:text-interface::print
@@ -1509,7 +1509,7 @@
 
   \tag #'tbn {
     \clef bass
-    \mark \default c'1
+    \mark \default c1
     \override Stem #'transparent = ##t
     \override Beam #'transparent = ##t
                                 %\once \override Voice.NoteHead #'stencil = #ly:text-interface::print

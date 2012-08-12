@@ -119,7 +119,7 @@
                                 % TROMPA OP
 
   \tag #'tpaop {
-    d,2^\markup {\small \bold {"a"}} e f r
+    d2^\markup {\small \bold {"a"}} e f r
     
     f^\markup {\small \bold {"b"}} e4 d e2 r 
 
@@ -133,7 +133,7 @@
 
   \tag #'tbn {
     \clef bass
-    d'2^\markup {\small \bold {"a"}} e f r
+    d2^\markup {\small \bold {"a"}} e f r
     
     f^\markup {\small \bold {"b"}} e4 d e2 r 
 

@@ -768,7 +768,7 @@
             \override Score.BarNumber #'transparent = ##t
             \time 2/4
 
-            c,4^\markup { \column {\bold {Allegro} \line {\bold {Parte 1} - Melodia } \line {\bold {a \hspace #1.0 1 \tiny \raise #0.5 "a"  voz }}}}
+            c4^\markup { \column {\bold {Allegro} \line {\bold {Parte 1} - Melodia } \line {\bold {a \hspace #1.0 1 \tiny \raise #0.5 "a"  voz }}}}
             
 
             d e d
@@ -864,7 +864,7 @@
             \time 2/4
             \clef bass
 
-            c'4^\markup { \column {\bold {Allegro} \line {\bold {Parte 1} - Melodia } \line {\bold {a \hspace #1.0 1 \tiny \raise #0.5 "a"  voz }}}}
+            c4^\markup { \column {\bold {Allegro} \line {\bold {Parte 1} - Melodia } \line {\bold {a \hspace #1.0 1 \tiny \raise #0.5 "a"  voz }}}}
             
 
             d e d

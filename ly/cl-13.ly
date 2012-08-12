@@ -874,7 +874,7 @@
                                 % TROMPA OP
 
   \tag #'tpaop {
-    f,2 r4 e2 r4 \bar "||"
+    f2 r4 e2 r4 \bar "||"
     \override Stem #'transparent = ##t
     \override Beam #'transparent = ##t
     \mark \default  s8 d e f g s
@@ -982,7 +982,7 @@
 
   \tag #'tbn {
     \clef bass
-    f'2 r4 e2 r4 \bar "||"
+    f2 r4 e2 r4 \bar "||"
     \override Stem #'transparent = ##t
     \override Beam #'transparent = ##t
     \mark \default  s8 d e f g s

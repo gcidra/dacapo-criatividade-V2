@@ -215,7 +215,7 @@
 
   \tag #'tpaop {
 
-    f,2^\markup {\small \bold {"a"}} e4 d2 r4
+    f2^\markup {\small \bold {"a"}} e4 d2 r4
     
     e2^\markup {\small \bold {"b"}}   
 
@@ -241,7 +241,7 @@
   \tag #'tbn {
     \clef bass
 
-    f'2^\markup {\small \bold {"a"}} e4 d2 r4
+    f2^\markup {\small \bold {"a"}} e4 d2 r4
     
     e2^\markup {\small \bold {"b"}}   
 

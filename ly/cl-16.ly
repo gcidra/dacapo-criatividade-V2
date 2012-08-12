@@ -371,7 +371,7 @@
                                 % TROMPA OP
 
   \tag #'tpaop {
-    \mark \default c,1
+    \mark \default c1
     \mark \default d
     \mark \default e
     \mark \default f
@@ -416,7 +416,7 @@
 
   \tag #'tbn {
     \clef bass
-    \mark \default c'1
+    \mark \default c1
     \mark \default d
     \mark \default e
     \mark \default f

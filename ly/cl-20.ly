@@ -955,7 +955,7 @@
 
             \partial 4*1
 
-            e,4^\markup { \column {\bold {Allegro} \line { \bold {Parte 1} - Melodia } \line {\bold {A \hspace #1.0 1 \tiny \raise #0.5 "a"   voz } } } }
+            e4^\markup { \column {\bold {Allegro} \line { \bold {Parte 1} - Melodia } \line {\bold {A \hspace #1.0 1 \tiny \raise #0.5 "a"   voz } } } }
             c c d d
             e2 c4 
             e^\markup {\bold "B" }
@@ -1073,7 +1073,7 @@
 
             \partial 4*1
 
-            e'4^\markup { \column {\bold {Allegro} \line { \bold {Parte 1} - Melodia } \line {\bold {A \hspace #1.0 1 \tiny \raise #0.5 "a"   voz } } } }
+            e4^\markup { \column {\bold {Allegro} \line { \bold {Parte 1} - Melodia } \line {\bold {A \hspace #1.0 1 \tiny \raise #0.5 "a"   voz } } } }
             c c d d
             e2 c4 
             e^\markup {\bold "B" }

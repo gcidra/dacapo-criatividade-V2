@@ -1891,7 +1891,7 @@
             \time 3/4
             \override Score.BarNumber #'transparent = ##t
 
-            g4^\markup { \column {\line { \bold {Parte 1} - Melodia. } 
+            g'4^\markup { \column {\line { \bold {Parte 1} - Melodia. } 
                                    \line {\bold {a \hspace #1.0 1 \tiny \raise #0.5 "a"   voz } } } }
 
             g g f2  
@@ -1912,7 +1912,7 @@
             \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
             \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
 
-            c8^\markup { \column {\line { \bold {Parte 2} - Improvise com as notas das escalas.} \bold {a1} teste } } 
+            c8^\markup { \column {\line { \bold {Parte 2} - Improvise com as notas das escalas.} \bold {a1} Fá } } 
             d
 
             \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
@@ -1931,7 +1931,7 @@
             \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
             \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
 
-            c,8^\markup{Fá}
+            c,8^\markup{Sib}
             d
             e
 
@@ -1946,7 +1946,7 @@
             \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
             \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
 
-            c,8^\markup {\column{\bold {"b1"} Dó}}
+            c,8^\markup {\column{\bold {"b1"} Fá}}
             d
 
             \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
@@ -1966,7 +1966,7 @@
             \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
             \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
 
-            c,8^\markup{Fá}
+            c,8^\markup{Sib}
             d
             e
 
@@ -1997,7 +1997,7 @@
             \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
             \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
 
-            c,8^\markup{Dó}
+            c,8^\markup{Fá}
             d
 
             \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
@@ -2036,7 +2036,7 @@
             \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
             \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
 
-            c,8^\markup{Fá}
+            c,8^\markup{Sib}
             d
             e
 
@@ -2126,7 +2126,7 @@
             \override Score.BarNumber #'transparent = ##t
             \clef bass
 
-            g''4^\markup { \column {\line { \bold {Parte 1} - Melodia. } 
+            g'4^\markup { \column {\line { \bold {Parte 1} - Melodia. } 
                                    \line {\bold {a \hspace #1.0 1 \tiny \raise #0.5 "a"   voz } } } }
 
             g g f2  
