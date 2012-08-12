@@ -380,6 +380,51 @@
 
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+    \mark \default g'1
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t
+    \mark \default d4 g  s2
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+    \mark \default d4 g  s2
+    \revert NoteHead #'style
+    \revert Stem #'transparent 
+    \revert Beam #'transparent
+    \revert NoteHead #'font-size
+    \bar "||"
+
+    \mark \default c,1
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t
+    \mark \default c4 g' s2
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+    \mark \default c,4 g' s2
+    \revert NoteHead #'style
+    \revert Stem #'transparent 
+    \revert Beam #'transparent
+    \revert NoteHead #'font-size
+    \bar "||"
+
+    \mark \default f1
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t
+    \mark \default c4 f  s2
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+    \mark \default c4 f s2
+    \revert NoteHead #'style
+    \revert Stem #'transparent 
+    \revert Beam #'transparent
+    \revert NoteHead #'font-size
+    \bar "||"
+
+    \mark \default c1
+
+  }
 
                                 % TROMBONE
 

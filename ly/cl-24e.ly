@@ -91,6 +91,15 @@
     e^\markup{\bold {"D4"}} f g f e d c2 
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+    \hideNotes
+    c4^\markup{\bold {"A4"}} d | e f g a g f
+    e^\markup{\bold {"B4"}} d c d e f g r
+    c,^\markup{\bold {"C4"}} d e f g a g f
+    e^\markup{\bold {"D4"}} f g f e d c2 
+  }
 
                                 % TROMBONE
 

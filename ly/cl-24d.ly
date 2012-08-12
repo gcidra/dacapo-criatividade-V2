@@ -107,6 +107,17 @@
 
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    c4^\markup{\bold {"A3"}} d  e( f) g a g f
+    e^\markup{\bold {"B3"}} d c( d) e f g r
+    c,^\markup{\bold {"C3"}} d e( f) g a 
+    g f e^\markup{\bold {"D3"}} f g( f) e d c2 \bar "||"  
+
+
+  }
 
                                 % TROMBONE
 

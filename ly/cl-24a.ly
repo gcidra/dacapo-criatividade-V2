@@ -118,6 +118,18 @@
 
     }
 
+                                % TROMPA OP
+
+    \tag #'tpaop {
+
+      c4^\markup {\bold {"A"}} e 
+      g g g a g g  
+      f^\markup{\bold {"B"}} e d e f d e r
+      c^\markup{\bold {"C"}} e g g g a g g
+      f^\markup{\bold {"D"}} e d2 g c,^\markup { \italic \bold {"Fim"}} 
+
+
+    }
 
                                 % TROMBONE
 

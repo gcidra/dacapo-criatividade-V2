@@ -139,6 +139,22 @@
 
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+    
+    c4^\markup {\small \bold {"a"}} d e2	
+    f4^\markup {\small \bold {"b"}} d 
+
+    \hideNotes
+    e4 e 
+    f4^\markup {\small \bold {"c"}} d g g	
+
+    \unHideNotes
+    e4^\markup {\small \bold {"d"}} d c2
+
+  }
+
 
                                 % TROMBONE
 

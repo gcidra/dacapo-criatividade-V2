@@ -342,6 +342,88 @@
   }
 
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+    c,4( d) e( c) d2( g)
+    f4( e) d( c) d2( g)
+    f4( e) d( c) e2( d)
+    \break
+
+                                %1
+    \override Staff.ClefSignature #'transparent = ##t
+
+    e4^\markup {\bold "1" }( f) e( d) | c2 c
+    \bar "|."
+
+    \hideNotes
+    \stopStaff
+    f1
+    \unHideNotes
+    \startStaff
+
+                                %2
+
+    e4^\markup {\bold "2" }( f) e( d) | e2 e
+
+    \bar "|."
+
+    \hideNotes
+    \stopStaff
+    f1
+    \unHideNotes
+    \startStaff
+
+
+                                %3
+
+    e4^\markup {\bold "3" }( d) e( f) | g2 g
+
+    \bar "|."
+
+  }
+
+                                % TROMPA OP
+
+  \tag #'tpaop {
+    c,4( d) e( c) d2( g)
+    f4( e) d( c) d2( g)
+    f4( e) d( c) e2( d)
+    \break
+
+                                %1
+    \override Staff.ClefSignature #'transparent = ##t
+
+    e4^\markup {\bold "1" }( f) e( d) | c2 c
+    \bar "|."
+
+    \hideNotes
+    \stopStaff
+    f1
+    \unHideNotes
+    \startStaff
+
+                                %2
+
+    e4^\markup {\bold "2" }( f) e( d) | e2 e
+
+    \bar "|."
+
+    \hideNotes
+    \stopStaff
+    f1
+    \unHideNotes
+    \startStaff
+
+
+                                %3
+
+    e4^\markup {\bold "3" }( d) e( f) | g2 g
+
+    \bar "|."
+
+  }
+
                                 % TROMBONE
 
   \tag #'tbn {

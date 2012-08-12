@@ -59,6 +59,11 @@
     c1 d e f g a | r | a g f e d c
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+    c1 d e f g a | r | a g f e d c
+  }
 
                                 % TROMBONE
 
