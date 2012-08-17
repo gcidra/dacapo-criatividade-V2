@@ -233,521 +233,176 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
 
-\section{Improvisando em Eu Chole, Chole, Lá}
-\label{sec:impr-em-eu-chole-la}
+\section{Mais perguntas e respostas}
+\label{sec:mais-perguntas-respostas}
+
+\begin{tabular}{ll}
+  \em  & \em  \\
+  \begin[fragment]{lilypond}
+    \transpose c c {
+      \keepWithTag #'cl
+      \include "cl-61-1.ly" }
+  \end{lilypond}
+  & 
+  \begin[fragment]{lilypond}
+    \transpose c c {
+      \keepWithTag #'cl
+      \include "cl-61-2.ly" }
+  \end{lilypond}
+  \\
+  \begin[fragment]{lilypond}
+    \transpose c c {
+      \keepWithTag #'cl
+      \include "cl-61-3.ly" }
+  \end{lilypond}
+  & 
+  \begin[fragment]{lilypond}
+    \transpose c c {
+      \keepWithTag #'cl
+      \include "cl-61-4.ly" }
+  \end{lilypond}
+  \\
+  \begin[fragment]{lilypond}
+    \transpose c c {
+      \keepWithTag #'cl
+      \include "cl-61-5.ly" }
+  \end{lilypond}
+  & 
+  \begin[fragment]{lilypond}
+    \transpose c c {
+      \keepWithTag #'cl
+      \include "cl-61-6.ly" }
+  \end{lilypond}
+  \\
+  \begin[fragment]{lilypond}
+    \transpose c c {
+      \keepWithTag #'cl
+      \include "cl-61-7.ly" }
+  \end{lilypond}
+  & 
+  \begin[fragment]{lilypond}
+    \transpose c c {
+      \keepWithTag #'cl
+      \include "cl-61-8.ly" }
+  \end{lilypond}
+  \\
+  \begin[fragment]{lilypond}
+    \transpose c c {
+      \keepWithTag #'cl
+      \include "cl-61-9.ly" }
+  \end{lilypond}
+  & 
+  \begin[fragment]{lilypond}
+    \transpose c c {
+      \keepWithTag #'cl
+      \include "cl-61-10.ly" }
+  \end{lilypond}
+  \\
+  \begin[fragment]{lilypond}
+    \transpose c c {
+      \keepWithTag #'cl
+      \include "cl-61-11.ly" }
+  \end{lilypond}
+  & 
+  \begin[fragment]{lilypond}
+    \transpose c c {
+      \keepWithTag #'cl
+      \include "cl-61-12.ly" }
+  \end{lilypond}
+  \\
+  \begin[fragment]{lilypond}
+    \transpose c c {
+      \keepWithTag #'cl
+      \include "cl-61-13.ly" }
+  \end{lilypond}
+  & 
+  \begin[fragment]{lilypond}
+    \transpose c c {
+      \keepWithTag #'cl
+      \include "cl-61-14.ly" }
+  \end{lilypond}
+  \\
+\end{tabular}
+
+
+\begin{enumerate}
+
+\item Um instrumentista ``pergunta'', tocando um trecho da coluna
+  esquerda, e um outro ``responde'', tocando um trecho da coluna
+  direita.
+
+\item Fazer os jogos explicados no exercício
+  \ref{sec:perguntas-respostas} -
+  \textit{``\nameref{sec:perguntas-respostas}''} na página \pageref{sec:perguntas-respostas}.
+
+\end{enumerate}
+
+\break
+\section{Escolhendo perguntas e respostas}
+\label{sec:escolhendo-perg-respostas}
+
 \begin{lilypond}
   \transpose c c {
     \keepWithTag #'cl
-    \include "cl-46a.ly"}
+    \include "cl-61-1b.ly" }
 \end{lilypond}
 
 
-% %%%%%%%%%%%%%%%%%%%%%%%% INICIO QUADRO 11 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% \begin{table}[ht]
-%   \centering
-%     \renewcommand{\tablename}{Quadro}
-%   \caption{}
-%   \label{Quadro_11}
-%   \begin{tabular}[t]{|l|lp{2cm}|l|l|}
-%     \hline
-
-%     %%% PRÓXIMA LINHA
-%     \letraquadrada{A}   &   \multicolumn{2}{|l|}{\letraquadrada{B}}    &   \letraquadrada{C}   &   \letraquadrada{D}
-   
-
-%     %%% PRÓXIMA LINHA
-%     \\
-%     \quadtitulo{%#nota-09#%} 
-%     &
-%     \multicolumn{2}{|l|}{\quadtitulo{Armadura de clave de %#armadura-03-01#% maior}}
-%     &
-%     \quadtitulo{Bequadro}
-%     &
-%     \quadtitulo{Andante}
-
-%     %%% PRÓXIMA LINHA
-%     \\
-%     \begin[fragment]{lilypond}
-%       \transpose c c {
-%         \keepWithTag #'cl
-%         \include "notas-09.ly"
-%       }
-%     \end{lilypond}    
-%     &
-%     \begin[fragment]{lilypond}
-%       \transpose c c {
-%         \keepWithTag #'cl
-%         \include "armadura-03.ly"
-%       }
-%     \end{lilypond}
-%     &
-%     \quadtexto{Indica que %#armadura-03-02#%.}
-%     &
-%     \includegraphics[scale=1]{bequadro}    
-%     &
-%     \includegraphics[scale=1]{devagar}
-
-%     %%% PRÓXIMA LINHA
-%     \\
-%     \includegraphics[scale=3.15]{%#fig-posicoes#%-09}    &\em    &\em    &\em    &\em
-
-
-%     %%% FINAL DAS LINHAS
-%   \\
-%   \hline
-%   \end{tabular}
-% \end{table}    
-
-% %%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% %%break-fl
-% %%break-cl
-% %%break-fg
-% %%break-tpa
-% %%break-saxh
-% %%break-tpt
-% %%break-bomsibClaveSol
-% %%break-bomdo
-% %%break-bomsibsib
-% %%break-bomsibDo
-% %%break-tbn
-% %%break-tbamibDo
-% %%break-tbamibmib
-% %%break-tbasibsib8acima
-% %%break-tbasibsib8abaixo
-% \section{Escala do modo lídio-mixolídio e improviso}
-% \label{sec:escala-e-improviso}
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-49.ly"}
-% \end{lilypond}
-
-
-% \section{Vamos terminar a melodia!}
-% \label{sec:vamos-term-melodia}
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-51.ly"}
-% \end{lilypond}
-
-% %%break-fl
-% %%break-saxt
-% %%break-saxh
-% %%break-fg
-% %%break-tpt
-% %%break-bomsibClaveSol
-% %%break-bomdo
-% %%break-bomsibsib
-% %%break-bomsibDo
-% %%break-tbn
-% %%break-tbamibDo
-% %%break-tbasibsib8acima
-% %%break-tbasibsib8abaixo
-% \section{Improvisando e imitando em dó maior}
-% \label{sec:impr-imit-do-maior}
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-52.ly"}
-% \end{lilypond}
-
-
-% \section{Improvisando e imitando em dó menor}
-% \label{sec:impr-imit-do-menor}
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-53.ly"}
-% \end{lilypond}
-
-% %%break-cl
-% \section{Divertindo-se em dó maior e dó menor}
-% \label{sec:divertindo-em-do-maior-do-menor}
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-54.ly"}
-% \end{lilypond}
-
-
-% \section{Variações sobre Pombinha Rolinha}
-% \label{sec:vari-sobre-pombinha-rolinha}
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-55a.ly"}
-% \end{lilypond}
-
-
-% \subsection*{Variação 1}
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-55b.ly"}
-% \end{lilypond}
-
-% %%break-bomsibsib
-% %%break-bomsibDo
-% %%break-tbasibsib8acima
-% \subsection*{Variação 2}
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-55c.ly"}
-% \end{lilypond}
-
-
-% \subsection*{Variação 3 - Esta você escreve!}
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-55d.ly"}
-% \end{lilypond}
-
-
-% Volte à melodia principal, ou \textbf{Tema}, e termine no
-% \textbf{\textit{Fim}}.
-
-% \section{Palmas, pés e improviso em Carambola}
-% \label{sec:palmas-pes-improviso-carambola}
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-56.ly"}
-% \end{lilypond}
-
-
-% \section{Vamos escrever uma segunda voz para Ró-ró-ró}
-% \label{sec:vamos-escrever-segunda-voz-ro-ro-ro}
-% \subsection*{Cânone}
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-57.ly"}
-% \end{lilypond}
-
-
-% % RETIRADO A PEDIDO DE JOEL
-% % \section{Estrela}
-% % \label{sec:estrela}
-% % 
-% % Improvise com as notas da estrela. Repita-as quantas vezes quiser
-% % antes de passar para a próxima. Mas siga os traços entre elas.
-% % 
-% % \includegraphics[scale=1]{estrela}
-
-% %%%%%%%%%%%%%%%%%%%%%%%% INICIO QUADRO 12 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% \begin{table}[ht]
-%   \centering
-%   \renewcommand{\tablename}{Quadro}
-%   \caption{}
-%   \label{Quadro_12}
-%   \begin{tabular}[t]{|l|l|l|l|}
-%     \hline
-
-%     %%% PRÓXIMA LINHA
-%     \letraquadrada{A}   &   \letraquadrada{B}    &   \letraquadrada{C}   &   \letraquadrada{D}
-   
-
-%     %%% PRÓXIMA LINHA
-%     \\
-%     \quadtitulo{%#nota-10#%} 
-%     &
-%     \quadtitulo{Dinâmicas}
-%     &
-%     \quadtitulo{Divisi}
-%     &
-%     \quadtitulo{Fermata}
-
-%     %%% PRÓXIMA LINHA
-%     \\
-%     \begin[fragment]{lilypond}
-%       \transpose c c {
-%         \keepWithTag #'cl
-%         \include "notas-10.ly"
-%       }
-%     \end{lilypond}
-%     &
-%     \includegraphics[scale=1]{piano-e-forte}
-%     &
-%     \includegraphics[scale=1]{divisi}
-%     &
-%     \includegraphics[scale=1]{fermata}
-
-
-%     %%% PRÓXIMA LINHA
-%     \\
-%     \includegraphics[scale=3.15]{%#fig-posicoes#%-10}    &\em    &\em    &\em
-
-
-%     %%% FINAL DAS LINHAS
-%   \\
-%   \hline
-%   \end{tabular}
-% \end{table}    
-
-% %%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% %%break-fg
-% %%break-saxh
-% %%break-bomdo
-% %%break-bomsibsib
-% %%break-bomsibDo
-% %%break-tbn
-% %%break-tbamibDo
-% \section{Improvisando em Boi Barroso}
-% \label{sec:improvisando-boi-barroso}
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-58.ly"}
-% \end{lilypond}
-
-% Volte ao início e termine no \textbf{\textit{Fim}}.
-
-% Na \textbf{Parte 2}, crie sua linha melódica, variando a escolha entre
-% as duas notas que compreendem a melodia.
-
-% %%break-ob
-% %%break-saxa
-% \section{Escala do modo frígio sobre lá}
-% \label{sec:escalas-sobre-la}
-
-% \subsection*{Parte 1}
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-59a.ly"}
-% \end{lilypond}
-
-% Toque todo esse exercício substituindo o %#fasustenido#% pelo %#fanatural#%.
-
-% %%break-fg
-% %%break-bomdo
-% %%break-bomsibsib
-% %%break-bomsibDo
-% %%break-tbn
-% %%break-tbasibsib8abaixo
-% %%break-tbamibDo
-% %%break-tbamibmib
-% \subsection*{Parte 2}
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-59b.ly"}
-% \end{lilypond}
-
-% %%break-saxa
-% %%break-tbasibDo
-% \subsection*{Parte 3}
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-59c.ly"}
-% \end{lilypond}
-
-% %%break-fg
-% \section{Improvisando em dó menor}
-% \label{sec:impr-do-menor}
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-60.ly"}
-% \end{lilypond} 
-
-% Repita a Parte A diversas vezes, passando para a Parte B apenas quando
-% for indicado pelo maestro ou pelo(s) improvisador(es). Repita a Parte
-% B diversas vezes, diminuindo o som até ele sumir na última nota.
-
-% %%break-saxa
-% \section{Asa Branca}
-% \label{sec:asa-branca}
-% Aprenda ``de ouvido'' a música
-% \textit{\nameref{sec:asa-branca}} de Luiz Gonzaga e Humberto Teixeira.
-% Decore-a, improvise e depois escreva uma variação para ela.
-
-% Inicie com a nota %#nota-Cl-Do#%.
-
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-pauta.ly"}
-% \end{lilypond}
-
-% \section{Mais perguntas e respostas}
-% \label{sec:mais-perguntas-respostas}
-
-% \begin{tabular}{ll}
-%   \em  & \em  \\
-%   \begin[fragment]{lilypond}
-%     \transpose c c {
-%       \keepWithTag #'cl
-%       \include "cl-61-1.ly" }
-%   \end{lilypond}
-%   & 
-%   \begin[fragment]{lilypond}
-%     \transpose c c {
-%       \keepWithTag #'cl
-%       \include "cl-61-2.ly" }
-%   \end{lilypond}
-%   \\
-%   \begin[fragment]{lilypond}
-%     \transpose c c {
-%       \keepWithTag #'cl
-%       \include "cl-61-3.ly" }
-%   \end{lilypond}
-%   & 
-%   \begin[fragment]{lilypond}
-%     \transpose c c {
-%       \keepWithTag #'cl
-%       \include "cl-61-4.ly" }
-%   \end{lilypond}
-%   \\
-%   \begin[fragment]{lilypond}
-%     \transpose c c {
-%       \keepWithTag #'cl
-%       \include "cl-61-5.ly" }
-%   \end{lilypond}
-%   & 
-%   \begin[fragment]{lilypond}
-%     \transpose c c {
-%       \keepWithTag #'cl
-%       \include "cl-61-6.ly" }
-%   \end{lilypond}
-%   \\
-%   \begin[fragment]{lilypond}
-%     \transpose c c {
-%       \keepWithTag #'cl
-%       \include "cl-61-7.ly" }
-%   \end{lilypond}
-%   & 
-%   \begin[fragment]{lilypond}
-%     \transpose c c {
-%       \keepWithTag #'cl
-%       \include "cl-61-8.ly" }
-%   \end{lilypond}
-%   \\
-%   \begin[fragment]{lilypond}
-%     \transpose c c {
-%       \keepWithTag #'cl
-%       \include "cl-61-9.ly" }
-%   \end{lilypond}
-%   & 
-%   \begin[fragment]{lilypond}
-%     \transpose c c {
-%       \keepWithTag #'cl
-%       \include "cl-61-10.ly" }
-%   \end{lilypond}
-%   \\
-%   \begin[fragment]{lilypond}
-%     \transpose c c {
-%       \keepWithTag #'cl
-%       \include "cl-61-11.ly" }
-%   \end{lilypond}
-%   & 
-%   \begin[fragment]{lilypond}
-%     \transpose c c {
-%       \keepWithTag #'cl
-%       \include "cl-61-12.ly" }
-%   \end{lilypond}
-%   \\
-%   \begin[fragment]{lilypond}
-%     \transpose c c {
-%       \keepWithTag #'cl
-%       \include "cl-61-13.ly" }
-%   \end{lilypond}
-%   & 
-%   \begin[fragment]{lilypond}
-%     \transpose c c {
-%       \keepWithTag #'cl
-%       \include "cl-61-14.ly" }
-%   \end{lilypond}
-%   \\
-% \end{tabular}
-
-
-% \begin{enumerate}
-
-% \item Um instrumentista ``pergunta'', tocando um trecho da coluna
-%   esquerda, e um outro ``responde'', tocando um trecho da coluna
-%   direita.
-
-% \item Fazer os jogos explicados no exercício
-%   \ref{sec:perguntas-respostas} -
-%   \textit{``\nameref{sec:perguntas-respostas}''} na página \pageref{sec:perguntas-respostas}.
-
-% \end{enumerate}
-
-% \break
-% \section{Escolhendo perguntas e respostas}
-% \label{sec:escolhendo-perg-respostas}
-
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-61-1b.ly" }
-% \end{lilypond}
-
-
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-61-2b.ly" }
-% \end{lilypond}
-
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-61-3b.ly" }
-% \end{lilypond}
-
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-61-4b.ly" }
-% \end{lilypond}
-
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-61-5b.ly" }
-% \end{lilypond}
-
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-61-6b.ly" }
-% \end{lilypond}
-
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-61-7b.ly" }
-% \end{lilypond}
-
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-61-8b.ly" }
-% \end{lilypond}
-
-
-% Toque as linhas de 1 a 8 e descubra quais são perguntas e quais
-% respostas. Depois brinque de Perguntas e Respostas.
-
-% % \newpage
-% \break
-% \section{Vamos escrever a segunda voz de Coelhinho!}
-% \label{sec:vamos-escr-segunda-voz-coelhinho}
-% \begin{lilypond}
-%   \transpose c c {
-%     \keepWithTag #'cl
-%     \include "cl-62.ly"}
-% \end{lilypond}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-61-2b.ly" }
+\end{lilypond}
+
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-61-3b.ly" }
+\end{lilypond}
+
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-61-4b.ly" }
+\end{lilypond}
+
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-61-5b.ly" }
+\end{lilypond}
+
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-61-6b.ly" }
+\end{lilypond}
+
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-61-7b.ly" }
+\end{lilypond}
+
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-61-8b.ly" }
+\end{lilypond}
+
+
+Toque as linhas de 1 a 8 e descubra quais são perguntas e quais
+respostas. Depois brinque de Perguntas e Respostas.
+
+% \newpage
+\break
+\section{Vamos escrever a segunda voz de Coelhinho!}
+\label{sec:vamos-escr-segunda-voz-coelhinho}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-62.ly"}
+\end{lilypond}
 
 
 
