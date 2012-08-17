@@ -263,6 +263,39 @@
   }
 
 
+
+
+                                % TROMPA OP
+
+  \tag #'tpaop {
+    d8 e fis g a g fis e 
+    d4 r a' r
+    \mark \default 
+    d,8 e f g a g f e 
+    d4 r a' r
+    \mark \default 
+    a8 fis? d fis a fis d fis 
+    a4 r fis r
+    \mark \default 
+    a8 f d f a f d f 
+    a4 r fis r
+    \mark \default 
+    a8 fis? g e fis d e g
+    a4 r fis r
+    \mark \default 
+    a8 f g e f d e g
+    a4 r f r
+    \mark \default 
+    d8 fis? g e fis a g e
+    d4 r a'r
+    \mark \default 
+    d,8 f g e f a g e
+    d4 r a' r
+    \mark \default 
+    d,1
+
+  }
+
                                 % TROMBONE
 
   \tag #'tbn {

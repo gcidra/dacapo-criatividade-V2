@@ -62,6 +62,12 @@
   }
 
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+    d8\p\<( e fis) d\! g4 r4
+  }
+
                                 % TROMBONE
 
   \tag #'tbn {

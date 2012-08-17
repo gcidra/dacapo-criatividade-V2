@@ -867,6 +867,113 @@
   }
 
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+    \new ChoirStaff <<
+      <<
+        \new Staff
+        {
+          \key d \minor
+
+
+          \override Staff.TimeSignature #'style = #'()
+          \time 4/4 
+          
+          \override Score.BarNumber #'transparent = ##t
+                                %\override Score.RehearsalMark #'font-family = #'roman
+          \override Score.RehearsalMark #'font-size = #-2
+
+          \override Stem #'transparent = ##t
+          \override Beam #'transparent = ##t
+
+
+          \repeat volta 2 {
+
+            r1^\markup {\column {\bold {Andante \line {1 \tiny \raise #0.5 "a"   voz}}}} r1	
+          }
+
+
+          \repeat volta 2 {
+
+            c8\f^\markup {\bold A }
+            
+
+            \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
+            \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
+
+            d e f g a bes4 
+            c,8 
+
+            \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
+            \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
+
+            d e f g a bes4 
+
+          }
+
+          \revert Stem #'transparent 
+          \revert Beam #'transparent 
+
+
+          \repeat volta 2 {
+            d,4^\markup {\bold B} a'8 g f4 d a' a8 g f4 e 
+          }
+
+          d1\p
+          \bar "|."
+
+        }
+
+        \new Staff
+        {
+
+          \key d \minor
+          \override Staff.TimeSignature #'style = #'()
+          \time 4/4 
+
+          \repeat volta 2 {
+            d4\f^\markup {\bold {2 \tiny \raise #0.5 "a"   voz}} a'8 g f4 d a' a8 g f4 e 
+          }
+
+          \repeat volta 2 {
+            d4\p a'8 g f4 d a' a8 g f4 e 
+
+          }
+
+          \repeat volta 2 {
+            d4 a'8 g f4 d a' a8 g f4 e 
+          }
+
+          d1\p
+        }
+
+
+        \new Staff
+        {
+
+          \key d \minor
+          \override Staff.TimeSignature #'style = #'()
+          \time 4/4 
+
+          \repeat volta 2 {
+            d4\f^\markup {\bold {3 \tiny \raise #0.5 "a"   voz}} r4 r2 r1
+          }
+
+          \repeat volta 2 {
+            d4\p r4 r2 r1
+          }
+
+          \repeat volta 2 {
+            d4 a'8 g f4 d a' a8 g f4 e 
+          }
+
+          d1\p
+        }
+      >>
+    >>
+  }
+
                                 % TROMBONE
 
   \tag #'tbn {

@@ -327,6 +327,45 @@
   }
 
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+    g'8^\markup {\column {\bold{Andante} \small \bold {"a"}}}  f e c e g
+    fis2 g8 f e c 
+    d4 g8^\markup {\small \bold {"b"}} f e d c d
+    e2 c8 c d e 
+    
+    \break
+
+    fis4
+
+    \hideNotes
+    
+    g8^\markup {\small \bold {"c"}} f e c e g 
+
+    \unHideNotes
+    
+    \stemDown bes2
+
+    \hideNotes
+
+    a8 a a a
+    a a^\markup {\small \bold {"d"}} a a a a a a
+
+    \unHideNotes
+
+    \stemDown bes2
+
+    \hideNotes
+    
+    a8 a a a
+
+    \unHideNotes
+
+    \stemUp c,4
+
+  }
+
                                 % TROMBONE
 
   \tag #'tbn {

@@ -82,6 +82,15 @@
   }
 
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+    d4^\markup {\column {\bold {A2}}} g a g fis g a g fis e fis2  
+    fis4^\markup {\bold B2} e fis g fis e d d e fis g2.  g4 s
+    g^\markup {\bold C2} fis8 e d c d e fis4 s fis g8 fis e d e fis g4 s
+    g^\markup {\bold D2} fis a fis e d fis g2.  g4 s 
+  }
+
                                 % TROMBONE
 
   \tag #'tbn {

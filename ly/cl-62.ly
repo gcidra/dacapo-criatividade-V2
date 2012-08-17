@@ -446,6 +446,57 @@
   }
 
 
+
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    \new ChoirStaff <<
+      <<
+        \new Staff {
+
+          \override Score.BarNumber #'transparent = ##t
+          \key d \major
+          \time 2/4
+          \partial 4
+
+          fis8^\markup {\bold {A}} g a a fis g a a 
+          a^\markup {\bold {B}} a 
+
+          b4 a g 
+
+          \breathe
+          e8^\markup {\bold {C}} fis g g e fis g 
+          g^\markup {\bold {D}} 
+
+          g b8 a4 g fis8 fis  
+          \bar "|."
+
+        }
+
+        \context Lyrics = mainlyrics \lyricmode {
+          Co8 -- e -- lhi -- nho, co -- e -- lhi -- nho,
+          Vem co -- mer4 fei -- jão.
+          Fei8 -- jão ver -- de, fei -- jão ver -- de
+          Eu não que4 -- ro, não.
+        }
+
+
+        \new Staff {
+          \key d \major
+          \time 2/4
+          \partial 4
+
+          d8 e fis fis s4 \skip 1 e4 
+          \breathe
+          e8 d \skip 2*3 d8 d
+          \bar "|."
+        }
+      >>
+    >>
+  }
+
+
                                 % TROMBONE
 
   \tag #'tbn {

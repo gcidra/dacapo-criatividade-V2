@@ -93,6 +93,16 @@
     }
 
 
+                                % TROMPA OP
+
+    \tag #'tpaop {
+      d4^\markup {\column {\bold {Allegro  A}}} g g g fis fis fis e e e d2  
+      d4^\markup {\bold B} e e e d d d c c c b2. ~ b4 r
+      d^\markup {\bold C} c2. ~ c4 r d b2. ~ b4 r
+      d^\markup {\bold D} c c c c2 d4 b2. ~ b4 r^\markup { \italic \bold Fim  } 
+
+    }
+
                                 % TROMBONE
 
     \tag #'tbn {
