@@ -1,8 +1,8 @@
 # file = dacapo.lytex
-file = dacapo-vol1.lytex
+# file = dacapo-vol1.lytex
 # file = dacapo-vol2.lytex
 # file = dacapo-resumido.lytex
-# file = teste.lytex
+file = teste.lytex
 # file = teste-thales.lytex
 # file-regencia = dacapo-regencia.lytex
 # file-regencia = dacapo-reg-vol1.lytex
@@ -479,7 +479,7 @@ trompaop.lytex: $(file) Makefile
 	sed -e "s/keepWithTag #'cl/\keepWithTag #'tpaop/g" \
 	-e 's/instrumento{InstrCapa}/instrumento{Trompa em Fá - Opcional}/g' \
 	-e 's/instrumento{Original}/instrumento{Trompa em Fá - Opcional}/g' \
-	-e 's/instrumento{Rodape}/instrumento{Trompa}/g' \
+	-e 's/instrumento{Rodape}/instrumento{Trompa Opcional}/g' \
 	-e 's/%#escrita#%//g' \
 	-e 's/ded-instrumento/ded-trompaop/g' \
 	-e 's/%%historia-instrumento/\hist-trompa/g' \
