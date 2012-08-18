@@ -1536,6 +1536,7 @@ atividade com outras melodias deste livro e do método da Da Capo.
 %%break-tpa
 %%break-saxh
 %%break-tpt
+%%break-tpaop
 %%break-bomsibClaveSol
 %%break-bomdo
 %%break-bomsibDo
@@ -1906,6 +1907,7 @@ Inicie com a nota %#nota-Cl-Mi#%.
 %%break-fl
 %%break-saxh
 %%break-tpt
+%%break-tpaop
 %%break-bomsibClaveSol
 \section{Improvisando e imitando com sete notas}
 \label{sec:impr-e-imit-sete-notas}
@@ -2128,6 +2130,7 @@ Volte ao início e termine no \textbf{\textit{Fim}}.
 %%break-fl
 %%break-saxh
 %%break-tpt
+%%break-tpaop
 %%break-bomsibClaveSol
 %%break-tbasibsib8acima
 %%break-tbasibsib8abaixo
@@ -2283,6 +2286,7 @@ Inicie com a nota %#nota-Cl-Do#%.
 \end{lilypond}
 
 %%break-tpt
+%%break-tpaop
 %%break-bomsibClaveSol
 \section{Brincando em si bemol maior}
 \label{sec:brincando-em-si-bemol-maior}
@@ -2462,6 +2466,7 @@ Inicie com a nota %#nota-Cl-Do#%.
 %%break-tpa
 %%break-saxh
 %%break-tpt
+%%break-tpaop
 %%break-bomsibClaveSol
 %%break-bomdo
 %%break-bomsibsib
@@ -2493,6 +2498,7 @@ Inicie com a nota %#nota-Cl-Do#%.
 %%break-saxh
 %%break-fg
 %%break-tpt
+%%break-tpaop
 %%break-bomsibClaveSol
 %%break-bomdo
 %%break-bomsibsib
