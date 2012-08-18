@@ -17,7 +17,7 @@
 \usepackage{titletoc}
 
 %% novos pacotes
-\usepackage{lastpage}
+\usepackage{zref-lastpage}
 \usepackage{wrapfig}
 
 
@@ -93,123 +93,123 @@
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% INICIO CAPAS
 
-% %%%%%%%%%%%% FOLHA DE ROSTO
-% \thispagestyle{empty}
+%%%%%%%%%%%% FOLHA DE ROSTO
+\thispagestyle{empty}
 
-% \begin{flushleft}
-%   \textbf{\huge{\instrumento{InstrCapa}}}
-% \end{flushleft}
-% \vspace*{0.3ex}
+\begin{flushleft}
+  \textbf{\huge{\instrumento{InstrCapa}}}
+\end{flushleft}
+\vspace*{0.3ex}
 
-% \begin{flushleft}
-%   \textbf{\large{\textit{ %#escrita#%}}}
-% \end{flushleft}
-% \vspace*{14ex}
+\begin{flushleft}
+  \textbf{\large{\textit{ %#escrita#%}}}
+\end{flushleft}
+\vspace*{14ex}
 
-% \begin{center}
-% \textbf{\huge{DA CAPO CRIATIVIDADE}}
-% \vspace*{4ex}
+\begin{center}
+\textbf{\huge{DA CAPO CRIATIVIDADE}}
+\vspace*{4ex}
 
-% \textbf{\Large{Método Elementar para o Ensino Individual e/ou Coletivo
-%     de Instrumentos de Banda}}
-% \vspace*{4ex}
+\textbf{\Large{Método Elementar para o Ensino Individual e/ou Coletivo
+    de Instrumentos de Banda}}
+\vspace*{4ex}
 
-% \textbf{\Large{Volume 2}}
-% \vspace*{18ex}
+\textbf{\Large{Volume 2}}
+\vspace*{18ex}
 
-% \textbf{\huge{Joel Barbosa}}
-% \vspace*{18ex}
+\textbf{\huge{Joel Barbosa}}
+\vspace*{18ex}
 
-% \includegraphics[scale=0.5]{logo-keyboard}
-% \vspace*{2ex}
+\includegraphics[scale=0.5]{logo-keyboard}
+\vspace*{2ex}
 
-% \textbf{\Large{ANO 2010}}
-% \vspace*{4ex}
+\textbf{\Large{ANO 2010}}
+\vspace*{4ex}
 
-% \textbf{Copyright by Joel L. da Silva Barbosa \\
-% Todos os direitos reservados \\
-% IMPRESSO NO BRASIL \\
-% KEYBOARD EDITORA MUSICAL LTDA. \\
-% CAIXA POSTAL 300 \\
-% JUNDIAÍ  -  SP  -  CEP 13201-970 \\
-% E-mail: contato@keyboard.art.br \\
-% site: www.keyboard.art.br }
-% \end{center}
-% \vspace*{2ex}
+\textbf{Copyright by Joel L. da Silva Barbosa \\
+Todos os direitos reservados \\
+IMPRESSO NO BRASIL \\
+KEYBOARD EDITORA MUSICAL LTDA. \\
+CAIXA POSTAL 300 \\
+JUNDIAÍ  -  SP  -  CEP 13201-970 \\
+E-mail: contato@keyboard.art.br \\
+site: www.keyboard.art.br }
+\end{center}
+\vspace*{2ex}
 
-% \begin{flushright}
-%   \includegraphics[scale=0.7]{%#ISBN-V2-fig#%}
-% \end{flushright}
-
-
-% %%%%%%%%%%%% VERSO-FOLHA DE ROSTO
-% \newpage
-% \thispagestyle{empty}
-
-% Nenhuma parte deste livro poderá ser reproduzida ou transmitida sejam
-% quais forem os meios: eletrônicos, fotográfico, gravação ou quaisquer
-% outros sem a permissão explícita por escrito do autor:
-% \textbf{JOEL L. da SILVA BARBOSA}
-% \vspace*{20ex}
-
-% \begin{tabular}{|p{15cm}|}
-% \hline
-% \\
-% BARBOSA, J. L. da Silva \\
-% \\
-% DA CAPO CRIATIVIDADE \instrumento{Original} Vol 2. Jundiaí, São Paulo: \\
-% Keyboard Editora Musical Ltda. 2010, p. \pageref{LastPage} \\
-% \\
-% Didático/Pedagógico \\
-% ISBN nº %#ISBN-V2#% \\
-% \\
-% Copyright 2010 by Keyboard Editora Musical Ltda. \_Todos os direitos reservado\_ \\
-% R: Rangel Pestana 1044 - Jundiaí - São Paulo - CEP 13201-000 \\
-% e-mail: contato@keyboard.art.br \\
-% \\
-% \hline
-% \end{tabular}
-% \vspace*{30ex}
-
-% \begin{flushleft}
-%   Editoração: Givaldo de Cidra\\
-%   Capa: Reprodução da Colagem de Silvio Alvarez\\
-% \end{flushleft}
-
-% \begin{flushleft}
-%   Editado e Impresso por Keyboard Editora Musical Ltda\\
-% \end{flushleft}
-
-% \begin{flushleft}
-%   Registro na Fundação Biblioteca Nacional\\
-%   Ministério da Cultura\\
-%   Escritório de Direitos Autorais\\
-% \end{flushleft}
-
-% \begin{flushleft}
-%   Nº %#ISBN-V2#% \\
-%   Autor: Joel L da Silva Barbosa \\
-%   Título da Obra: DA CAPO CRIATIVIDADE \instrumento{Original} Vol. 2 \\
-% \end{flushleft}
-
-% %%%%%%%%%%%% FOLHA DO MAESTRO MARCELO
-% \newpage
-% \pagenumbering{arabic}
-% \section*{Aos Leitores}
-% \label{sec:maestro-marcelo}
-% \addcontentsline{toc}{section}{Aos Leitores}
-
-% \input {maestro-marcelo}
+\begin{flushright}
+  \includegraphics[scale=0.7]{%#ISBN-V2-fig#%}
+\end{flushright}
 
 
-% %%%%%%%%%%%% FOLHA DA BIOGRAFIA
-% \newpage
-% \section*{Sobre o Autor}
-% \addcontentsline{toc}{section}{Sobre o Autor}
+%%%%%%%%%%%% VERSO-FOLHA DE ROSTO
+\newpage
+\thispagestyle{empty}
 
-% \input {biografia-joel}
+Nenhuma parte deste livro poderá ser reproduzida ou transmitida sejam
+quais forem os meios: eletrônicos, fotográfico, gravação ou quaisquer
+outros sem a permissão explícita por escrito do autor:
+\textbf{JOEL L. da SILVA BARBOSA}
+\vspace*{20ex}
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% FINAL CAPAS
+\begin{tabular}{|p{15cm}|}
+\hline
+\\
+BARBOSA, J. L. da Silva \\
+\\
+DA CAPO CRIATIVIDADE \instrumento{Original} Vol 2. Jundiaí, São Paulo: \\
+Keyboard Editora Musical Ltda. 2010, p. \zref{LastPage} \\
+\\
+Didático/Pedagógico \\
+ISBN nº %#ISBN-V2#% \\
+\\
+Copyright 2010 by Keyboard Editora Musical Ltda. \_Todos os direitos reservado\_ \\
+R: Rangel Pestana 1044 - Jundiaí - São Paulo - CEP 13201-000 \\
+e-mail: contato@keyboard.art.br \\
+\\
+\hline
+\end{tabular}
+\vspace*{30ex}
+
+\begin{flushleft}
+  Editoração: Givaldo de Cidra\\
+  Capa: Reprodução da Colagem de Silvio Alvarez\\
+\end{flushleft}
+
+\begin{flushleft}
+  Editado e Impresso por Keyboard Editora Musical Ltda\\
+\end{flushleft}
+
+\begin{flushleft}
+  Registro na Fundação Biblioteca Nacional\\
+  Ministério da Cultura\\
+  Escritório de Direitos Autorais\\
+\end{flushleft}
+
+\begin{flushleft}
+  Nº %#ISBN-V2#% \\
+  Autor: Joel L da Silva Barbosa \\
+  Título da Obra: DA CAPO CRIATIVIDADE \instrumento{Original} Vol. 2 \\
+\end{flushleft}
+
+%%%%%%%%%%%% FOLHA DO MAESTRO MARCELO
+\newpage
+\pagenumbering{arabic}
+\section*{Aos Leitores}
+\label{sec:maestro-marcelo}
+\addcontentsline{toc}{section}{Aos Leitores}
+
+\input {maestro-marcelo}
+
+
+%%%%%%%%%%%% FOLHA DA BIOGRAFIA
+\newpage
+\section*{Sobre o Autor}
+\addcontentsline{toc}{section}{Sobre o Autor}
+
+\input {biografia-joel}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% FINAL CAPAS
 
 
 
@@ -231,179 +231,6 @@
 % INSIRA O CÓDIGO A PARTIR DAQUI:
 % 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-
-
-\section{Mais perguntas e respostas}
-\label{sec:mais-perguntas-respostas}
-
-\begin{tabular}{ll}
-  \em  & \em  \\
-  \begin[fragment]{lilypond}
-    \transpose c c {
-      \keepWithTag #'cl
-      \include "cl-61-1.ly" }
-  \end{lilypond}
-  & 
-  \begin[fragment]{lilypond}
-    \transpose c c {
-      \keepWithTag #'cl
-      \include "cl-61-2.ly" }
-  \end{lilypond}
-  \\
-  \begin[fragment]{lilypond}
-    \transpose c c {
-      \keepWithTag #'cl
-      \include "cl-61-3.ly" }
-  \end{lilypond}
-  & 
-  \begin[fragment]{lilypond}
-    \transpose c c {
-      \keepWithTag #'cl
-      \include "cl-61-4.ly" }
-  \end{lilypond}
-  \\
-  \begin[fragment]{lilypond}
-    \transpose c c {
-      \keepWithTag #'cl
-      \include "cl-61-5.ly" }
-  \end{lilypond}
-  & 
-  \begin[fragment]{lilypond}
-    \transpose c c {
-      \keepWithTag #'cl
-      \include "cl-61-6.ly" }
-  \end{lilypond}
-  \\
-  \begin[fragment]{lilypond}
-    \transpose c c {
-      \keepWithTag #'cl
-      \include "cl-61-7.ly" }
-  \end{lilypond}
-  & 
-  \begin[fragment]{lilypond}
-    \transpose c c {
-      \keepWithTag #'cl
-      \include "cl-61-8.ly" }
-  \end{lilypond}
-  \\
-  \begin[fragment]{lilypond}
-    \transpose c c {
-      \keepWithTag #'cl
-      \include "cl-61-9.ly" }
-  \end{lilypond}
-  & 
-  \begin[fragment]{lilypond}
-    \transpose c c {
-      \keepWithTag #'cl
-      \include "cl-61-10.ly" }
-  \end{lilypond}
-  \\
-  \begin[fragment]{lilypond}
-    \transpose c c {
-      \keepWithTag #'cl
-      \include "cl-61-11.ly" }
-  \end{lilypond}
-  & 
-  \begin[fragment]{lilypond}
-    \transpose c c {
-      \keepWithTag #'cl
-      \include "cl-61-12.ly" }
-  \end{lilypond}
-  \\
-  \begin[fragment]{lilypond}
-    \transpose c c {
-      \keepWithTag #'cl
-      \include "cl-61-13.ly" }
-  \end{lilypond}
-  & 
-  \begin[fragment]{lilypond}
-    \transpose c c {
-      \keepWithTag #'cl
-      \include "cl-61-14.ly" }
-  \end{lilypond}
-  \\
-\end{tabular}
-
-
-\begin{enumerate}
-
-\item Um instrumentista ``pergunta'', tocando um trecho da coluna
-  esquerda, e um outro ``responde'', tocando um trecho da coluna
-  direita.
-
-\item Fazer os jogos explicados no exercício
-  \ref{sec:perguntas-respostas} -
-  \textit{``\nameref{sec:perguntas-respostas}''} na página \pageref{sec:perguntas-respostas}.
-
-\end{enumerate}
-
-\break
-\section{Escolhendo perguntas e respostas}
-\label{sec:escolhendo-perg-respostas}
-
-\begin{lilypond}
-  \transpose c c {
-    \keepWithTag #'cl
-    \include "cl-61-1b.ly" }
-\end{lilypond}
-
-
-\begin{lilypond}
-  \transpose c c {
-    \keepWithTag #'cl
-    \include "cl-61-2b.ly" }
-\end{lilypond}
-
-\begin{lilypond}
-  \transpose c c {
-    \keepWithTag #'cl
-    \include "cl-61-3b.ly" }
-\end{lilypond}
-
-\begin{lilypond}
-  \transpose c c {
-    \keepWithTag #'cl
-    \include "cl-61-4b.ly" }
-\end{lilypond}
-
-\begin{lilypond}
-  \transpose c c {
-    \keepWithTag #'cl
-    \include "cl-61-5b.ly" }
-\end{lilypond}
-
-\begin{lilypond}
-  \transpose c c {
-    \keepWithTag #'cl
-    \include "cl-61-6b.ly" }
-\end{lilypond}
-
-\begin{lilypond}
-  \transpose c c {
-    \keepWithTag #'cl
-    \include "cl-61-7b.ly" }
-\end{lilypond}
-
-\begin{lilypond}
-  \transpose c c {
-    \keepWithTag #'cl
-    \include "cl-61-8b.ly" }
-\end{lilypond}
-
-
-Toque as linhas de 1 a 8 e descubra quais são perguntas e quais
-respostas. Depois brinque de Perguntas e Respostas.
-
-% \newpage
-\break
-\section{Vamos escrever a segunda voz de Coelhinho!}
-\label{sec:vamos-escr-segunda-voz-coelhinho}
-\begin{lilypond}
-  \transpose c c {
-    \keepWithTag #'cl
-    \include "cl-62.ly"}
-\end{lilypond}
-
 
 
 
