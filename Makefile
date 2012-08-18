@@ -1,8 +1,8 @@
 # file = dacapo.lytex
-# file = dacapo-vol1.lytex
+file = dacapo-vol1.lytex
 # file = dacapo-vol2.lytex
 # file = dacapo-resumido.lytex
-file = teste.lytex
+# file = teste.lytex
 # file = teste-thales.lytex
 # file-regencia = dacapo-regencia.lytex
 # file-regencia = dacapo-reg-vol1.lytex
@@ -513,9 +513,9 @@ trompaop.lytex: $(file) Makefile
 	-e 's/%#armadura-01-01#%/Si bemol/g' \
 	-e 's/%#armadura-01-02#%/as notas si e mi são bemóis/g' \
 	-e 's/%#armadura-02-01#%/fá/g' \
-	-e 's/%#armadura-02-02#%/nenhuma nota tem alteração/g' \
+	-e 's/%#armadura-02-02#%/a nota si é bemol/g' \
 	-e 's/%#armadura-03-01#%/dó/g' \
-	-e 's/%#armadura-03-02#%/a nota si é natural/g' \
+	-e 's/%#armadura-03-02#%/nenhuma nota tem alteração/g' \
 	-e 's/%#fasustenido#%/si natural/g' \
 	-e 's/%#fanatural#%/si bemol/g' \
 	-e 's/%#mibemol#%/lá bemol/g' \
