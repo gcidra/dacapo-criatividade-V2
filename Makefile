@@ -21,9 +21,9 @@ all-reg := $(notdir $(patsubst %.ly,%.reg,$(wildcard ly/*.ly)))
 
 regencia = regencia
 percussao = percussao
-instrumentos_clave_de_sol = flauta oboe clarinete saxalto saxtenor saxhorn trompa trompaop trompaopcional trompete bombardino-instSIB-clave-sol
+instrumentos_clave_de_sol = flauta oboe clarinete saxalto saxtenor saxhorn trompa trompaop trompete bombardino-instSIB-clave-sol
 instrumentos_clave_de_fa = fagote trombone bombardino-instDO-escDO bombardino-instSIB-escSIB bombardino-instSIB-escDO tuba-instMIB-escDO tuba-instMIB-escMIB tuba-instSIB-escDO tuba-instSIB-escSIB8acima tuba-instSIB-escSIB8abaixo
-listlivros = flauta oboe clarinete saxalto saxtenor saxhorn trompa trompaop trompaopcional trompete fagote trombone bombardino-instSIB-clave-sol bombardino-instDO-escDO bombardino-instSIB-escSIB bombardino-instSIB-escDO tuba-instMIB-escDO tuba-instMIB-escMIB tuba-instSIB-escDO tuba-instSIB-escSIB8acima tuba-instSIB-escSIB8abaixo
+listlivros = flauta oboe clarinete saxalto saxtenor saxhorn trompa trompaop trompete fagote trombone bombardino-instSIB-clave-sol bombardino-instDO-escDO bombardino-instSIB-escSIB bombardino-instSIB-escDO tuba-instMIB-escDO tuba-instMIB-escMIB tuba-instSIB-escDO tuba-instSIB-escSIB8acima tuba-instSIB-escSIB8abaixo
 
 all_ps_sol = $(addsuffix .ps,$(instrumentos_clave_de_sol))
 all_ps_fa = $(addsuffix .ps,$(instrumentos_clave_de_fa))
@@ -481,9 +481,9 @@ trompaop.lytex: $(file) Makefile
 	-e 's/instrumento{Original}/instrumento{Trompa em Fá - Opcional}/g' \
 	-e 's/instrumento{Rodape}/instrumento{Trompa}/g' \
 	-e 's/%#escrita#%//g' \
-	-e 's/ded-instrumento/ded-trompa/g' \
+	-e 's/ded-instrumento/ded-trompaop/g' \
 	-e 's/%%historia-instrumento/\hist-trompa/g' \
-	-e 's/%#fig-posicoes#%/pos-tpa/g' \
+	-e 's/%#fig-posicoes#%/pos-tpaop/g' \
 	-e 's/%#fig-clave#%/clave-sol-/g' \
 	-e 's/%#nota-Cl-Do#%/Fá/g' \
 	-e 's/%#nota-Cl-Mi#%/Lá/g' \
@@ -511,7 +511,7 @@ trompaop.lytex: $(file) Makefile
 	-e 's/%#nota-21#%//g' \
 	-e 's/%#nota-22#%/Lá/g' \
 	-e 's/%#armadura-01-01#%/Si bemol/g' \
-	-e 's/%#armadura-01-02#%/a nota mi é bemol/g' \
+	-e 's/%#armadura-01-02#%/as notas si e mi são bemóis/g' \
 	-e 's/%#armadura-02-01#%/fá/g' \
 	-e 's/%#armadura-02-02#%/nenhuma nota tem alteração/g' \
 	-e 's/%#armadura-03-01#%/dó/g' \
@@ -523,11 +523,11 @@ trompaop.lytex: $(file) Makefile
 	-e 's/%#sinatural#%/mi natural/g' \
 	-e 's/%#fasinaturais#%/si bemol e mi natural/g' \
 	-e 's/%#notafa#%/si bemol/g' \
-	-e 's/%%break-tpt/\\break/g' \
+	-e 's/%%break-tpaop/\\break/g' \
 	-e 's/%#ISBN-V1#%/978-85-86981-54-8/g' \
 	-e 's/%#ISBN-V2#%/978-85-86981-55-5/g' \
-	-e 's/%#ISBN-V1-fig#%/cod-barra-tpa-v1/g' \
-	-e 's/%#ISBN-V2-fig#%/cod-barra-tpa-v2/g' \
+	-e 's/%#ISBN-V1-fig#%/cod-barra-tpaop-v1/g' \
+	-e 's/%#ISBN-V2-fig#%/cod-barra-tpaop-v2/g' \
 	-e 's/transpose c c/transpose c f,/g' $< > $@
 
 trompaopcional.lytex: $(file) Makefile
