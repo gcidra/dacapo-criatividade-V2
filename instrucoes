@@ -1,0 +1,62 @@
+#-*- mode: org; -*-
+
+* SISTEMA
+** Atualização
+*** Atualizar o banco de dados
+$ sudo apt-get update
+
+*** Atualizar o sistema
+$ sudo apt-get upgrade
+
+*** Atualizar a distribuição
+$ sudo apt-get dist-upgrade
+
+** Instalar/Remover Programas e Pacotes
+- Procurar um programa/pacote
+$ apt-cache search nome_do_pacote_ou_programa
+
+- Instalar o programa/pacote
+$ sudo apt-get install nome_do_pacote_ou_programa
+
+- Remover o programa/pacote
+$ sudo apt-get remove nome_do_pacote_ou_programa
+
+* DA CAPO
+** GERAR LIVROS
+$ make nome_do_instrumento.pdf
+
+** visualizar o pdf gerado
+$ evince nome_do_instrumento.pdf
+
+** APAGAR TODOS OS TEMPORÁRIOS GERADOS
+$ make cleanall
+
+* GIT - CONTROLE DE VERSÃO
+# SEMPRE REALIZAR O COMANDO ABAIXO ANTES DE COMEÇAR A TRABALHAR
+# verifica se há alguma mudança no repositório remoto (central)
+$ git pull
+
+** Verificar se há alguma mudança no repositório local
+$ git status
+
+** Ver qual foi a mudança em determinado arquivo
+$ git diff nome_do_arquivo
+
+** Adicionar um arquivo para ser gravado
+$ git add nome_do_arquivo_para_incluir_na_gravação
+
+** Gravar mudanças do arquivo
+$ git commit -m "texto explicativo da mudança"
+
+** Verificar mudanças realizadas
+$ git log
+
+** Reverter uma mudança realizada
+$ git checkout
+
+** Enviar commits para o repositório remoto (central)
+$ git push
+(cologar login e senha assim que pedir)
+
+
+
