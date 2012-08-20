@@ -1,6 +1,6 @@
 % -*- latex -*-
 % -*- coding: latin-1 -*-
-
+ 
 \documentclass[twoside,12pt]{article}
 \usepackage{graphicx}
 % \usepackage{artigos}
