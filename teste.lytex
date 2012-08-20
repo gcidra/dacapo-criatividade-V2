@@ -17,7 +17,7 @@
 \usepackage{titletoc}
 
 %% novos pacotes
-\usepackage{zref-lastpage}
+%%\usepackage{lastpage}
 \usepackage{wrapfig}
 
 
@@ -158,7 +158,7 @@ outros sem a permissão explícita por escrito do autor:
 BARBOSA, J. L. da Silva \\
 \\
 DA CAPO CRIATIVIDADE \instrumento{Original} Vol 2. Jundiaí, São Paulo: \\
-Keyboard Editora Musical Ltda. 2010, p. \zref{LastPage} \\
+Keyboard Editora Musical Ltda. 2010, p. \pageref{LastPage} \\
 \\
 Didático/Pedagógico \\
 ISBN nº %#ISBN-V2#% \\
@@ -232,6 +232,14 @@ e-mail: contato@keyboard.art.br \\
 % 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
+
+\section{Vamos terminar a melodia?}
+\label{sec:vamos-terminar-a-melodia}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-15.ly"}
+\end{lilypond}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
