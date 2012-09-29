@@ -91,140 +91,6 @@
 
 
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% INICIO CAPAS
-
-%%%%%%%%%%%% FOLHA DE ROSTO
-\thispagestyle{empty}
-
-\begin{flushleft}
-  \textbf{\huge{\instrumento{InstrCapa}}}
-\end{flushleft}
-\vspace*{0.3ex}
-
-\begin{flushleft}
-  \textbf{\large{\textit{ %#escrita#%}}}
-\end{flushleft}
-\vspace*{14ex}
-
-\begin{center}
-\textbf{\huge{DA CAPO CRIATIVIDADE}}
-\vspace*{4ex}
-
-\textbf{\Large{Método Elementar para o Ensino Individual e/ou Coletivo
-    de Instrumentos de Banda}}
-\vspace*{4ex}
-
-\textbf{\Large{Volume 2}}
-\vspace*{18ex}
-
-\textbf{\huge{Joel Barbosa}}
-\vspace*{18ex}
-
-\includegraphics[scale=0.5]{logo-keyboard}
-\vspace*{2ex}
-
-\textbf{\Large{ANO 2010}}
-\vspace*{4ex}
-
-\textbf{Copyright by Joel L. da Silva Barbosa \\
-Todos os direitos reservados \\
-IMPRESSO NO BRASIL \\
-KEYBOARD EDITORA MUSICAL LTDA. \\
-CAIXA POSTAL 300 \\
-JUNDIAÍ  -  SP  -  CEP 13201-970 \\
-E-mail: contato@keyboard.art.br \\
-site: www.keyboard.art.br }
-\end{center}
-\vspace*{2ex}
-
-\begin{flushright}
-  \includegraphics[scale=0.7]{%#ISBN-V2-fig#%}
-\end{flushright}
-
-
-%%%%%%%%%%%% VERSO-FOLHA DE ROSTO
-\newpage
-\thispagestyle{empty}
-
-Nenhuma parte deste livro poderá ser reproduzida ou transmitida sejam
-quais forem os meios: eletrônicos, fotográfico, gravação ou quaisquer
-outros sem a permissão explícita por escrito do autor:
-\textbf{JOEL L. da SILVA BARBOSA}
-\vspace*{20ex}
-
-\begin{tabular}{|p{15cm}|}
-\hline
-\\
-BARBOSA, J. L. da Silva \\
-\\
-DA CAPO CRIATIVIDADE \instrumento{Original} Vol 2. Jundiaí, São Paulo: \\
-Keyboard Editora Musical Ltda. 2010, p. \pageref{LastPage} \\
-\\
-Didático/Pedagógico \\
-ISBN nº %#ISBN-V2#% \\
-\\
-Copyright 2010 by Keyboard Editora Musical Ltda. \_Todos os direitos reservado\_ \\
-R: Rangel Pestana 1044 - Jundiaí - São Paulo - CEP 13201-000 \\
-e-mail: contato@keyboard.art.br \\
-\\
-\hline
-\end{tabular}
-\vspace*{30ex}
-
-\begin{flushleft}
-  Editoração: Givaldo de Cidra\\
-  Capa: Reprodução da Colagem de Silvio Alvarez\\
-\end{flushleft}
-
-\begin{flushleft}
-  Editado e Impresso por Keyboard Editora Musical Ltda\\
-\end{flushleft}
-
-\begin{flushleft}
-  Registro na Fundação Biblioteca Nacional\\
-  Ministério da Cultura\\
-  Escritório de Direitos Autorais\\
-\end{flushleft}
-
-\begin{flushleft}
-  Nº %#ISBN-V2#% \\
-  Autor: Joel L da Silva Barbosa \\
-  Título da Obra: DA CAPO CRIATIVIDADE \instrumento{Original} Vol. 2 \\
-\end{flushleft}
-
-%%%%%%%%%%%% FOLHA DO MAESTRO MARCELO
-\newpage
-\pagenumbering{arabic}
-\section*{Aos Leitores}
-\label{sec:maestro-marcelo}
-\addcontentsline{toc}{section}{Aos Leitores}
-
-\input {maestro-marcelo}
-
-
-%%%%%%%%%%%% FOLHA DA BIOGRAFIA
-\newpage
-\section*{Sobre o Autor}
-\addcontentsline{toc}{section}{Sobre o Autor}
-
-\input {biografia-joel}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% FINAL CAPAS
-
-
-
-\newpage
-% \pagenumbering{roman} % páginas em algarismos romanos
-
-
-% \instrumento{Original}
-
-% \section{I - Arquivo de Testes  - Dacapo CriAtividade}
-
-% Nesse exemplo pode-se ver como será impresso o arquivo final do ``Dacapo
-% CriAtividade''.
-
-% \subsection{Instrumento: \textbf {\instrumento{Original} } }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 % 
@@ -233,91 +99,23 @@ e-mail: contato@keyboard.art.br \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
 
-<<<<<<< HEAD
-\newpage
-\section*{VI - Quadro de Dedilhado}
-\addcontentsline{toc}{section}{Quadro de Dedilhado}
-
-\includegraphics[scale=3.15]{ded-instrumento}
-
 \break
+\section{Amarelinha vertical}
+\label{sec:amarelinha-vertical}
+
+\includegraphics[scale=0.91]{amarelinha-jogocl}
 
 
-%%%%%%%%%%%%%%%%%%  EXERCÍCIOS
-\newpage
-
-%%%%%%%%%%%%%%%%%%%%%%%% INICIO QUADRO 13 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{table}[ht]
-  \centering
-  \renewcommand{\tablename}{Quadro}
- \caption{}
-  \label{Quadro_13}
-  \begin{tabular}[t]{|l|l|l|}
-    \hline
-
-    %%% PRÓXIMA LINHA
-    \letraquadrada{A}   &   \letraquadrada{B}    &   \letraquadrada{C}
-   
-
-    %%% PRÓXIMA LINHA
-    \\
-    \quadtitulo{%#nota-11#%} 
-    &
-    \quadtitulo{Pausa de colcheia}
-    &
-    \quadtitulo{Primeira e segunda casa}
+Este jogo é semelhante a brincadeira de amarelinha. O objetivo é
+atingir o céu, partindo da terra. Para alcançá-lo, é necessário galgar
+uma casa de cada vez, sempre partindo da casa 1 e retornando a
+ela. Por exemplo: 1, 1-2-1, 1-2-3-2-1, 1-2-3-4-3-2-1,
+1-2-3-4-5-4-3-2-1 etc. Se você errar uma nota, um ritmo ou um sinal de
+expressão, perde a vez e outro começa. Quando voltar a sua vez,
+recomece da casa 1, ou seja: 1, 1-2-1, 1-2-3-2-1 etc. Vencem aqueles
+que atingirem o céu.
 
 
-    %%% PRÓXIMA LINHA
-    \\
-    \begin[fragment]{lilypond}
-      \transpose c c {
-        \keepWithTag #'cl
-        \include "notas-11.ly"
-      }
-    \end{lilypond}
-    &
-    \includegraphics[scale=1]{colcheia-pausa}
-    &
-    \includegraphics[scale=1]{%#fig-clave#%casa1e2}
-
-
-    %%% PRÓXIMA LINHA
-    \\
-    \includegraphics[scale=3.15]{%#fig-posicoes#%-11}    &\em    &\em
-
-
-    %%% FINAL DAS LINHAS
-  \\
-  \hline
-  \end{tabular}
-\end{table}    
-
-%%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-\section{Escala a três vozes}
-\label{sec:escala-tres-vozes}
-
-\subsection*{Parte 1}
-\begin{lilypond}
-  \transpose c c {
-    \keepWithTag #'cl
-    \include "cl-64.ly"}
-\end{lilypond}
-
-
-=======
-\section{Vamos terminar a melodia?}
-\label{sec:vamos-terminar-a-melodia}
-\begin{lilypond}
-  \transpose c c {
-    \keepWithTag #'cl
-    \include "cl-15.ly"}
-\end{lilypond}
-
->>>>>>> d8c0c07104db2f4b56b6c3c959aa5e53ec30ff7f
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 % 
