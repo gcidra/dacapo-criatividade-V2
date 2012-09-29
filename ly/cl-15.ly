@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-
 \version "2.16.0"
-=======
- 
-\version "2.14.2"
->>>>>>> d8c0c07104db2f4b56b6c3c959aa5e53ec30ff7f
-
 %\header { texidoc="18 - Criando o meio da melodia"}
 
 
