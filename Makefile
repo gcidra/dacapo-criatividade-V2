@@ -3,7 +3,6 @@
 # file = dacapo-vol2.lytex
 # file = dacapo-resumido.lytex
 file = teste.lytex
-# file = teste-thales.lytex
 # file-regencia = dacapo-regencia.lytex
 # file-regencia = dacapo-reg-vol1.lytex
 file-regencia = dacapo-reg-vol2.lytex
@@ -530,61 +529,6 @@ trompaop.lytex: $(file) Makefile
 	-e 's/%#ISBN-V2-fig#%/cod-barra-tpaop-v2/g' \
 	-e 's/transpose c c/transpose c f,/g' $< > $@
 
-trompaopcional.lytex: $(file) Makefile
-	sed -e "s/keepWithTag #'cl/\keepWithTag #'tpaop/g" \
-	-e 's/instrumento{InstrCapa}/instrumento{Trompa em Fá - Opcional}/g' \
-	-e 's/instrumento{Original}/instrumento{Trompa em Fá - Opcional}/g' \
-	-e 's/instrumento{Rodape}/instrumento{Trompa}/g' \
-	-e 's/%#escrita#%//g' \
-	-e 's/jogocl/jogotpa/g' \
-	-e 's/ded-instrumento/ded-trompa/g' \
-	-e 's/%%historia-instrumento/\hist-trompa/g' \
-	-e 's/%#fig-posicoes#%/pos-tpa/g' \
-	-e 's/%#fig-clave#%/clave-sol-/g' \
-	-e 's/%#nota-Cl-Do#%/Si bemol/g' \
-	-e 's/%#nota-Cl-Mi#%/Ré/g' \
-	-e 's/%#nota-Cl-Fa#%/Mi bemol/g' \
-	-e 's/%#nota-01#%/Fá/g' \
-	-e 's/%#nota-02#%/Mi bemol/g' \
-	-e 's/%#nota-03#%/Ré/g' \
-	-e 's/%#nota-04#%/Dó/g' \
-	-e 's/%#nota-05#%/Si bemol/g' \
-	-e 's/%#nota-06#%/Sol/g' \
-	-e 's/%#nota-07#%/Lá/g' \
-	-e 's/%#nota-08#%/Lá bemol/g' \
-	-e 's/%#nota-09#%/Mi/g' \
-	-e 's/%#nota-10#%/Lá/g' \
-	-e 's/%#nota-11#%/Si bemol/g' \
-	-e 's/%#nota-12#%//g' \
-	-e 's/%#nota-13#%//g' \
-	-e 's/%#nota-14#%/Lá bemol/g' \
-	-e 's/%#nota-15#%//g' \
-	-e 's/%#nota-16#%/Sol/g' \
-	-e 's/%#nota-17#%/Dó/g' \
-	-e 's/%#nota-18#%//g' \
-	-e 's/%#nota-19#%//g' \
-	-e 's/%#nota-20#%//g' \
-	-e 's/%#nota-21#%//g' \
-	-e 's/%#nota-22#%/Ré/g' \
-	-e 's/%#armadura-01-01#%/mi bemol/g' \
-	-e 's/%#armadura-01-02#%/as notas si, mi e lá são bemóis/g' \
-	-e 's/%#armadura-02-01#%/si bemol/g' \
-	-e 's/%#armadura-02-02#%/as notas si e mi são bemóis/g' \
-	-e 's/%#armadura-03-01#%/fá/g' \
-	-e 's/%#armadura-03-02#%/a nota si é bemol/g' \
-	-e 's/%#fasustenido#%/mi natural/g' \
-	-e 's/%#fanatural#%/mi bemol/g' \
-	-e 's/%#mibemol#%/ré bemol/g' \
-	-e 's/%#sibemol#%/lá bemol/g' \
-	-e 's/%#sinatural#%/lá natural/g' \
-	-e 's/%#fasinaturais#%/mi bemol e lá natural/g' \
-	-e 's/%#notafa#%/mi bemol/g' \
-	-e 's/%%break-tpa/\\break/g' \
-	-e 's/%#ISBN-V1#%/978-85-86981-54-8/g' \
-	-e 's/%#ISBN-V2#%/978-85-86981-55-5/g' \
-	-e 's/%#ISBN-V1-fig#%/cod-barra-tpa-v1/g' \
-	-e 's/%#ISBN-V2-fig#%/cod-barra-tpa-v2/g' \
-	-e 's/transpose c c/transpose c f/g' $< > $@
 
 saxhorn.lytex: $(file) Makefile
 	sed -e "s/keepWithTag #'cl/\keepWithTag #'saxg/g" \

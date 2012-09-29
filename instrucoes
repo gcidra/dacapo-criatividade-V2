@@ -15,6 +15,7 @@ $ sudo apt-get dist-upgrade
 - Procurar um programa/pacote
 $ apt-cache search nome_do_pacote_ou_programa
 
+
 - Instalar o programa/pacote
 $ sudo apt-get install nome_do_pacote_ou_programa
 
