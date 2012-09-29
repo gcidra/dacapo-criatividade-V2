@@ -158,7 +158,7 @@ outros sem a permissão explícita por escrito do autor:
 BARBOSA, J. L. da Silva \\
 \\
 DA CAPO CRIATIVIDADE \instrumento{Original} Vol 2. Jundiaí, São Paulo: \\
-Keyboard Editora Musical Ltda. 2010, p. \zref{LastPage} \\
+Keyboard Editora Musical Ltda. 2010, p. \pageref{LastPage} \\
 \\
 Didático/Pedagógico \\
 ISBN nº %#ISBN-V2#% \\
@@ -231,6 +231,80 @@ e-mail: contato@keyboard.art.br \\
 % INSIRA O CÓDIGO A PARTIR DAQUI:
 % 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+
+\newpage
+\section*{VI - Quadro de Dedilhado}
+\addcontentsline{toc}{section}{Quadro de Dedilhado}
+
+\includegraphics[scale=3.15]{ded-instrumento}
+
+\break
+
+
+%%%%%%%%%%%%%%%%%%  EXERCÍCIOS
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%% INICIO QUADRO 13 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[ht]
+  \centering
+  \renewcommand{\tablename}{Quadro}
+ \caption{}
+  \label{Quadro_13}
+  \begin{tabular}[t]{|l|l|l|}
+    \hline
+
+    %%% PRÓXIMA LINHA
+    \letraquadrada{A}   &   \letraquadrada{B}    &   \letraquadrada{C}
+   
+
+    %%% PRÓXIMA LINHA
+    \\
+    \quadtitulo{%#nota-11#%} 
+    &
+    \quadtitulo{Pausa de colcheia}
+    &
+    \quadtitulo{Primeira e segunda casa}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \begin[fragment]{lilypond}
+      \transpose c c {
+        \keepWithTag #'cl
+        \include "notas-11.ly"
+      }
+    \end{lilypond}
+    &
+    \includegraphics[scale=1]{colcheia-pausa}
+    &
+    \includegraphics[scale=1]{%#fig-clave#%casa1e2}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \includegraphics[scale=3.15]{%#fig-posicoes#%-11}    &\em    &\em
+
+
+    %%% FINAL DAS LINHAS
+  \\
+  \hline
+  \end{tabular}
+\end{table}    
+
+%%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Escala a três vozes}
+\label{sec:escala-tres-vozes}
+
+\subsection*{Parte 1}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-64.ly"}
+\end{lilypond}
 
 
 
