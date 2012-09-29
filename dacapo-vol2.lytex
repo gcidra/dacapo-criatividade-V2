@@ -15,7 +15,7 @@
 %% \usepackage{makeidx}                    % pkg para índice
 \usepackage{setspace}
 \usepackage{titletoc}
-\usepackage{lastpage}
+\usepackage{zref-lastpage}
 \usepackage{wrapfig}
 
 \titlecontents{section}
