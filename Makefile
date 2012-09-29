@@ -481,6 +481,7 @@ trompaop.lytex: $(file) Makefile
 	-e 's/instrumento{Rodape}/instrumento{Trompa Opcional}/g' \
 	-e 's/%#escrita#%//g' \
 	-e 's/ded-instrumento/ded-trompaop/g' \
+	-e 's/jogocl/jogotpaop/g' \
 	-e 's/%%historia-instrumento/\hist-trompa/g' \
 	-e 's/%#fig-posicoes#%/pos-tpaop/g' \
 	-e 's/%#fig-clave#%/clave-sol-/g' \
