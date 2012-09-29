@@ -1302,7 +1302,7 @@ tuba-instSIB-escSIB8abaixo.lytex: $(file)  Makefile
         inkscape -T --export-eps=$@ $<
 
 %.tex: %.lytex 
-	lilypond-book --pdf -I ly -I ly/reg -I reg -o out $< ;\
+	lilypond-book --pdf -I ./../ly -I ly/reg -I reg -o out $< ;\
 
 cleanall: cleanregencia cleanpercussao cleancordas cleanoutsol cleanoutfa clean
 
