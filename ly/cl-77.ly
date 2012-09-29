@@ -1,6 +1,6 @@
 % -*- coding: utf-8 -*-
 
-\version "2.14.2"
+\version "2.16.0"
 
 %\header { texidoc="52 - Re maior - meia escala e arpejo" }
 

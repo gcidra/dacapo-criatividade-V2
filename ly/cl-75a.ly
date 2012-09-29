@@ -1,6 +1,6 @@
 % -*- coding: utf-8 -*-
 
-\version "2.14.2"
+\version "2.16.0"
 
 %\header { texidoc="1 - Improvisando e Imitando com a escala de si bemol"}
 

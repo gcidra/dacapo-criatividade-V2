@@ -1,4 +1,4 @@
-\version "2.14.2"
+\version "2.16.0"
 
 %\header {title = "Missa e Credo - Kyrie -- 1835  --  Damião Barbosa de Araujo"}
 % Edição copyright 2003-2006 -- Pesquisa de Pablo Sotuyo Blanco
