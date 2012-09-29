@@ -724,6 +724,139 @@
   }
 
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    \mark \default a'4*6/4 fis
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+
+    \mark \default a fis
+
+    \bar "||"
+
+    \revert NoteHead #'style
+    \revert NoteHead #'font-size
+
+    \mark \default g e 
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+
+    \mark \default g e
+
+    \bar "||"
+
+    \revert NoteHead #'style
+    \revert NoteHead #'font-size
+    
+    \mark \default fis d
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+
+    \mark \default fis d
+
+
+    \bar "||"
+    \revert NoteHead #'style
+    \revert NoteHead #'font-size
+    
+    \mark \default e c
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+
+    \mark \default e c
+
+    \bar "||"
+
+    \revert NoteHead #'style
+    \revert NoteHead #'font-size
+    
+    \mark \default d b
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+
+    \mark \default d b
+
+    \bar "||"
+
+    \revert NoteHead #'style
+    \revert NoteHead #'font-size
+    
+    \mark \default c4*6/4
+
+    <<
+      {
+        \override Stem #'transparent = ##t
+        \override Beam #'transparent = ##t
+	a' 
+      }
+      \\
+      {
+        \override Stem #'transparent = ##t
+        \override Beam #'transparent = ##t
+        \override NoteHead #'font-size = #-4
+        a,
+        \revert NoteHead #'font-size 
+      }
+    >>
+
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+
+    \mark \default c 
+
+    <<
+      {
+        \override Stem #'transparent = ##t
+        \override Beam #'transparent = ##t
+        \override NoteHead #'style = #'slash
+        \override NoteHead #'font-size = #-6
+        a'
+      }
+      \\
+      {
+        \override Stem #'transparent = ##t
+        \override Beam #'transparent = ##t
+        \override NoteHead #'style = #'slash
+        \override NoteHead #'font-size = #-6
+        \override NoteHead #'font-size = #-4
+        a,
+        \revert NoteHead #'font-size 
+      }
+    >>
+
+    \bar "||"
+
+    \mark \default
+
+    <<
+      {
+        \revert NoteHead #'style
+        \revert NoteHead #'font-size
+        \revert Stem #'transparent 
+
+	a'2.\fermata 
+      }
+      \\
+      {
+        \revert NoteHead #'style
+        \revert NoteHead #'font-size
+        \revert Stem #'transparent 
+        \override NoteHead #'font-size = #-4
+        a,2.\p
+        \revert NoteHead #'font-size 
+      }
+    >>
+
+  }
+
                                 % TROMBONE
 
   \tag #'tbn {

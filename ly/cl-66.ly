@@ -239,6 +239,35 @@
 
 
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    \override Score.BarNumber #'transparent = ##t
+    \override Staff.TimeSignature #'style = #'()
+    \set Score.markFormatter = #format-mark-numbers
+
+    \time 4/4 
+
+    \set Staff.keySignature = #`(((0 . 9) .  ,FLAT) ((0 . 6) .  ,NATURAL) ) 
+
+    \override Score.RehearsalMark #'font-size = #-2
+
+    \partial 2.
+    b'8 a g4 e 
+    g4 b8 a g4 e
+    c4 s8 s s s s s
+    \break
+    s8 s s s s s s s
+    s s s s s s s s
+    s s s s	s s s s
+    \break
+    s s s s s s s s
+    s s s s	s s s s
+    c4
+    \bar "|."
+  }
+
                                 % TROMBONE
 
   \tag #'tbn {

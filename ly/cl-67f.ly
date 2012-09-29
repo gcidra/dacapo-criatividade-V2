@@ -567,6 +567,85 @@
 
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    \set Score.markFormatter = #format-mark-numbers
+    \override Score.BarNumber #'transparent = ##t
+                                %\override Score.RehearsalMark #'font-family = #'roman
+    \override Score.RehearsalMark #'font-size = #-2	
+
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t
+
+    \mark \default a'4*6/4 e
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+
+    \mark \default a e
+
+    \bar "||"
+
+    \revert NoteHead #'style
+    \revert NoteHead #'font-size
+
+    \mark \default g d
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+
+    \mark \default g d
+
+    \bar "||"
+
+    \revert NoteHead #'style
+    \revert NoteHead #'font-size
+    
+    \mark \default fis c
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+
+    \mark \default fis c
+
+
+    \bar "||"
+    \revert NoteHead #'style
+    \revert NoteHead #'font-size
+    
+    \mark \default e b
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+
+    \mark \default e b
+
+    \bar "||"
+
+
+    \revert NoteHead #'style
+    \revert NoteHead #'font-size
+    \revert Stem #'transparent 
+
+    \mark \default 
+
+    <<
+      {
+	a'2.
+      }
+      \\
+      {
+        \override NoteHead #'font-size = #-4
+        a,2.
+        \revert NoteHead #'font-size 
+      }
+    >>
+
+  }
+
+
                                 % TROMBONE
 
   \tag #'tbn {
