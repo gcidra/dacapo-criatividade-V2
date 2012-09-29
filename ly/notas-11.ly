@@ -49,6 +49,12 @@
     \stopStaff
     s^\markup {\hspace #-7 "Descanso"}
   }
+  %% TROMPA OP
+  \tag #'tpaop {
+    \override Staff.Clef #'transparent = ##f
+    \startStaff
+    c
+  }
   %% TROMBONE
   \tag #'tbn {
     \override Staff.Clef #'transparent = ##f
