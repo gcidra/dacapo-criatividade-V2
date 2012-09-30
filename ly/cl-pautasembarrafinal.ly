@@ -90,6 +90,16 @@
 
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    { s1\break }
+    { s1\break }
+
+
+  }
+
 
                                 % TROMBONE
 

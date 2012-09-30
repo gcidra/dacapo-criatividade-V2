@@ -190,6 +190,28 @@
   }
 
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    d8 f a4 a a a a2.
+    
+    \hideNotes
+    
+    d4 d1
+    \break
+
+    d1 d1 d1 d1
+
+    \unHideNotes
+
+
+    d,2. 
+
+
+
+  }
+
                                 % TROMBONE
 
   \tag #'tbn {

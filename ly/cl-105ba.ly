@@ -188,6 +188,27 @@
     }
 
 
+                                % TROMPA OP
+
+    \tag #'tpaop {
+
+      \repeat volta 2 {
+	e8\p^\markup {\column {\bold {Moderato \circle {1}  A}}} f
+	g4. e8 a4. g8\< f e d e f\!
+	d8^\markup {\bold B} d e
+	f4. a8 g4. f8\> e d c d8\! e4
+        \breathe
+	c8^\markup {\column {\bold {\circle {2} C}}} d
+	e4. g8 f4. e8\< d c b c d4\!
+	b'8^\markup {\bold D} a
+	g4. f8 e4. d8\> c2 c4\!^\markup  { \italic \bold Fim  }
+
+      }
+
+
+
+    }
+
                                 % TROMBONE
 
     \tag #'tbn {

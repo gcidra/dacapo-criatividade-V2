@@ -174,6 +174,26 @@
   }
 
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    \repeat volta 2 {
+      c8^\markup {\bold A4 } f e d c
+      c d e f
+      g f g a
+      f4
+      a8^\markup {\bold B4} f
+      e f g a
+      bes a bes a
+      g f f e
+      f4.
+
+    }
+
+
+  }
+
                                 % TROMBONE
 
   \tag #'tbn {

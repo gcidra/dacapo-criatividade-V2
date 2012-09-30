@@ -662,6 +662,87 @@
 
   }
 
+                               % TROMPA OP
+
+  \tag #'tpaop {
+
+    \new ChoirStaff <<
+      <<
+        \new Staff {
+          \time 3/4
+          \key f \major
+
+
+          r4 a' a
+          a c4. d8
+          c a bes4 g
+          a a bes
+          a r r
+          R2.
+          r4 a a
+          g2 a4
+          g2 a4
+          g g4. a8
+          g e f4 d
+          e g a
+          g r r
+          R2.
+          r4 g g
+          g2 a4
+          g2 a4
+          g2.\fermata
+          c4. d8 c bes
+          a bes a4 g
+          a a a
+          a2 r4
+          r8 bes a4 g
+          a8 bes a4 g
+          a a a
+          bes8 a g4 bes
+          a2.
+          \bar "|."
+        }
+
+        \new Staff
+        {
+          \key f \major
+          r4 f f
+          f r r
+          R2.
+          r4 f f 
+          f a4. bes8
+          a f g4 e
+          f f f
+          e2 f4
+          e2 f4
+          e4 r r
+          R2.
+          r4 e f
+          e g4. a8
+          g e f4 d
+          e4 e e 
+          e2 f4
+          e2 f4
+          e2.\fermata
+          a4. bes8 a g
+          f g f4 e
+          f f f
+          f2 r4
+          r8 g f4 e
+          f8 g f4 e
+          f f f
+          f8 f f4 e 
+          f2.
+          \bar "|."
+
+        }
+
+      >>
+    >>
+
+
+
+  }
 
                                 % TROMBONE
 

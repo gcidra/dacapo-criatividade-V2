@@ -215,6 +215,30 @@
 
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    \repeat volta 2 {
+      
+      g'8\p^\markup{\bold Moderato} f e c e g
+      c g\< g g a g g\> g g( f\!)
+      r f( d) b( c) d-. g( f) a( g)
+      f\<( e) e-. e-. e4\!
+      e8\mf d c d e f
+      g( f) e f 
+      g( f) f g
+      a\< f g a\! 
+      g\f g r g
+      f( e) d b
+      c\>( e) g e 
+      c4\!
+
+
+    }
+
+
+  }
 
                                 % TROMBONE
 

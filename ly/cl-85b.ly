@@ -69,6 +69,13 @@
     \stopStaff
     s
   }
+  %% TROMPA OP
+  \tag #'tpaop {
+    \override Staff.Clef #'transparent = ##t
+    \override Staff.TimeSignature #'transparent = ##t
+    \stopStaff
+    s
+  }
   %% TROMBONE
   \tag #'tbn {
     \override Staff.Clef #'transparent = ##t

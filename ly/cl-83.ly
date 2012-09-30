@@ -911,7 +911,121 @@
         }
       >>
     >>
+
+
   }
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+
+    \new ChoirStaff <<
+      <<
+        \new Staff
+        {
+
+          \override Staff.TimeSignature #'style = #'()
+          \time 4/4 
+          \set Staff.keySignature = #`(((0 . 9) . ,FLAT) ((0 . 6) . ,NATURAL) ) 
+
+          \override Score.BarNumber #'transparent = ##t
+                                %\override Score.RehearsalMark #'font-family = #'roman
+          \override Score.RehearsalMark #'font-size = #-2
+
+          \override Stem #'transparent = ##t
+          \override Beam #'transparent = ##t
+          \override Beam #'transparent = ##t
+
+          \partial 8*1
+
+          r8^\markup {\bold  { 1 \tiny \raise #0.5 "a"   voz}  } r1 r1 r1 r1	
+          \break
+          
+          \mark \default
+          \repeat "percent" 4 {
+            a'8 b
+            c d e f g a  
+          }
+
+          \mark \default
+          r1 r1 r1 r1
+
+        }
+
+        \new Staff
+        {
+          \override Staff.TimeSignature #'style = #'()
+          \time 4/4 
+          \set Staff.keySignature = #`(((0 . 9) . ,FLAT) ((0 . 6) . ,NATURAL) ) 
+
+          \partial 8*1
+
+          a,8\p^\markup {\bold  { 2 \tiny \raise #0.5 "a"   voz}  }  c4 a8 c r4 r8 
+          a8 c4\< a8 g' r4\! r8
+          f8 e4\f c8 e r4 r8
+          f8 e4\> c8 a r4\! r8
+
+          a8
+
+          \mark \default
+          \repeat volta 2 {
+            c4\p^\markup {Repita até o último improvisador indicar para seguir} a8 c r4 r8 
+            a8 c4 a8 g' r4 r8
+            f8 e4 c8 e r4 r8
+            f8 e4 c8 a r4 r8 
+
+            a8
+          }
+
+          \break
+          \mark \default
+          c4 e8 a, r4 r8
+          a8 c4\< e8 a, r4\! r8
+          a8
+          \repeat volta 2 {
+            c4\>^\markup {Repita várias vezes, até sumir.}
+            e8 a, r4 r8 
+            a8 c4 e8 a, r4\! r8 a8 
+          }
+
+        }
+
+        \new Staff
+        {
+
+          \override Staff.TimeSignature #'style = #'()
+          \time 4/4 
+          \set Staff.keySignature = #`(((0 . 9) . ,FLAT) ((0 . 6) . ,NATURAL) ) 
+
+          \partial 8*1
+
+          r8^\markup {\bold  { 3 \tiny \raise #0.5 "a"   voz}  }
+          a4\p r4 r2
+          e'4 r4 r2
+          a,4\f r4 r2
+          e'4 r4 r2
+
+          \mark \default
+          \repeat volta 2 {
+            a,4\p r4 r2
+            e'4 r4 r2
+            a,4 r4 r2
+            e'4 r4 r2
+          }
+
+          \mark \default
+          a,4 r4 r2
+          a4\< r4 r2\!
+
+          \repeat volta 2 {
+            a4\> r4 r2
+            a4 r4 r2\!
+          }	
+        }
+      >>
+    >>
+  }
+
                                 % TROMBONE
 
   \tag #'tbn {
@@ -941,7 +1055,7 @@
           
           \mark \default
           \repeat "percent" 4 {
-            a8 b
+            a,8 b
             cis d e fis g a  
           }
 

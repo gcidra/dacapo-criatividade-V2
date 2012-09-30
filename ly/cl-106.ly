@@ -120,6 +120,21 @@
 
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    \repeat unfold 10 
+
+                                % Change this for more lines.
+
+    { s1\break }
+
+
+
+  }
+
+
 
                                 % TROMBONE
 

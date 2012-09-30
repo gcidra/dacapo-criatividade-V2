@@ -891,6 +891,116 @@
     >>
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    \new ChoirStaff <<
+      <<
+
+        \new Staff {
+
+          \set Staff.keySignature = #`(((0 . 9) . ,FLAT) ((0 . 6) . ,NATURAL) ) 
+          \override Staff.TimeSignature #'style = #'()
+          \time 4/4 
+          \override Score.BarNumber #'transparent = ##t
+          \override Score.RehearsalMark #'font-size = #-2
+                                %\override Score.RehearsalMark #'font-family = #'
+          \set Score.markFormatter = #format-mark-numbers
+          
+          a'2.\p r4
+          b2. r4
+          c2. r4
+          d2. r4
+          e2. r4
+          f2. r4
+          g2. r4
+          a2. r4 
+          bes2. r4
+
+          a2. r4
+
+          \break
+          g2. r4
+          f2. r4
+          e2. r4
+          d2. r4
+          c2. r4
+          b2. r4
+          a2. r4
+
+          d2. r4
+          e2. r4
+          d2. r4
+          a2. r4
+
+
+          \bar "||"
+
+        }
+
+        \new Staff {
+          
+          \override Staff.TimeSignature #'style = #'()
+          \time 4/4 
+          \set Staff.keySignature = #`(((0 . 9) . ,FLAT) ((0 . 6) . ,NATURAL) ) 
+
+          r1 r1
+          a2.\p r4
+          b2. r4
+          c2. r4
+          d2. r4
+          e2. r4
+          f2. r4
+          g2. r4
+          a2. r4 
+          bes2. r4
+
+          a2. r4
+          g2. r4
+          f2. r4
+          e2. r4
+          d2. r4
+          c2. r4
+          b2. r4
+          a2. r4
+
+          d2. r4
+          a2. r4
+
+	}
+
+        \new Staff {
+
+          \override Staff.TimeSignature #'style = #'()
+          \time 4/4 
+          \set Staff.keySignature = #`(((0 . 9) . ,FLAT) ((0 . 6) . ,NATURAL) ) 
+
+          r1 r1 r1 r1
+          a2.\p r4
+          b2. r4
+          c2. r4
+          d2. r4
+          e2. r4
+          f2. r4
+          g2. r4
+          a2. r4 
+          bes2. r4
+
+          a2. r4
+          g2. r4
+          f2. r4
+          e2. r4
+          d2. r4
+          c2. r4
+          b2. r4
+          a2. r4
+
+	}
+      >>
+    >>
+  }
+
                                 % TROMBONE
 
   \tag #'tbn {
@@ -908,7 +1018,7 @@
                                 %\override Score.RehearsalMark #'font-family = #'
           \set Score.markFormatter = #format-mark-numbers
           
-          a2.\p r4
+          a,2.\p r4
           b2. r4
           cis2. r4
           d2. r4

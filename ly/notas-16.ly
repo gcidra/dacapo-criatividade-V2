@@ -47,6 +47,10 @@
   \tag #'tpa {
     e
   }
+  %% TROMPA OP
+  \tag #'tpaop {
+    a
+  }
   %% TROMBONE
   \tag #'tbn {
     \clef bass

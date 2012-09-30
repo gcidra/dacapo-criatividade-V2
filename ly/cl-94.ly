@@ -542,6 +542,72 @@
 
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    \new ChoirStaff <<
+      <<
+        \new Staff
+        {
+          \key c \major
+
+          c2\p^\markup {\column {\line {\bold {Andante} } \line {\bold {1 \tiny \raise #0.5 "a"   voz}}}}
+          d e f g a 
+          b c d c b
+          a g f e d c
+          b c r 
+
+          \bar "||"
+          \mark \default
+          c2\f e4 g 
+          c2
+          g4 e 
+          c2 r 
+          c1
+
+          \bar "|."
+        }
+
+        \new Staff
+        {
+          \key c \major
+
+          r1^\markup {\bold  { 2 \tiny \raise #0.5 "a"   voz}  } 
+          c2\p d e f g a 
+          b c d c b
+          a g f e d c
+          b c
+          \breathe
+          c2\f e4 g 
+          c2
+          g4 e 
+          c2 
+          c1
+	}
+
+        \new Staff
+        {
+          \key c \major
+
+          r1^\markup {\bold  { 3 \tiny \raise #0.5 "a"   voz}  } 
+          r
+          c2\p d e f g a 
+          b c d c b
+          a g f e d c
+          r
+          c2\f e4 g 
+          c2
+          g4 e  
+          c1
+	}
+
+      >>
+    >>
+
+
+
+  }
 
                                 % TROMBONE
 

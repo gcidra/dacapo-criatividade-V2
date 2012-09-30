@@ -168,6 +168,25 @@
   }
 
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    \repeat volta 2 {
+      a8\f^\markup {\column {\bold {Vivo  A2}}} f f4-> a g
+      bes8\p^\markup {\bold B2} g g4 bes a4
+
+    }
+
+    \repeat volta 2 {
+      f8\f^\markup {\bold C2 } c f a a a 
+      g bes\p 
+      bes^\markup {\bold D2} bes bes bes bes bes a4	
+    }
+
+
+  }
+
                                 % TROMBONE
 
   \tag #'tbn {

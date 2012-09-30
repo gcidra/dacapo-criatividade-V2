@@ -928,6 +928,121 @@
     r4
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+
+    \set Staff.keySignature = #`(((0 . 9) . ,FLAT) ((0 . 6) . ,NATURAL) ) 
+    \override Staff.TimeSignature #'style = #'()
+    \time 4/4 
+    \override Score.BarNumber #'transparent = ##t
+    \override Score.RehearsalMark #'font-size = #-2
+                                %\override Score.RehearsalMark #'font-family = #'
+    \set Score.markFormatter = #format-mark-numbers
+
+
+    \revert NoteHead #'style
+    \revert NoteHead #'font-size
+    \revert Stem #'transparent
+    \mark \default
+    a'4\p c  e2
+
+    \override Stem #'transparent = ##t
+    \mark \default
+    
+    a,4*4/3 c e 
+
+    \mark \default
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+
+    a,4*4/3 c e
+
+    \bar "||"
+    \revert NoteHead #'style
+    \revert NoteHead #'font-size
+    \revert Stem #'transparent
+    \mark \default
+    b4 d f2
+
+    \override Stem #'transparent = ##t
+    \mark \default
+    
+    b,4*4/3 d f 
+
+    \mark \default
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+
+    b,4*4/3 d f
+
+    \bar "||"
+    \revert NoteHead #'style
+    \revert NoteHead #'font-size
+    \revert Stem #'transparent
+    \mark \default
+    c4 e g2
+
+    \override Stem #'transparent = ##t
+    \mark \default
+    
+    c,4*4/3 e g 
+
+    \mark \default
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+
+    c,4*4/3 e g
+
+    \bar "||"
+    \revert NoteHead #'style
+    \revert NoteHead #'font-size
+    \revert Stem #'transparent
+    \mark \default
+    d4 f a2
+
+    \override Stem #'transparent = ##t
+    \mark \default
+    
+    d,4*4/3 f a 
+
+    \mark \default
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+
+    d,4*4/3 f a
+
+    \bar "||"
+    \revert NoteHead #'style
+    \revert NoteHead #'font-size
+    \revert Stem #'transparent
+    \revert Beam #'transparent
+    \mark \default
+
+    a,2 c8 e g4
+
+    \override Stem #'transparent = ##t
+    \mark \default
+    
+    a,4 c e g 
+
+    \mark \default
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+
+    a, c e g
+
+    \bar "||"
+
+    \revert NoteHead #'style
+    \revert NoteHead #'font-size
+    \revert Stem #'transparent
+    \mark \default	
+    a,8 c e g f4 e8 a,( a2.\fermata)
+    r4
+  }
+
                                 % TROMBONE
 
   \tag #'tbn {
@@ -947,7 +1062,7 @@
     \revert NoteHead #'font-size
     \revert Stem #'transparent
     \mark \default
-    a4\p cis  e2
+    a,4\p cis  e2
 
     \override Stem #'transparent = ##t
     \mark \default

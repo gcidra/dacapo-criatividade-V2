@@ -149,6 +149,23 @@
   }
 
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    \repeat volta 2 { 
+      d8\p^\markup{\column {\bold {Andante  A3}} }  e f\<( e) d e f g a2\f
+      bes8^\markup{\bold {B3}} a g\>( f) e d e f g2\p
+      a8\f^\markup{\bold {C3}} bes c\>( bes) a g f e\! 
+      bes'\>( a) g f 
+      e^\markup{\bold {D3}} d\! 
+      a'\<( g) f\! g\> f e d2\p 
+    }
+
+
+
+  }
+
                                 % TROMBONE
 
   \tag #'tbn {

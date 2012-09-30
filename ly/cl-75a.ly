@@ -271,6 +271,38 @@
 
   }
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    \key f \major
+    \override Staff.TimeSignature #'style = #'()
+    \time 4/4 
+    \override Score.BarNumber #'transparent = ##t
+    \override Score.RehearsalMark #'font-size = #-2
+                                %\override Score.RehearsalMark #'font-family = #'
+    \set Score.markFormatter = #format-mark-numbers
+
+    bes2.\f bes8 bes
+    c2. c8 c
+    d2. d8 d
+    e2. e8 e
+    f2. f8 f
+    g2. g8 g
+    a2. a8 a
+    bes2. r4
+
+    bes2. bes8 bes
+    a2. a8 a
+    g2. g8 g
+    f2. f8 f
+    e2. e8 e
+    d2. d8 d
+    c2. c8 c
+    bes2. r4
+
+
+  }
 
                                 % TROMBONE
 

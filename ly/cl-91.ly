@@ -343,6 +343,48 @@
   }
 
 
+                                % TROMPA OP
+
+  \tag #'tpaop {
+
+    \new ChoirStaff <<
+      <<
+        \new Staff{
+          \override Score.BarNumber #'transparent = ##t
+          \key c \major
+          \time 2/4
+          \partial 8*2
+          
+          e,8^\markup {\bold {A Moderato}} e c e c e g4 
+          d8^\markup {\bold {B}}  e f4 e8 d e c  
+          e^\markup {\bold {C}} e c e c e g4 
+          d8^\markup {\bold {D}}  e f4 g c,
+          \bar "|." 
+
+	}
+
+
+
+        \new Staff {
+          \key c \major
+          \time 2/4
+          \partial 4
+
+          g'8 g e g e g c4
+          \hideNotes
+          b8 c d4 c8 b c g
+
+          \unHideNotes
+          g8 g e g e g c4	
+          \hideNotes
+          b8 c d4 b c
+	}
+      >>
+    >>
+
+
+  }
+
                                 % TROMBONE
 
   \tag #'tbn {
