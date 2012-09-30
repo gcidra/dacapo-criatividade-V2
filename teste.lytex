@@ -98,22 +98,20 @@
 % 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
+\section{Escolha uma música para aprender ``de ouvido'' e apresente  a
+  seus colegas.  }
+\label{sec:escolha-musica-apresente-colegas}
 
-\break
-\section{Amarelinha vertical}
-\label{sec:amarelinha-vertical}
-
-\includegraphics[scale=0.91]{amarelinha-jogocl}
-
-
-Este jogo é semelhante a brincadeira de amarelinha. O objetivo é
-atingir o céu, partindo da terra. Para alcançá-lo, é necessário galgar
-uma casa de cada vez, sempre partindo da casa 1 e retornando a
-ela. Por exemplo: 1, 1-2-1, 1-2-3-2-1, 1-2-3-4-3-2-1,
-1-2-3-4-5-4-3-2-1 etc. Se você errar uma nota, um ritmo ou um sinal de
-expressão, perde a vez e outro começa. Quando voltar a sua vez,
-recomece da casa 1, ou seja: 1, 1-2-1, 1-2-3-2-1 etc. Vencem aqueles
-que atingirem o céu.
+%%break-bomsibDo
+%%break-tbasibDo
+%%break-tbasibsib8abaixo
+\section{Componha uma música e toque para seus colegas. }
+\label{sec:comp-toque-colegas}
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-106.ly"}
+\end{lilypond}
 
 
 
