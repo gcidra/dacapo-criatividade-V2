@@ -345,7 +345,7 @@
 
     \unHideNotes
     
-    \stemDown bes2
+    bes2
 
     \hideNotes
 
@@ -354,7 +354,7 @@
 
     \unHideNotes
 
-    \stemDown bes2
+    bes2
 
     \hideNotes
     
@@ -362,7 +362,7 @@
 
     \unHideNotes
 
-    \stemUp c,4
+    c,4
 
   }
 
