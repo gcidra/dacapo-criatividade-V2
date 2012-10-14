@@ -1021,20 +1021,20 @@
 
   \tag #'tpaop {
 
-    \set Staff.keySignature = #`(((1 . 3) . ,SHARP) ((0 . 6) . ,FLAT))
+    \set Staff.keySignature = #`(((0 . 9) . ,FLAT) ((0 . 6) . ,NATURAL) ) 
 
-    c2 d e f g a bes2. r4
+    c2 d e fis g a b2. r4
     
     \mark \default
-    bes2 a 
+    b2 a 
     \break
-    g f
+    g fis
     e d c2. r4
 
     \mark \default
 
-    c4 e8 g bes4 g8 e 
-    f4 e8 d c4 c8 c 
+    c4 e8 g b4 g8 e 
+    fis4 e8 d c4 c8 c 
     c2. r4
 
     \bar "||"
@@ -1043,12 +1043,12 @@
 
     \override Stem #'transparent = ##t
     \mark \default
-    c4  d e f
+    c4 d e fis
     
     \override NoteHead #'style = #'slash
     \override NoteHead #'font-size = #-4
     \mark \default
-    c  d e f
+    c  d e fis
 
     \revert NoteHead #'style 
     \revert NoteHead #'font-size
@@ -1058,12 +1058,12 @@
 
     \override Stem #'transparent = ##t
     \mark \default
-    d4   e f g
+    d4 e fis g
     
     \override NoteHead #'style = #'slash
     \override NoteHead #'font-size = #-4
     \mark \default
-    d  e f g
+    d e fis g
 
     \revert NoteHead #'style 
     \revert NoteHead #'font-size
@@ -1073,26 +1073,26 @@
 
     \override Stem #'transparent = ##t
     \mark \default
-    e4 f g a
+    e4 fis g a
     
     \override NoteHead #'style = #'slash
     \override NoteHead #'font-size = #-4
     \mark \default
-    e f g a
+    e fis g a
 
     \revert NoteHead #'style 
     \revert NoteHead #'font-size
     \mark \default
-    f1
+    fis1
 
     \override Stem #'transparent = ##t
     \mark \default
-    f4 g a bes
+    fis4 g a b
     
     \override NoteHead #'style = #'slash
     \override NoteHead #'font-size = #-4
     \mark \default
-    f g a bes
+    fis g a b
 
     \revert NoteHead #'style 
     \revert NoteHead #'font-size
@@ -1101,12 +1101,12 @@
 
     \override Stem #'transparent = ##t
     \mark \default
-    g4 f e d
+    g4 fis e d
     
     \override NoteHead #'style = #'slash
     \override NoteHead #'font-size = #-4
     \mark \default
-    g f e d
+    g fis e d
 
     \revert NoteHead #'style 
     \revert NoteHead #'font-size
@@ -1115,26 +1115,26 @@
 
     \override Stem #'transparent = ##t
     \mark \default
-    a4 g f e
+    a4 g fis e
     
     \override NoteHead #'style = #'slash
     \override NoteHead #'font-size = #-4
     \mark \default
-    a g f e
+    a g fis e
 
     \revert NoteHead #'style 
     \revert NoteHead #'font-size
     \mark \default
-    bes'1 
+    b'1 
 
     \override Stem #'transparent = ##t
     \mark \default
-    bes4 a g f
+    b4 a g fis
     
     \override NoteHead #'style = #'slash
     \override NoteHead #'font-size = #-4
     \mark \default
-    bes a g f
+    b a g fis
 
     \revert NoteHead #'style 
     \revert NoteHead #'font-size
