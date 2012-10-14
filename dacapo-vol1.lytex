@@ -1907,7 +1907,7 @@ Inicie com a nota %#nota-Cl-Mi#%.
 %%break-fl
 %%break-saxh
 %%break-tpt
-%%break-tpaop
+
 %%break-bomsibClaveSol
 \section{Improvisando e imitando com sete notas}
 \label{sec:impr-e-imit-sete-notas}
@@ -2130,7 +2130,6 @@ Volte ao início e termine no \textbf{\textit{Fim}}.
 %%break-fl
 %%break-saxh
 %%break-tpt
-%%break-tpaop
 %%break-bomsibClaveSol
 %%break-tbasibsib8acima
 %%break-tbasibsib8abaixo
@@ -2149,7 +2148,7 @@ Inicie com a nota %#nota-Cl-Do#%.
     \include "cl-pauta.ly"}
 \end{lilypond}
 
-
+%%break-tpaop
 
 %%%%%%%%%%%%%%%%%%%%%%%% INICIO QUADRO 09 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -2580,7 +2579,7 @@ Volte à melodia principal, ou \textbf{Tema}, e termine no
     \include "cl-56.ly"}
 \end{lilypond}
 
-
+%%break-tpaop
 \section{Vamos escrever uma segunda voz para Ró-ró-ró}
 \label{sec:vamos-escrever-segunda-voz-ro-ro-ro}
 \subsection*{Cânone}
@@ -2675,6 +2674,7 @@ as duas notas que compreendem a melodia.
 
 %%break-ob
 %%break-saxa
+%%break-tpaop
 \section{Escala do modo frígio sobre lá}
 \label{sec:escalas-sobre-la}
 
