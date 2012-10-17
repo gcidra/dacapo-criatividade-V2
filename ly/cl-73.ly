@@ -2608,7 +2608,7 @@
     \revert NoteHead #'font-size
     \revert Stem #'transparent
     
-    e2\f^\markup {\bold {Parte 2}} f\> fis g\! g1\p
+    e,2\f^\markup {\bold {Parte 2}} f\> fis g\! g1\p
     r1
     g2\p fis\< f e\! e1\f
     r1
@@ -2766,7 +2766,7 @@
   \tag #'tbn {
     \clef bass
 
-    a,2\p^\markup {\column {\bold { \line {Parte 1} Andante}}} bes\< b? c\! c1\f
+    a2\p^\markup {\column {\bold { \line {Parte 1} Andante}}} bes\< b? c\! c1\f
     r1
     c2\f b\> bes a\! a1\p
     r1

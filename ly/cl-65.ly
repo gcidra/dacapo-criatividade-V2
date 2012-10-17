@@ -2685,7 +2685,7 @@
               \override Stem #'transparent = ##t
               \override Beam #'transparent = ##t
 
-              b,16^\markup{Dó}
+              b,16^\markup{Fá}
 
               \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
               \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
@@ -2709,7 +2709,7 @@
 
                                 %escala 2 de fa
 
-              b,16^\markup{Fá}
+              b,16^\markup{Sib}
 
               \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
               \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
@@ -2734,7 +2734,7 @@
 
               \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
               \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
-              b,16^\markup{Sol}
+              b,16^\markup{Dó}
               c
 
 
@@ -2760,7 +2760,7 @@
 
             \alternative { {
 
-              b,16^\markup{Dó}
+              b,16^\markup{Fá}
 
               \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
               \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")

@@ -1807,7 +1807,7 @@
 
     \override Stem #'transparent = ##t
     \mark \default
-    a4 b c d
+    a,4 b c d
 
     \override NoteHead #'style = #'slash
     \override NoteHead #'font-size = #-6
@@ -1842,14 +1842,14 @@
 
     \override Stem #'transparent = ##t
     \mark \default
-    c4 d e f
+    c4 d e fis
 
 
     \mark \default
     \override NoteHead #'style = #'slash
     \override NoteHead #'font-size = #-6
 
-    c4 d e f
+    c4 d e fis
 
     \bar "||"
     \revert NoteHead #'style
@@ -1860,12 +1860,12 @@
 
     \override Stem #'transparent = ##t
     \mark \default
-    d4 e f g
+    d4 e fis g
 
     \mark \default
     \override NoteHead #'style = #'slash
     \override NoteHead #'font-size = #-6
-    d4 e f g
+    d4 e fis g
 
     \bar "||"
     \revert NoteHead #'style
@@ -1877,30 +1877,30 @@
     \override Stem #'transparent = ##t
     \mark \default
     
-    e4 f g a
+    e4 fis g a
 
     \mark \default
     \override NoteHead #'style = #'slash
     \override NoteHead #'font-size = #-6
-    e4 f g a
+    e4 fis g a
 
     \bar "||"
     \revert NoteHead #'style
     \revert NoteHead #'font-size
     \revert Stem #'transparent
     \mark \default
-    f1
+    fis1
 
     \override Stem #'transparent = ##t
     \mark \default
     
-    b,4*4/5 c d e f
+    b,4*4/5 c d e fis
 
     \mark \default
     \override NoteHead #'style = #'slash
     \override NoteHead #'font-size = #-6
     
-    b,4*4/5 c d e f
+    b,4*4/5 c d e fis
 
     \bar "||"    
     \revert NoteHead #'style
@@ -1913,13 +1913,13 @@
     \override Stem #'transparent = ##t
     \mark \default
     
-    c,4*4/5 d e f g
+    c,4*4/5 d e fis g
 
     \mark \default
     \override NoteHead #'style = #'slash
     \override NoteHead #'font-size = #-6
 
-    c,4*4/5 d e f g
+    c,4*4/5 d e fis g
 
     \bar "||"
     \revert NoteHead #'style
@@ -1931,13 +1931,13 @@
     \override Stem #'transparent = ##t
     \mark \default
     
-    d,4*4/5 e f g a
+    d,4*4/5 e fis g a
 
     \mark \default
     \override NoteHead #'style = #'slash
     \override NoteHead #'font-size = #-6
 
-    d,4*4/5 e f g a
+    d,4*4/5 e fis g a
 
 
     \bar "||"
@@ -1950,31 +1950,31 @@
     \override Stem #'transparent = ##t
     \mark \default
     
-    a,4*4/6 b c d e f
+    a,4*4/6 b c d e fis
 
     \mark \default
     \override NoteHead #'style = #'slash
     \override NoteHead #'font-size = #-6
 
-    a,4*4/6 b c d e f
+    a,4*4/6 b c d e fis
 
     \bar "||"
     \revert NoteHead #'style
     \revert NoteHead #'font-size
     \revert Stem #'transparent
     \mark \default
-    bes1
+    b1
 
     \override Stem #'transparent = ##t
     \mark \default
     
-    b,4*4/6 c d e f g 
+    b,4*4/6 c d e fis g 
 
     \mark \default
     \override NoteHead #'style = #'slash
     \override NoteHead #'font-size = #-6
 
-    b,4*4/6 c d e f g 
+    b,4*4/6 c d e fis g 
 
     \bar "||"
     \revert NoteHead #'style
@@ -1986,13 +1986,13 @@
     \override Stem #'transparent = ##t
     \mark \default
     
-    c4*4/6 d e f g a 
+    c4*4/6 d e fis g a 
 
     \mark \default
     \override NoteHead #'style = #'slash
     \override NoteHead #'font-size = #-6
 
-    c,4*4/6 d e f g a
+    c,4*4/6 d e fis g a
 
     \bar "||"
     \revert NoteHead #'style
@@ -2005,13 +2005,13 @@
     \override Beam #'transparent = ##t
     \mark \default
     
-    a8 b c d e f g a
+    a8 b c d e fis g a
 
     \mark \default
     \override NoteHead #'style = #'slash
     \override NoteHead #'font-size = #-6
 
-    a,8 b c d e f g a
+    a,8 b c d e fis g a
   }
 
                                 % TROMBONE
@@ -2031,7 +2031,7 @@
 
     \override Stem #'transparent = ##t
     \mark \default
-    a,,4 b cis d
+    a,4 b cis d
 
     \override NoteHead #'style = #'slash
     \override NoteHead #'font-size = #-6

@@ -1617,7 +1617,7 @@
                                 %escala 1  - la 
               \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
               \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
-              a32*8/9^\markup { \column {\line { \bold {Parte 2}}\bold {A1}}} 
+              a,32*8/9^\markup { \column {\line { \bold {Parte 2}}\bold {A1}}} 
               bes
 
               \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
@@ -1694,7 +1694,7 @@
 
               \bar ":"
 
-              a,8 c
+              a8 c
 
             }
 
