@@ -621,7 +621,7 @@ trompaop-Grave.lytex: $(file) Makefile
 	-e 's/%#nota-19#%//g' \
 	-e 's/%#nota-20#%//g' \
 	-e 's/%#nota-21#%//g' \
-	-e 's/%#nota-22#%/Lá/g' \
+	-e 's/%#nota-22#%//g' \
 	-e 's/%#armadura-01-01#%/Si bemol/g' \
 	-e 's/%#armadura-01-02#%/as notas si e mi são bemóis/g' \
 	-e 's/%#armadura-02-01#%/fá/g' \
