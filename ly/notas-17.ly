@@ -32,7 +32,7 @@
   \tag #'saxg {
     \override Staff.Clef #'transparent = ##t
     \stopStaff
-    s^\markup {\hspace #-7 "Descanso"}
+    s^\markup {\halign #3 "Descanso"}
   }
   %% TROMPETE
   \tag #'tpt {
@@ -44,7 +44,7 @@
   \tag #'tpa {
     \override Staff.Clef #'transparent = ##t
     \stopStaff
-    s^\markup {\hspace #-7 "Descanso"}
+    s^\markup {\halign #3 "Descanso"}
   }
   %% TROMPA OP
   \tag #'tpaop {
@@ -63,7 +63,7 @@
   \tag #'tbamib {
     \override Staff.Clef #'transparent = ##t
     \stopStaff
-    s^\markup {\hspace #-7 "Descanso"}
+    s^\markup {\halign #3 "Descanso"}
   }
   %% TUBA SIB
   \tag #'tbasib {

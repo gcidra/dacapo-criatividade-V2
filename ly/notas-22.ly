@@ -16,31 +16,31 @@
   \tag #'fl {
     \override Staff.Clef #'transparent = ##t
     \stopStaff
-    s^\markup {\hspace #-7 "Descanso"}
+    s^\markup {\halign #1 "Descanso"}
   }
   %% OBOÉ
   \tag #'ob {
     \override Staff.Clef #'transparent = ##t
     \stopStaff
-    s^\markup {\hspace #-7 "Descanso"}
+    s^\markup {\halign #1 "Descanso"}
   }
   %% SAX ALTO
   \tag #'saxa {
     \override Staff.Clef #'transparent = ##t
     \stopStaff
-    s^\markup {\hspace #-7 "Descanso"}
+    s^\markup {\halign #1 "Descanso"}
   }
   %% SAX TENOR
   \tag #'saxt {
     \override Staff.Clef #'transparent = ##t
     \stopStaff
-    s^\markup {\hspace #-7 "Descanso"}
+    s^\markup {\halign #1 "Descanso"}
   }
   %% SAX GENES
   \tag #'saxg {
     \override Staff.Clef #'transparent = ##t
     \stopStaff
-    s^\markup {\hspace #-7 "Descanso"}
+    s^\markup {\halign #1 "Descanso"}
   }
   %% TROMPETE
   \tag #'tpt {
@@ -52,13 +52,13 @@
   \tag #'tpa {
     \override Staff.Clef #'transparent = ##t
     \stopStaff
-    s^\markup {\hspace #-7 "Descanso"}
+    s^\markup {\halign #1 "Descanso"}
   }
   %% TROMPA OP
   \tag #'tpaop {
-    \override Staff.Clef #'transparent = ##f
-    \startStaff
-    e
+    \override Staff.Clef #'transparent = ##t
+    \stopStaff
+    s^\markup {\halign #1 "Descanso"}
   }
   %% TROMBONE
   \tag #'tbn {
@@ -71,7 +71,7 @@
   \tag #'tbamib {
     \override Staff.Clef #'transparent = ##t
     \stopStaff
-    s^\markup {\hspace #-7 "Descanso"}
+    s^\markup {\halign #1 "Descanso"}
   }
   %% TUBA SIB
   \tag #'tbasib {
