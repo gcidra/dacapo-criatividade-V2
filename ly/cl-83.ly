@@ -943,7 +943,7 @@
           
           \mark \default
           \repeat "percent" 4 {
-            a'8 b
+            a8 b
             c d e f g a  
           }
 
@@ -960,7 +960,7 @@
 
           \partial 8*1
 
-          a,8\p^\markup {\bold  { 2 \tiny \raise #0.5 "a"   voz}  }  c4 a8 c r4 r8 
+          a8\p^\markup {\bold  { 2 \tiny \raise #0.5 "a"   voz}  }  c4 a8 c r4 r8 
           a8 c4\< a8 g' r4\! r8
           f8 e4\f c8 e r4 r8
           f8 e4\> c8 a r4\! r8
