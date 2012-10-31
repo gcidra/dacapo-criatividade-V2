@@ -49,6 +49,12 @@
     \stopStaff
     s^\markup {\hspace #-7 "Descanso"}
   }
+  %% TROMPA OP AGUDO
+  \tag #'tpaopag {
+    \override Staff.Clef #'transparent = ##f
+    \startStaff
+    c
+  }
   %% TROMPA OP
   \tag #'tpaop {
     \override Staff.Clef #'transparent = ##f
