@@ -22,7 +22,7 @@ regencia = regencia
 percussao = percussao
 instrumentos_clave_de_sol = flauta oboe clarinete saxalto saxtenor saxhorn trompa trompaop trompaop-Agudo trompaop-Grave trompete bombardino-instSIB-clave-sol
 instrumentos_clave_de_fa = fagote trombone bombardino-instDO-escDO bombardino-instSIB-escSIB bombardino-instSIB-escDO tuba-instMIB-escDO tuba-instMIB-escMIB tuba-instSIB-escDO tuba-instSIB-escSIB8acima tuba-instSIB-escSIB8abaixo
-listlivros = flauta oboe clarinete saxalto saxtenor saxhorn trompa trompaop trompete fagote trombone bombardino-instSIB-clave-sol bombardino-instDO-escDO bombardino-instSIB-escSIB bombardino-instSIB-escDO tuba-instMIB-escDO tuba-instMIB-escMIB tuba-instSIB-escDO tuba-instSIB-escSIB8acima tuba-instSIB-escSIB8abaixo
+listlivros = flauta oboe clarinete saxalto saxtenor saxhorn trompa trompaop trompaop-Agudo trompaop-Grave trompete fagote trombone bombardino-instSIB-clave-sol bombardino-instDO-escDO bombardino-instSIB-escSIB bombardino-instSIB-escDO tuba-instMIB-escDO tuba-instMIB-escMIB tuba-instSIB-escDO tuba-instSIB-escSIB8acima tuba-instSIB-escSIB8abaixo
 
 all_ps_sol = $(addsuffix .ps,$(instrumentos_clave_de_sol))
 all_ps_fa = $(addsuffix .ps,$(instrumentos_clave_de_fa))
@@ -531,7 +531,7 @@ trompaop.lytex: $(file) Makefile
 	-e 's/transpose c c/transpose c f,/g' $< > $@
 
 trompaop-Agudo.lytex: $(file) Makefile 
-	sed -e "s/keepWithTag #'cl/\keepWithTag #'tpaop/g" \
+	sed -e "s/keepWithTag #'cl/\keepWithTag #'tpaopag/g" \
 	-e 's/instrumento{InstrCapa}/instrumento{Trompa em Fá - Opcional - Agudo}/g' \
 	-e 's/instrumento{Original}/instrumento{Trompa em Fá - Opcional - Agudo}/g' \
 	-e 's/instrumento{Rodape}/instrumento{Trompa Opcional}/g' \
@@ -565,7 +565,7 @@ trompaop-Agudo.lytex: $(file) Makefile
 	-e 's/%#nota-19#%//g' \
 	-e 's/%#nota-20#%//g' \
 	-e 's/%#nota-21#%//g' \
-	-e 's/%#nota-22#%/Lá/g' \
+	-e 's/%#nota-22#%//g' \
 	-e 's/%#armadura-01-01#%/Si bemol/g' \
 	-e 's/%#armadura-01-02#%/as notas si e mi são bemóis/g' \
 	-e 's/%#armadura-02-01#%/fá/g' \
