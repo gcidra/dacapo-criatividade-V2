@@ -137,6 +137,21 @@
   }
 
 
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+
+    c,2*1/16^\markup{Fá}
+    d4*1/16
+    e2*1/16
+    f4*1/16
+    g2*1/16
+    a4*1/16
+    b4*1/16
+    c2*1/16
+  }
+
+
                                 % TROMPA OP
 
   \tag #'tpaop {

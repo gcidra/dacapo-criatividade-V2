@@ -266,6 +266,36 @@
 
   }
 
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+    
+    \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
+    \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
+
+    c,16^\markup{Fá}
+    d
+
+    \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
+    \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
+
+    e
+    f
+
+    \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
+    \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
+
+    g
+    a
+    b
+
+    \once \override Voice.NoteHead #'stencil = #ly:text-interface::print
+    \once \override Voice.NoteHead #'text = #(make-musicglyph-markup "noteheads.s1")
+
+    c
+
+  }
+
                                 % TROMPA OP
 
   \tag #'tpaop {
