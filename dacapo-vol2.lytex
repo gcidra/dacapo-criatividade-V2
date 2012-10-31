@@ -770,16 +770,18 @@ E, com a água, desperta em emoção.
  \renewcommand{\tablename}{Quadro}
  \caption{}
   \label{Quadro_15}
-  \begin{tabular}[t]{|l|l|l|}
+  \begin{tabular}[t]{|ll|l|l|}
     \hline
 
     %%% PRÓXIMA LINHA
-    \letraquadrada{A}   &   \letraquadrada{B}   &   \letraquadrada{C}
+    \letraquadrada{A}  & \em &   \letraquadrada{B}   &   \letraquadrada{C}
    
 
     %%% PRÓXIMA LINHA
     \\
     \quadtitulo{%#nota-13#%} 
+    &
+    \quadtitulo{%#nota-13a#%} 
     &
     \quadtitulo{Mezzo forte}
     &
@@ -795,6 +797,13 @@ E, com a água, desperta em emoção.
       }
     \end{lilypond}
     &
+    \begin[fragment]{lilypond}
+      \transpose c c {
+        \keepWithTag #'cl
+        \include "notas-13a.ly"
+      }
+    \end{lilypond}
+    &
     \includegraphics[scale=1]{mezzo-forte}
     &
     \includegraphics[scale=1]{seminima-pontuada}
@@ -802,7 +811,7 @@ E, com a água, desperta em emoção.
 
     %%% PRÓXIMA LINHA
     \\
-    \includegraphics[scale=3.15]{%#fig-posicoes#%-13}    &\em    &\em
+    \includegraphics[scale=3.15]{%#fig-posicoes#%-13}   & \includegraphics[scale=3.15]{%#fig-posicoes#%-13a} &\em    &\em
 
 
     %%% FINAL DAS LINHAS
@@ -812,6 +821,7 @@ E, com a água, desperta em emoção.
 \end{table}    
 
 %%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 %%break-tbasibDo
 %%break-tbasibsib8abaixo
