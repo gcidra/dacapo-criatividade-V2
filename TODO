@@ -22,22 +22,18 @@
    - Corrigir texto do lytex de percussão
 
 * A FAZER - Quadros
-- verificar se há algum quadro com coluna única e contendo LETRA A
-  etc.
-  quadro 19
+  - verificar se há algum quadro com coluna única e contendo LETRA A
+    etc.
+    quadro 19
 
 * A FAZER - Dacapo 2ª edição Revisada
-- revisão de dinâmica e andamento em todo livro
-- Inserir o ré grave na tpa, sxg, e tbamib na lição 91 "escala de dó menor"
+  - revisão de dinâmica e andamento em todo livro
+  - Inserir o ré grave na tpa, sxg, e tbamib na lição 91 "escala de dó menor"
 
-- Vazer novas lições para melhor dispor os quadros
-- Melhor disposição dos objetos nos quadros.
-- Colocar a palavra "Tacet" em todos os locais onde instrumentos não tocam.
+  - Vazer novas lições para melhor dispor os quadros
+  - Melhor disposição dos objetos nos quadros.
+  - Colocar a palavra "Tacet" em todos os locais onde instrumentos não tocam.
 
-
-
-e = 1,2
-f = 1
-fis = 2
-g = 0
-gis = 2,3
+* A FAZER - REVISÃO TROMPA OP
+  - Mudar código \hspace por \halign nos arquivos de notas-*
+  -
