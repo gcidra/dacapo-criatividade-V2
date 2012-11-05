@@ -683,12 +683,94 @@
 
 
   }
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+
+    bes'4\p d f2
+
+    \override Stem #'transparent = ##t
+    \mark \default
+    
+    bes,4*4/3 d f 
+
+    \mark \default
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+
+    bes,4*4/3 d f
+
+    \bar "||"
+    \revert NoteHead #'style
+    \revert NoteHead #'font-size
+    \revert Stem #'transparent
+    \mark \default
+    c4 e g2
+
+    \override Stem #'transparent = ##t
+    \mark \default
+    
+    c,4*4/3 e g 
+
+    \mark \default
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+
+    c,4*4/3 e g
+
+    \bar "||"
+    \revert NoteHead #'style
+    \revert NoteHead #'font-size
+    \revert Stem #'transparent
+    \mark \default
+    d,4 f a2
+
+    \override Stem #'transparent = ##t
+    \mark \default
+    
+    d,4*4/3 f a 
+
+    \mark \default
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+
+    d,4*4/3 f a
+
+    \bar "||"
+    \revert NoteHead #'style
+    \revert NoteHead #'font-size
+    \revert Stem #'transparent
+    \mark \default
+    e4 g bes2
+
+    \override Stem #'transparent = ##t
+    \mark \default
+    
+    e,4*4/3 g bes
+
+    \mark \default
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-6
+
+    e,4*4/3 g bes
+
+    \bar "||"
+    \revert NoteHead #'style
+    \revert NoteHead #'font-size
+    \revert Stem #'transparent
+    \mark \default
+    bes4 f d c
+    bes'2. r4
+
+
+
+  }
 
                                 % TROMPA OP
 
   \tag #'tpaop {
 
-    bes4\p d f2
+    bes,4\p d f2
 
     \override Stem #'transparent = ##t
     \mark \default
