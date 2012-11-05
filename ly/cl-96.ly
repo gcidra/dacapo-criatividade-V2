@@ -404,6 +404,54 @@
 
   }
 
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+
+    \new ChoirStaff <<
+      <<
+        \new Staff {
+          \key c \major
+          \time 4/4
+
+          \partial 2
+          
+          a''4.\mf^\markup { \bold \large { Andante Sustenuto} } a8 
+          a4 a g4. g8
+          g4 g8 r 
+          a4. a8 
+          a4 a a a
+          g g g4. g8
+          g4 r b,4.\f b8 
+          c4 r f4. f8
+          e4 r
+
+          \bar "|."
+        }
+
+        \new Staff
+        {
+          \key c \major
+
+          \partial 2	
+          e4.\mf e8
+          d4 d d4. d8
+          c4 c8 r
+          e4. e8
+          d4 d d d
+          e e d4. d8
+          e4 r d4.\f d8
+          e4 r b4. b8
+          c4 r
+        }
+
+      >>
+    >>
+
+
+
+  }
+
 
                                 % TROMPA OP
 
@@ -417,7 +465,7 @@
 
           \partial 2
           
-          c'4.\mf^\markup { \bold \large { Andante Sustenuto} } c8 
+          c4.\mf^\markup { \bold \large { Andante Sustenuto} } c8 
           c4 c b4. b8
           c4 c8 r 
           c4. c8 

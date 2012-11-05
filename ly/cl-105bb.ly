@@ -235,13 +235,40 @@
 
   }
 
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+
+    \repeat volta 2 {
+      e'8\mf^\markup{\bold Andante} f 
+      g4 g g g
+      g2( 
+      g4) d8\p e
+      f4( d)
+      g4( f)
+      e2(
+      e4) c8\mf d
+      e4 c
+      d e 
+      f2(
+      f4) d8\p e
+      f4( d)
+      g( f)
+      e2(
+      e4)
+
+    }	
+
+
+  }
+
 
                                 % TROMPA OP
 
   \tag #'tpaop {
 
     \repeat volta 2 {
-      e8\mf^\markup{\bold Andante} f 
+      e,8\mf^\markup{\bold Andante} f 
       g4 g g g
       g2( 
       g4) d8\p e

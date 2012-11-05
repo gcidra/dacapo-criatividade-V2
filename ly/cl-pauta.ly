@@ -118,6 +118,18 @@
     { s1\break }
 
   }
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+
+    \repeat unfold 1 
+
+                                % Change this for more lines.
+
+    { s1\break }
+    { s1\break }
+
+  }
 
                                 % TROMPA OP
 

@@ -14,8 +14,6 @@
 
     \repeat unfold 10 
 
-                                % Change this for more lines.
-
     { s1\break }
 
 
@@ -27,8 +25,6 @@
   \tag #'fl {
 
     \repeat unfold 10 
-
-                                % Change this for more lines.
 
     { s1\break }
 
@@ -42,8 +38,6 @@
 
     \repeat unfold 10 
 
-                                % Change this for more lines.
-
     { s1\break }
 
 
@@ -55,8 +49,6 @@
   \tag #'saxa {
 
     \repeat unfold 10 
-
-                                % Change this for more lines.
 
     { s1\break }
 
@@ -70,8 +62,6 @@
 
     \repeat unfold 10 
 
-                                % Change this for more lines.
-
     { s1\break }
 
 
@@ -83,8 +73,6 @@
   \tag #'saxg {
 
     \repeat unfold 10 
-
-                                % Change this for more lines.
 
     { s1\break }
 
@@ -98,8 +86,6 @@
 
     \repeat unfold 10 
 
-                                % Change this for more lines.
-
     { s1\break }
 
 
@@ -112,7 +98,16 @@
 
     \repeat unfold 10 
 
-                                % Change this for more lines.
+    { s1\break }
+
+
+
+  }
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+
+    \repeat unfold 10 
 
     { s1\break }
 
@@ -125,8 +120,6 @@
   \tag #'tpaop {
 
     \repeat unfold 10 
-
-                                % Change this for more lines.
 
     { s1\break }
 
@@ -143,8 +136,6 @@
 
     \repeat unfold 10 
 
-                                % Change this for more lines.
-
     { s1\break }
 
 
@@ -158,8 +149,6 @@
 
     \repeat unfold 10 
 
-                                % Change this for more lines.
-
     { s1\break }
 
 
@@ -172,8 +161,6 @@
     \clef bass
 
     \repeat unfold 10 
-
-                                % Change this for more lines.
 
     { s1\break }
 
@@ -189,8 +176,6 @@
 
     \repeat unfold 10 
 
-                                % Change this for more lines.
-
     { s1\break }
 
 
@@ -198,9 +183,7 @@
   }
 
 
-
                                 % FINAL
 
-                                %\bar "|."
-
+                               %\bar "|."
 }

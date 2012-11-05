@@ -188,12 +188,33 @@
 
 
   }
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+
+    e'8 e r e g g r g e e r c d4
+
+    \hideNotes
+    d4 d2
+
+    d1
+
+    \break
+
+    d1 d1 d1 d1
+
+    \unHideNotes
+    c2 
+
+
+
+  }
 
                                 % TROMPA OP
 
   \tag #'tpaop {
 
-    e8 e r e g g r g e e r c d4
+    e,8 e r e g g r g e e r c d4
 
     \hideNotes
     d4 d2

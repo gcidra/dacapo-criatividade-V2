@@ -237,6 +237,34 @@
 
   }
 
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+
+    \repeat volta 2 {
+      
+      c'8 e 
+      g c g e
+      c e g e
+      f f f f
+      f4 d8 e
+      f f a f
+      a g a f
+      e d c d
+      e4 e8 f
+      e f g e
+      f e d c
+      b c d e
+      a4 a8 a
+      b4. a8
+      g f d e
+      c4 c c
+
+    }
+
+
+  }
+
 
                                 % TROMPA OP
 
@@ -244,7 +272,7 @@
 
     \repeat volta 2 {
       
-      c8 e 
+      c,8 e 
       g c g e
       c e g e
       f f f f

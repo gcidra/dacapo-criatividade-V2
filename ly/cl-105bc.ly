@@ -238,13 +238,40 @@
 
 
   }
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+
+    \repeat volta 2 {
+      c'8\mf^\markup{\bold Allegro} e 
+      g c g e
+      c e g e
+      f f f f
+      f4 d8 e
+      f f r f
+      a g r f
+      e d c d
+      e4 e8 f
+      e f g e
+      f( e) d c
+      b\<( c) d e
+      a4\! r8 a
+      b4. a8
+      g( f) d e
+      c4\f c( c)
+
+    }
+
+
+
+  }
 
                                % TROMPA OP
 
   \tag #'tpaop {
 
     \repeat volta 2 {
-      c8\mf^\markup{\bold Allegro} e 
+      c,8\mf^\markup{\bold Allegro} e 
       g c g e
       c e g e
       f f f f

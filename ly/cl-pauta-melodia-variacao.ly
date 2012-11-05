@@ -103,6 +103,16 @@
     { s1^\markup {\bold \hspace #1.0 Variação} \break }
 
   }
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+    { s1^\markup {\bold \hspace #1.0 Melodia} \break }
+
+    \bar "|."
+
+    { s1^\markup {\bold \hspace #1.0 Variação} \break }
+
+  }
 
                                 % TROMPA OP
 
