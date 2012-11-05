@@ -545,7 +545,7 @@ trompaop-Agudo.lytex: $(file) Makefile
 	-e 's/instrumento{Rodape}/instrumento{Trompa Opcional}/g' \
 	-e 's/%#escrita#%//g' \
 	-e 's/ded-instrumento/ded-trompaop/g' \
-	-e 's/jogocl/jogotpaop/g' \
+	-e 's/jogocl/jogotpaopag/g' \
 	-e 's/%%historia-instrumento/\hist-trompa/g' \
 	-e 's/%#fig-posicoes#%/pos-tpaopag/g' \
 	-e 's/%#fig-clave#%/clave-sol-/g' \
@@ -566,7 +566,7 @@ trompaop-Agudo.lytex: $(file) Makefile
 	-e 's/%#nota-12#%//g' \
 	-e 's/%#nota-13#%/Si/g' \
 	-e 's/%#nota-13a#%/Dó/g' \
-	-e 's/%#nota-14#%/Mi bemol/g' \
+	-e 's/%#nota-14#%/Si bemol/g' \
 	-e 's/%#nota-15#%//g' \
 	-e 's/%#nota-16#%/Ré/g' \
 	-e 's/%#nota-17#%/Sol/g' \
