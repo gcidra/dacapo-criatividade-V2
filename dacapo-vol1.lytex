@@ -1568,6 +1568,7 @@ Inicie com a nota %#nota-Cl-Do#%.
   }
 \end{lilypond}
 
+%%break-Optpa
 \section{Bambaleando em outro tom}
 \label{sec:bambaleando-em-outro}
 \begin{lilypond}
@@ -1630,7 +1631,7 @@ Algumas maneiras de se tocar este número:
 
 Volte ao início e termine no \textbf{\textit{Fim}}.
 
-
+%%break-Optpa
 \section{Improvisando em A Margarida}
 \label{sec:impr-em-marg}
 \begin{lilypond}
@@ -1931,6 +1932,7 @@ Inicie com a nota %#nota-Cl-Mi#%.
 \end{lilypond}
 
 
+%%break-Optpa
 \section{Variações sobre A Mucama}
 \label{sec:vari-sobre-mucama}
 \begin{lilypond}
@@ -2248,6 +2250,7 @@ Inicie com a nota %#nota-Cl-Do#%.
 %%break-fg
 %%break-saxa
 %%break-tpa
+%%break-Optpa
 %%break-bomdo
 %%break-bomsibsib
 %%break-bomsibDo
@@ -2465,7 +2468,7 @@ Inicie com a nota %#nota-Cl-Do#%.
 %%break-tpa
 %%break-saxh
 %%break-tpt
-%%break-tpaop
+%%break-Optpa
 %%break-bomsibClaveSol
 %%break-bomdo
 %%break-bomsibsib
@@ -2497,7 +2500,7 @@ Inicie com a nota %#nota-Cl-Do#%.
 %%break-saxh
 %%break-fg
 %%break-tpt
-%%break-tpaop
+%%break-Optpa
 %%break-bomsibClaveSol
 %%break-bomdo
 %%break-bomsibsib
@@ -2579,7 +2582,7 @@ Volte à melodia principal, ou \textbf{Tema}, e termine no
     \include "cl-56.ly"}
 \end{lilypond}
 
-%%break-tpaop
+%%break-Optpa
 \section{Vamos escrever uma segunda voz para Ró-ró-ró}
 \label{sec:vamos-escrever-segunda-voz-ro-ro-ro}
 \subsection*{Cânone}
@@ -2674,7 +2677,7 @@ as duas notas que compreendem a melodia.
 
 %%break-ob
 %%break-saxa
-%%break-tpaop
+%%break-Optpa
 \section{Escala do modo frígio sobre lá}
 \label{sec:escalas-sobre-la}
 
