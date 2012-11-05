@@ -43,6 +43,10 @@
     \startStaff
     a
   }
+  %% TROMPA OP AGUDO
+  \tag #'tpaopag {
+    c'
+  }
   %% TROMPA OP
   \tag #'tpaop {
     \override Staff.Clef #'transparent = ##t
@@ -60,7 +64,7 @@
     \override Staff.Clef #'transparent = ##f
     \startStaff
     \clef bass
-    a
+    a,
   }
   %% TUBA SIB
   \tag #'tbasib {
