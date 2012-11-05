@@ -633,16 +633,18 @@ Volte ao início e termine no \textbf{\textit{Fim}}.
  \renewcommand{\tablename}{Quadro}
  \caption{}
   \label{Quadro_14}
-  \begin{tabular}[t]{|l|l|}
+  \begin{tabular}[t]{|ll|l|}
     \hline
 
     %%% PRÓXIMA LINHA
-    \letraquadrada{A}   &   \letraquadrada{B}
+    \letraquadrada{A}   &\em  &   \letraquadrada{B}
    
 
     %%% PRÓXIMA LINHA
     \\
     \quadtitulo{%#nota-12#%} 
+    &
+    \quadtitulo{%#nota-12a#%} 
     &
     \quadtitulo{Sinais de dinâmica}
 
@@ -656,12 +658,19 @@ Volte ao início e termine no \textbf{\textit{Fim}}.
       }
     \end{lilypond}
     &
+    \begin[fragment]{lilypond}
+      \transpose c c {
+        \keepWithTag #'cl
+        \include "notas-12a.ly"
+      }
+    \end{lilypond}
+    &
     \includegraphics[scale=1]{sinais-dinamica}
 
 
     %%% PRÓXIMA LINHA
     \\
-    \includegraphics[scale=3.15]{%#fig-posicoes#%-12}    &\em
+    \includegraphics[scale=3.15]{%#fig-posicoes#%-12}   & \includegraphics[scale=3.15]{%#fig-posicoes#%-12a} &\em
 
 
     %%% FINAL DAS LINHAS
@@ -671,7 +680,6 @@ Volte ao início e termine no \textbf{\textit{Fim}}.
 \end{table}    
 
 %%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 \section{Diversão no modo dórico sobre sol}
 \label{sec:diversao-modal}
