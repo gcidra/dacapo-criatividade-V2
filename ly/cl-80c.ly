@@ -172,7 +172,7 @@
   \tag #'tpaopag {
 
     \repeat volta 2 {
-      a8\f^\markup {\column {\bold {Vivo  A2}}} f f4-> a g
+      a'8\f^\markup {\column {\bold {Vivo  A2}}} f f4-> a g
       bes8\p^\markup {\bold B2} g g4 bes a4
 
     }
@@ -191,7 +191,7 @@
   \tag #'tpaop {
 
     \repeat volta 2 {
-      a8\f^\markup {\column {\bold {Vivo  A2}}} f f4-> a g
+      a,8\f^\markup {\column {\bold {Vivo  A2}}} f f4-> a g
       bes8\p^\markup {\bold B2} g g4 bes a4
 
     }

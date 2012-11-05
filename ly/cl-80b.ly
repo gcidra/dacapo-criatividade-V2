@@ -199,7 +199,7 @@
   \tag #'tpaopag {
 
     \repeat volta 2 {
-      f8\p^\markup {\column {\bold {Moderato  A1}}} c f\< a f c
+      f'8\p^\markup {\column {\bold {Moderato  A1}}} c f\< a f c
       g'\! c, 
       e^\markup {\bold B1} g\> bes g 
       e c\! f4 
@@ -220,7 +220,7 @@
   \tag #'tpaop {
 
     \repeat volta 2 {
-      f8\p^\markup {\column {\bold {Moderato  A1}}} c f\< a f c
+      f,8\p^\markup {\column {\bold {Moderato  A1}}} c f\< a f c
       g'\! c, 
       e^\markup {\bold B1} g\> bes g 
       e c\! f4 

@@ -237,7 +237,7 @@
     \tag #'tpaopag {
 
       \repeat volta 2 {
-	f8\mf^\markup {\column {\bold {Allegro  A}}} a 
+	f'8\mf^\markup {\column {\bold {Allegro  A}}} a 
 	f f d d g g 
 	g8^\markup {\bold B} bes g g e c f f 
 
@@ -264,7 +264,7 @@
     \tag #'tpaop {
 
       \repeat volta 2 {
-	f8\mf^\markup {\column {\bold {Allegro  A}}} a 
+	f,8\mf^\markup {\column {\bold {Allegro  A}}} a 
 	f f d d g g 
 	g8^\markup {\bold B} bes g g e c f f 
 

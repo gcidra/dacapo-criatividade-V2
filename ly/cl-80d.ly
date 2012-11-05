@@ -167,7 +167,7 @@
   \tag #'tpaopag {
 
     \repeat volta 2 {
-      f8\f^\markup{\column {\bold {Allegro  A3}}} c f->\>( e) d c\!
+      f'8\f^\markup{\column {\bold {Allegro  A3}}} c f->\>( e) d c\!
       g'\p( f) 
       e^\markup {\bold B3} d g\<( f) e c\! f4
 
@@ -186,7 +186,7 @@
   \tag #'tpaop {
 
     \repeat volta 2 {
-      f8\f^\markup{\column {\bold {Allegro  A3}}} c f->\>( e) d c\!
+      f,8\f^\markup{\column {\bold {Allegro  A3}}} c f->\>( e) d c\!
       g'\p( f) 
       e^\markup {\bold B3} d g\<( f) e c\! f4
 
