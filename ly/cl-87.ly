@@ -550,6 +550,96 @@
 
   }
 
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+
+    \new ChoirStaff <<
+      <<
+
+        \new Staff
+
+        \override Score.BarNumber #'transparent = ##t
+
+        {
+
+          \override Staff.TimeSignature #'style = #'()
+          \time 4/4
+
+          \key d \minor
+          d''2\p^\markup {\column {\line {\bold {Andante} } \line {\bold {1 \tiny \raise #0.5 "a"   voz}}}}
+          e f g a bes 
+
+          <<
+            {
+              \override NoteHead #'font-size = #-4
+              c d c 
+            }
+            \\	
+            {
+              \revert NoteHead #'font-size 
+              c,2 d c 
+            }
+          >>
+
+          bes' a g f e d1\fermata
+          
+          \bar "||"
+          \mark \default
+          
+          d2\< f a\! 
+
+          <<
+            {
+              \override NoteHead #'font-size = #-4
+              d2
+            }
+            \\	
+            {
+              \revert NoteHead #'font-size 
+              d,2
+            }
+          >>
+
+          a'\> f\!
+          d1\fermata 
+
+
+
+          \bar "|."
+        }
+
+        \new Staff
+        {
+
+          \override Staff.TimeSignature #'style = #'()
+          \time 4/4
+          \key d \minor
+          a2\p^\markup {\bold  { 2 \tiny \raise #0.5 "a"   voz}  } 
+          bes c d e f g a 
+          g f e d c bes a1\fermata 
+
+          a2\< d f\! a\> f d\! a1\fermata
+	}
+
+        \new Staff
+        {
+
+          \override Staff.TimeSignature #'style = #'()
+          \time 4/4
+          \key d \minor
+          f2\p^\markup {\bold  { 3 \tiny \raise #0.5 "a"   voz}  } 
+          g a bes c d e f 
+          e d c bes a g f1\fermata 
+
+          f2\< a d\! f\> d a\! f1\fermata
+	}
+      >>
+    >>
+
+
+  }
+
                                 % TROMPA OP
 
   \tag #'tpaop {
@@ -567,7 +657,7 @@
           \time 4/4
 
           \key d \minor
-          d'2\p^\markup {\column {\line {\bold {Andante} } \line {\bold {1 \tiny \raise #0.5 "a"   voz}}}}
+          d2\p^\markup {\column {\line {\bold {Andante} } \line {\bold {1 \tiny \raise #0.5 "a"   voz}}}}
           e f g a bes c d 
           c bes a g f e d1\fermata
           

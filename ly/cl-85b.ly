@@ -69,6 +69,13 @@
     \stopStaff
     s
   }
+  %% TROMPA OP AGUDO
+  \tag #'tpaopag {
+    \override Staff.Clef #'transparent = ##t
+    \override Staff.TimeSignature #'transparent = ##t
+    \stopStaff
+    s
+  }
   %% TROMPA OP
   \tag #'tpaop {
     \override Staff.Clef #'transparent = ##t

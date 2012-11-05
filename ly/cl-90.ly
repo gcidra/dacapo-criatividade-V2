@@ -1301,6 +1301,168 @@
 
   }
 
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+
+    \new ChoirStaff <<
+      <<
+
+                                % CONCORRENTE 1
+
+        \new Staff{
+
+          \override Score.BarNumber #'transparent = ##t
+                                %\override Score.RehearsalMark #'font-family = #'roman
+          \override Score.RehearsalMark #'font-size = #-1
+                                %\set Score.markFormatter = #format-marknumbers
+
+          \set Staff.keySignature = #`(((0 . 9) . ,FLAT) ((0 . 6) . ,NATURAL) ) 
+
+          \override Staff.TimeSignature #'style = #'()
+          \time 4/4 
+
+          r1^\markup {\column { \line {\hspace #2.0 Concorrente 1} } } 
+          r r r 
+
+          \break
+          r r r r
+
+          \break
+
+
+          \repeat volta 2 {
+            \override Stem #'transparent = ##t
+            \override Beam #'transparent = ##t
+
+            \mark \default
+            r4 
+            c'4*3/7 d4*3/7 e4*3/7 fis4*3/7 g4*3/7 a4*3/7 b4*3/7
+            c,4*3/7 d4*3/7 e4*3/7 fis4*3/7 g4*3/7 a4*3/7 b4*3/7 
+            r4 
+            
+            \mark \default
+            r1
+            r1
+            \break
+
+            \mark \default
+            r1
+            r1
+
+            \override NoteHead #'style = #'slash
+            \override NoteHead #'font-size = #-6
+            \mark \default
+            r4 
+            c,4*3/7 d4*3/7 e4*3/7 fis4*3/7 g4*3/7 a4*3/7 b4*3/7
+            c,4*3/7 d4*3/7 e4*3/7 fis4*3/7 g4*3/7 a4*3/7 b4*3/7 
+            r4 
+
+          }
+
+          r1
+          \bar "|."
+
+        }
+
+
+
+                                % CONCORRENTE 2
+
+        \new Staff {
+
+          \override Staff.TimeSignature #'style = #'()
+          \time 4/4
+          \set Staff.keySignature = #`(((0 . 9) . ,FLAT) ((0 . 6) . ,NATURAL) ) 
+
+          r1^\markup {\column { \line {\hspace #2.0 Concorrente 2} } } 
+          r r r r r r r
+
+          \revert NoteHead #'style 
+          \revert NoteHead #'font-size
+
+          \repeat volta 2 {
+            \override Stem #'transparent = ##t
+            \override Beam #'transparent = ##t
+
+            \mark \default
+            r1
+            r
+            \override NoteHead #'style = #'slash
+            \override NoteHead #'font-size = #-6
+            r4 
+            c,4*3/7 d4*3/7 e4*3/7 fis4*3/7 g4*3/7 a4*3/7 b4*3/7
+            c,4*3/7 d4*3/7 e4*3/7 fis4*3/7 g4*3/7 a4*3/7 b4*3/7 
+            r4 
+
+            \revert NoteHead #'style 
+            \revert NoteHead #'font-size
+            r4 
+            c,4*3/7 d4*3/7 e4*3/7 fis4*3/7 g4*3/7 a4*3/7 b4*3/7
+            c,4*3/7 d4*3/7 e4*3/7 fis4*3/7 g4*3/7 a4*3/7 b4*3/7 
+            r4 
+
+            r1
+            r1
+
+          }
+
+          r1
+          \bar "|."
+
+        }
+
+
+
+
+                                % CONCORRENTE 3
+
+        \new Staff {
+
+          \override Staff.TimeSignature #'style = #'()
+          \time 4/4
+          \set Staff.keySignature = #`(((0 . 9) . ,FLAT) ((0 . 6) . ,NATURAL) ) 
+
+          c,4\mf^\markup {\column {\line {\hspace #2.0 Banda} } } 
+          d8\< e fis4 g8 a\! 
+          b4 a8\> g fis4 e8 d\! 
+          c4 e8 g\< fis4 e8 c\! 
+          c4 e8 g b4 g8 e
+          c4 c8\> c c4 c8 c\!
+          c2. e8\< g
+          b4\! g8 e c2(
+          c4) c8\> c c4 c8 c\!
+
+          \repeat volta 2 {
+
+            c4\mf
+            r4 r2
+            r r4 c4
+            g4 r4 r2
+            r r4 g4
+            c4 r4 r2
+            r r4 c4
+            g4 r4 r2
+            r r4 g4
+
+          }
+
+
+          c2. r4
+
+          \bar "|."
+
+        }
+
+
+
+      >>
+    >>
+
+
+
+  }
+
 
                                 % TROMPA OP
 
@@ -1338,8 +1500,8 @@
 
             \mark \default
             r4 
-            c4*3/7 d4*3/7 e4*3/7 f4*3/7 g4*3/7 a4*3/7 bes4*3/7
-            c,4*3/7 d4*3/7 e4*3/7 f4*3/7 g4*3/7 a4*3/7 bes4*3/7 
+            c,4*3/7 d4*3/7 e4*3/7 fis4*3/7 g4*3/7 a4*3/7 b4*3/7
+            c,4*3/7 d4*3/7 e4*3/7 fis4*3/7 g4*3/7 a4*3/7 b4*3/7 
             r4 
             
             \mark \default
@@ -1355,8 +1517,8 @@
             \override NoteHead #'font-size = #-6
             \mark \default
             r4 
-            c,4*3/7 d4*3/7 e4*3/7 f4*3/7 g4*3/7 a4*3/7 bes4*3/7
-            c,4*3/7 d4*3/7 e4*3/7 f4*3/7 g4*3/7 a4*3/7 bes4*3/7 
+            c,4*3/7 d4*3/7 e4*3/7 fis4*3/7 g4*3/7 a4*3/7 b4*3/7
+            c,4*3/7 d4*3/7 e4*3/7 fis4*3/7 g4*3/7 a4*3/7 b4*3/7 
             r4 
 
           }
@@ -1392,15 +1554,15 @@
             \override NoteHead #'style = #'slash
             \override NoteHead #'font-size = #-6
             r4 
-            c,4*3/7 d4*3/7 e4*3/7 f4*3/7 g4*3/7 a4*3/7 bes4*3/7
-            c,4*3/7 d4*3/7 e4*3/7 f4*3/7 g4*3/7 a4*3/7 bes4*3/7 
+            c,4*3/7 d4*3/7 e4*3/7 fis4*3/7 g4*3/7 a4*3/7 b4*3/7
+            c,4*3/7 d4*3/7 e4*3/7 fis4*3/7 g4*3/7 a4*3/7 b4*3/7 
             r4 
 
             \revert NoteHead #'style 
             \revert NoteHead #'font-size
             r4 
-            c,4*3/7 d4*3/7 e4*3/7 f4*3/7 g4*3/7 a4*3/7 bes4*3/7
-            c,4*3/7 d4*3/7 e4*3/7 f4*3/7 g4*3/7 a4*3/7 bes4*3/7 
+            c,4*3/7 d4*3/7 e4*3/7 fis4*3/7 g4*3/7 a4*3/7 b4*3/7
+            c,4*3/7 d4*3/7 e4*3/7 fis4*3/7 g4*3/7 a4*3/7 b4*3/7 
             r4 
 
             r1
@@ -1425,13 +1587,13 @@
           \set Staff.keySignature = #`(((0 . 9) . ,FLAT) ((0 . 6) . ,NATURAL) ) 
 
           c,4\mf^\markup {\column {\line {\hspace #2.0 Banda} } } 
-          d8\< e f4 g8 a\! 
-          bes4 a8\> g f4 e8 d\! 
-          c4 e8 g\< f4 e8 c\! 
-          c4 e8 g bes4 g8 e
+          d8\< e fis4 g8 a\! 
+          b4 a8\> g fis4 e8 d\! 
+          c4 e8 g\< fis4 e8 c\! 
+          c4 e8 g b4 g8 e
           c4 c8\> c c4 c8 c\!
           c2. e8\< g
-          bes4\! g8 e c2(
+          b4\! g8 e c2(
           c4) c8\> c c4 c8 c\!
 
           \repeat volta 2 {

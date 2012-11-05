@@ -120,11 +120,22 @@
   }
 
 
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+
+    f''2\f^\markup { \bold \large { Allegretto} }
+    e f c c d d c1( c) c2 r
+    d1\ff( d) c c
+    f1 d c2 bes a r\fermata
+  }
+
+
                                 % TROMPA OP
 
   \tag #'tpaop {
 
-    f'2\f^\markup { \bold \large { Allegretto} }
+    f2\f^\markup { \bold \large { Allegretto} }
     e f c c d d c1( c) c2 r
     d1\ff( d) c c
     f1 d c2 bes a r\fermata
