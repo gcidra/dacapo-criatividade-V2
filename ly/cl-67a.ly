@@ -274,6 +274,68 @@
 
   }
 
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+
+    a2\f\>(^\markup { \bold Adante } g8\! )r 
+    g2\>( fis8\!) r 
+    fis2\>( e8\!) r 
+    e2\>( d8\!) r 
+    d2\>( c8\!) r 
+    c2\>( b8\!) r 
+    
+    <<
+      {
+	b2\>( a'8\!)
+      }
+      \\
+      {
+        \override NoteHead #'font-size = #-4
+        s2( a,8)
+        \revert NoteHead #'font-size 
+      }
+    >>
+
+    r 
+
+    <<
+      {
+	a'2.\fermata 
+      }
+      \\
+      {
+        \override NoteHead #'font-size = #-4
+        a,2.\p
+        \revert NoteHead #'font-size 
+      }
+    >>
+
+    \bar "||"
+
+    <<
+      {
+        <<a'2( {s4\< s4\>} >> b,8\!)
+      }
+      \\
+      {
+        \override NoteHead #'font-size = #-4
+        a2
+        \revert NoteHead #'font-size 
+      }
+    >>
+    r8
+
+    <<b2( {s4\< s4\>}  >> c8\!) r
+    <<c2( {s4\< s4\>} >>  d8\!) r
+    <<d2(  {s4\< s4\>}  >>  e8\!) r
+    <<e2( {s4\< s4\>} >>  fis8\!) r
+    <<fis2( {s4\< s4\>} >>  g8\!) r
+    <<g2( {s4\< s4\>} >> a8\!) r
+    <<a2.\fermata {s4\< s4\> s\!} >>
+    
+  }
+
                                 % TROMPA OP
 
   \tag #'tpaop {

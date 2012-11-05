@@ -112,6 +112,39 @@
     
   }
 
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+
+    a'4\p\<^\markup {\bold Arpejo} e c c\f\> e a a2.\p
+
+    <<
+      {
+	a4
+      }
+      \\
+      {
+        \override NoteHead #'font-size = #-4
+        a,4\p
+        \revert NoteHead #'font-size 
+      }
+    >>
+
+    c\< e a\f\> e c\! 
+
+    <<
+      {
+	a'2.\fermata
+      }
+      \\
+      {
+        \override NoteHead #'font-size = #-4
+        a,2.\p
+        \revert NoteHead #'font-size 
+      }
+    >>
+
+  }
 
 
 

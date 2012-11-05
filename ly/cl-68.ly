@@ -340,6 +340,46 @@
 
     }
 
+                                % TROMPA OP AGUDO
+
+    \tag #'tpaopag {
+      \override Staff.TimeSignature #'style = #'()
+      \override Score.BarNumber #'transparent = ##t
+      \time 4/4
+      \partial 2.*1
+
+      a4 a a 
+      a2. f4
+      e c e g
+      fis1(
+      fis4) 
+      \breathe
+      a4 a a
+      \break
+      a2 g4 f
+      g f e fis
+      g1(
+      g4) a a a
+
+      \hideNotes
+      a a a a
+      \override Staff.BarLine #'transparent = ##t
+      \break
+      a a a a
+      a a a a
+      a a a a
+      a a a a
+      \break
+      a a a a
+      a a a a
+      a a a a
+      \revert Staff.BarLine #'transparent 
+      \bar "|."
+
+
+
+    }
+
                                 % TROMPA OP
 
     \tag #'tpaop {

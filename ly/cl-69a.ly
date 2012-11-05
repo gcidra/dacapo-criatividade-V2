@@ -197,12 +197,34 @@
 
   }
 
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+
+    
+    g'2\p a\< b c d e fis g\! 
+
+    \mark \default
+
+    g\f fis\> e d c b a\! g\p
+
+    \bar "||"
+
+    \mark \default
+    g4.\f-> g8 a4.-> a8 b4.-> b8 c4.-> c8 d4.-> d8 e4.-> e8 fis4.-> fis8 g2->\fermata
+
+    \mark \default
+
+    g4.\p g8( fis4.) fis8( e4.) e8( d4.) d8( c4.) c8( b4.) b8( a4.) a8( g2)\fermata
+
+  }
+
                                 % TROMPA OP
 
   \tag #'tpaop {
 
     
-    g'2\p a\< b c d, e fis g\! 
+    g2\p a\< b c d, e fis g\! 
 
     \mark \default
 
@@ -225,7 +247,7 @@
   \tag #'tbn {
     \clef bass
     
-    g'2\p a\< b c d, e fis g\! 
+    g2\p a\< b c d, e fis g\! 
 
     \mark \default
 
