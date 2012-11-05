@@ -162,6 +162,24 @@
 
 
   }
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+
+    \repeat volta 2 {
+      f8\f^\markup{\column {\bold {Allegro  A3}}} c f->\>( e) d c\!
+      g'\p( f) 
+      e^\markup {\bold B3} d g\<( f) e c\! f4
+
+    }
+
+    \repeat volta 2 {
+      a8\f^\markup {\bold C3} f c\> d e f\! g4
+      bes8\p^\markup {\bold D3} g e c( d e) f4
+    }
+
+
+  }
 
                                 % TROMPA OP
 

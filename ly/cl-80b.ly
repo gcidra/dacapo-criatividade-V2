@@ -194,6 +194,26 @@
 
   }
 
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+
+    \repeat volta 2 {
+      f8\p^\markup {\column {\bold {Moderato  A1}}} c f\< a f c
+      g'\! c, 
+      e^\markup {\bold B1} g\> bes g 
+      e c\! f4 
+
+    }
+
+    \repeat volta 2 {
+      f8^\markup {\bold C1} a f\< f f f g\! g
+      g8^\markup {\bold D1} bes g\> g g g\! f4
+    }
+
+
+
+  }
 
                                 % TROMPA OP
 

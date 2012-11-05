@@ -232,6 +232,32 @@
 
 
     }
+                                % TROMPA OP AGUDO
+
+    \tag #'tpaopag {
+
+      \repeat volta 2 {
+	f8\mf^\markup {\column {\bold {Allegro  A}}} a 
+	f f d d g g 
+	g8^\markup {\bold B} bes g g e c f f 
+
+
+      }
+
+
+      \context Voice = verse {
+
+        \repeat volta 2 {
+          f8^\markup {\bold C} a f4 d g
+          g8^\markup {\bold D} bes g g e c f4^\markup  { \italic \bold Fim  }
+
+	}
+        \break
+
+      }
+
+
+    }
 
                                 % TROMPA OP
 

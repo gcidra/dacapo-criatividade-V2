@@ -165,6 +165,26 @@
 
   }
 
+
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+
+    \repeat volta 2 {
+      f8^\markup {\bold A4 } c f e d c
+      g' f 
+      e^\markup {\bold B4} d g f e c f4 
+
+    }
+    \break
+    \repeat volta 2 {
+      a8^\markup {\bold C4} f c d e f g4
+      bes8^\markup {\bold D4} g e c d e f4
+    }
+
+
+  }
+
                                 % TROMPA OP
 
   \tag #'tpaop {
