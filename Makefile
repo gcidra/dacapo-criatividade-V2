@@ -24,23 +24,15 @@ instrumentos_clave_de_sol = flauta oboe clarinete saxalto saxtenor saxhorn tromp
 instrumentos_clave_de_fa = fagote trombone bombardino-instDO-escDO bombardino-instSIB-escSIB bombardino-instSIB-escDO tuba-instMIB-escDO tuba-instMIB-escMIB tuba-instSIB-escDO tuba-instSIB-escSIB8acima tuba-instSIB-escSIB8abaixo
 listlivros = flauta oboe clarinete saxalto saxtenor saxhorn trompa trompaop trompaop-Agudo trompaop-Grave trompete fagote trombone bombardino-instSIB-clave-sol bombardino-instDO-escDO bombardino-instSIB-escSIB bombardino-instSIB-escDO tuba-instMIB-escDO tuba-instMIB-escMIB tuba-instSIB-escDO tuba-instSIB-escSIB8acima tuba-instSIB-escSIB8abaixo
 
-all_ps_sol = $(addsuffix .ps,$(instrumentos_clave_de_sol))
-all_ps_fa = $(addsuffix .ps,$(instrumentos_clave_de_fa))
+all_sol = $(addsuffix .pdf,$(instrumentos_clave_de_sol))
+all_fa = $(addsuffix .pdf,$(instrumentos_clave_de_fa))
+all_livros = $(addsuffix .pdf,$(listlivros))
 
+all: all_sol all_fa
 
-all_pdf_sol = $(addsuffix .pdf,$(instrumentos_clave_de_sol))
-all_pdf_fa = $(addsuffix .pdf,$(instrumentos_clave_de_fa))
-all_pdf_livros = $(addsuffix .pdf,$(listlivros))
-
-instrumentos_ps: all_sol all_fa
-
-instrumentos_pdf: all_pdf_sol all_pdf_fa
-
-all_sol: $(all_ps_sol)
-all_fa: $(all_ps_fa)
-all_pdf_sol: $(all_pdf_sol)
-all_pdf_fa: $(all_pdf_fa)
-livros: $(all_pdf_livros)
+all_sol: $(all_sol)
+all_fa: $(all_fa)
+livros: $(all_livros)
 
 arquivos_regencia: $(all-reg)
 
@@ -115,6 +107,7 @@ flauta.lytex: $(file) Makefile
 	-e 's/%#nota-14#%/Lá bemol/g' \
 	-e 's/%#nota-15#%/Mi bemol/g' \
 	-e 's/%#nota-16#%//g' \
+	-e 's/%#nota-16a#%//g' \
 	-e 's/%#nota-17#%/Dó/g' \
 	-e 's/%#nota-18#%/Ré/g' \
 	-e 's/%#nota-19#%//g' \
@@ -173,6 +166,7 @@ oboe.lytex: $(file) Makefile
 	-e 's/%#nota-14#%/Lá bemol/g' \
 	-e 's/%#nota-15#%/Mi bemol/g' \
 	-e 's/%#nota-16#%//g' \
+	-e 's/%#nota-16a#%//g' \
 	-e 's/%#nota-17#%/Dó/g' \
 	-e 's/%#nota-18#%//g' \
 	-e 's/%#nota-19#%//g' \
@@ -230,6 +224,7 @@ clarinete.lytex: $(file) Makefile
 	-e 's/%#nota-14#%/Si bemol/g' \
 	-e 's/%#nota-15#%/Fá/g' \
 	-e 's/%#nota-16#%/Mi/g' \
+	-e 's/%#nota-16a#%//g' \
 	-e 's/%#nota-17#%/Mi/g' \
 	-e 's/%#nota-18#%/Ré/g' \
 	-e 's/%#nota-19#%/Dó/g' \
@@ -288,6 +283,7 @@ saxalto.lytex: $(file) Makefile
 	-e 's/%#nota-14#%/Fá/g' \
 	-e 's/%#nota-15#%/Dó/g' \
 	-e 's/%#nota-16#%//g' \
+	-e 's/%#nota-16a#%//g' \
 	-e 's/%#nota-17#%/Lá/g' \
 	-e 's/%#nota-18#%/Si/g' \
 	-e 's/%#nota-19#%//g' \
@@ -346,6 +342,7 @@ saxtenor.lytex: $(file) Makefile
 	-e 's/%#nota-14#%/Si bemol/g' \
 	-e 's/%#nota-15#%/Fá/g' \
 	-e 's/%#nota-16#%/Mi/g' \
+	-e 's/%#nota-16a#%//g' \
 	-e 's/%#nota-17#%/Ré/g' \
 	-e 's/%#nota-18#%/Dó/g' \
 	-e 's/%#nota-19#%//g' \
@@ -404,6 +401,7 @@ fagote.lytex: $(file) Makefile
 	-e 's/%#nota-14#%/Lá bemol/g' \
 	-e 's/%#nota-15#%//g' \
 	-e 's/%#nota-16#%/Sol/g' \
+	-e 's/%#nota-16a#%//g' \
 	-e 's/%#nota-17#%/Dó/g' \
 	-e 's/%#nota-18#%//g' \
 	-e 's/%#nota-19#%//g' \
@@ -462,6 +460,7 @@ trompa.lytex: $(file) Makefile
 	-e 's/%#nota-14#%/Mi bemol/g' \
 	-e 's/%#nota-15#%/Si bemol/g' \
 	-e 's/%#nota-16#%/Lá/g' \
+	-e 's/%#nota-16a#%//g' \
 	-e 's/%#nota-17#%//g' \
 	-e 's/%#nota-18#%//g' \
 	-e 's/%#nota-19#%//g' \
@@ -520,6 +519,7 @@ trompaop.lytex: $(file) Makefile
 	-e 's/%#nota-14#%/Mi bemol/g' \
 	-e 's/%#nota-15#%//g' \
 	-e 's/%#nota-16#%/Ré/g' \
+	-e 's/%#nota-16a#%//g' \
 	-e 's/%#nota-17#%/Sol/g' \
 	-e 's/%#nota-18#%//g' \
 	-e 's/%#nota-19#%//g' \
@@ -578,6 +578,7 @@ trompaop-Agudo.lytex: $(file) Makefile
 	-e 's/%#nota-14#%/Si bemol/g' \
 	-e 's/%#nota-15#%//g' \
 	-e 's/%#nota-16#%/Ré/g' \
+	-e 's/%#nota-16a#%/Mi bemol/g' \
 	-e 's/%#nota-17#%/Sol/g' \
 	-e 's/%#nota-18#%//g' \
 	-e 's/%#nota-19#%//g' \
@@ -636,6 +637,7 @@ trompaop-Grave.lytex: $(file) Makefile
 	-e 's/%#nota-14#%/Mi bemol/g' \
 	-e 's/%#nota-15#%//g' \
 	-e 's/%#nota-16#%/Ré/g' \
+	-e 's/%#nota-16a#%//g' \
 	-e 's/%#nota-17#%/Sol/g' \
 	-e 's/%#nota-18#%//g' \
 	-e 's/%#nota-19#%//g' \
@@ -695,6 +697,7 @@ saxhorn.lytex: $(file) Makefile
 	-e 's/%#nota-14#%/Fá/g' \
 	-e 's/%#nota-15#%/Dó/g' \
 	-e 's/%#nota-16#%/Si/g' \
+	-e 's/%#nota-16a#%//g' \
 	-e 's/%#nota-17#%//g' \
 	-e 's/%#nota-18#%//g' \
 	-e 's/%#nota-19#%//g' \
@@ -752,6 +755,7 @@ trompete.lytex: $(file) Makefile
 	-e 's/%#nota-14#%/Si bemol/g' \
 	-e 's/%#nota-15#%//g' \
 	-e 's/%#nota-16#%/Lá/g' \
+	-e 's/%#nota-16a#%//g' \
 	-e 's/%#nota-17#%/Ré/g' \
 	-e 's/%#nota-18#%//g' \
 	-e 's/%#nota-19#%//g' \
@@ -809,6 +813,7 @@ bombardino-instSIB-clave-sol.lytex: $(file) Makefile
 	-e 's/%#nota-14#%/Si bemol/g' \
 	-e 's/%#nota-15#%//g' \
 	-e 's/%#nota-16#%/Lá/g' \
+	-e 's/%#nota-16a#%//g' \
 	-e 's/%#nota-17#%/Ré/g' \
 	-e 's/%#nota-18#%//g' \
 	-e 's/%#nota-19#%//g' \
@@ -867,6 +872,7 @@ bombardino-instDO-escDO.lytex: $(file) Makefile
 	-e 's/%#nota-14#%/Lá bemol/g' \
 	-e 's/%#nota-15#%//g' \
 	-e 's/%#nota-16#%/Sol/g' \
+	-e 's/%#nota-16a#%//g' \
 	-e 's/%#nota-17#%/Dó/g' \
 	-e 's/%#nota-18#%//g' \
 	-e 's/%#nota-19#%//g' \
@@ -925,6 +931,7 @@ bombardino-instSIB-escSIB.lytex: $(file) Makefile
 	-e 's/%#nota-14#%/Si bemol/g' \
 	-e 's/%#nota-15#%//g' \
 	-e 's/%#nota-16#%/Lá/g' \
+	-e 's/%#nota-16a#%//g' \
 	-e 's/%#nota-17#%/Ré/g' \
 	-e 's/%#nota-18#%//g' \
 	-e 's/%#nota-19#%//g' \
@@ -983,6 +990,7 @@ bombardino-instSIB-escDO.lytex: $(file) Makefile
 	-e 's/%#nota-14#%/Si bemol/g' \
 	-e 's/%#nota-15#%//g' \
 	-e 's/%#nota-16#%/Lá/g' \
+	-e 's/%#nota-16a#%//g' \
 	-e 's/%#nota-17#%/Ré/g' \
 	-e 's/%#nota-18#%//g' \
 	-e 's/%#nota-19#%//g' \
@@ -1041,6 +1049,7 @@ trombone.lytex: $(file) Makefile
 	-e 's/%#nota-14#%/Lá bemol/g' \
 	-e 's/%#nota-15#%//g' \
 	-e 's/%#nota-16#%/Sol/g' \
+	-e 's/%#nota-16a#%//g' \
 	-e 's/%#nota-17#%/Dó/g' \
 	-e 's/%#nota-18#%//g' \
 	-e 's/%#nota-19#%//g' \
@@ -1100,6 +1109,7 @@ tuba-instMIB-escDO.lytex: $(file)  Makefile
 	-e 's/%#nota-14#%/Lá bemol/g' \
 	-e 's/%#nota-15#%/Mi bemol/g' \
 	-e 's/%#nota-16#%/Ré/g' \
+	-e 's/%#nota-16a#%//g' \
 	-e 's/%#nota-17#%//g' \
 	-e 's/%#nota-18#%//g' \
 	-e 's/%#nota-19#%//g' \
@@ -1159,6 +1169,7 @@ tuba-instMIB-escMIB.lytex: $(file)  Makefile
 	-e 's/%#nota-14#%/Fá sustenido/g' \
 	-e 's/%#nota-15#%/Dó/g' \
 	-e 's/%#nota-16#%/Si/g' \
+	-e 's/%#nota-16a#%//g' \
 	-e 's/%#nota-17#%//g' \
 	-e 's/%#nota-18#%//g' \
 	-e 's/%#nota-19#%//g' \
@@ -1218,6 +1229,7 @@ tuba-instSIB-escDO.lytex: $(file)  Makefile
 	-e 's/%#nota-14#%/Lá bemol/g' \
 	-e 's/%#nota-15#%//g' \
 	-e 's/%#nota-16#%/Sol/g' \
+	-e 's/%#nota-16a#%//g' \
 	-e 's/%#nota-17#%/Dó/g' \
 	-e 's/%#nota-18#%//g' \
 	-e 's/%#nota-19#%//g' \
@@ -1277,6 +1289,7 @@ tuba-instSIB-escSIB8acima.lytex: $(file)  Makefile
 	-e 's/%#nota-14#%/Si bemol/g' \
 	-e 's/%#nota-15#%//g' \
 	-e 's/%#nota-16#%/Lá/g' \
+	-e 's/%#nota-16a#%//g' \
 	-e 's/%#nota-17#%/Ré/g' \
 	-e 's/%#nota-18#%//g' \
 	-e 's/%#nota-19#%//g' \
@@ -1335,6 +1348,7 @@ tuba-instSIB-escSIB8abaixo.lytex: $(file)  Makefile
 	-e 's/%#nota-14#%/Si bemol/g' \
 	-e 's/%#nota-15#%//g' \
 	-e 's/%#nota-16#%/Lá/g' \
+	-e 's/%#nota-16a#%//g' \
 	-e 's/%#nota-17#%/Ré/g' \
 	-e 's/%#nota-18#%//g' \
 	-e 's/%#nota-19#%//g' \
