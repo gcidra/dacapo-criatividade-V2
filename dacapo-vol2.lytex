@@ -1000,6 +1000,8 @@ Volte ao início e termine no \textbf{\textit{Fim}}.
 \end{lilypond}
 
 %%break-bomsibClaveSol
+%%break-tpa
+%%break-AgOptpa
 \subsection*{Parte 2}
 \begin{lilypond}
   \transpose c c {
@@ -1019,6 +1021,7 @@ Pratique este número substituindo o %#fanatural#% pelo %#fasustenido#%.
 
 
 %%break-cl
+%%break-GrOptpa
 \section{Cai, Cai Balão}
 \label{sec:cai-cai-balao}
 Copie a melodia de \textit{\nameref{sec:cai-cai-balao}} e escreva uma
@@ -1038,7 +1041,29 @@ segunda voz.
 \end{lilypond}
 
 
-\break
+%%break-reg
+%%break-per
+%%break-fl
+%%break-ob
+%%break-cl
+%%break-saxa
+%%break-saxt
+%%break-fg
+%%break-tpa
+%%break-Optpa
+%%break-AgOptpa
+%%break-saxh
+%%break-tpt
+%%break-bomsibClaveSol
+%%break-bomdo
+%%break-bomsibsib
+%%break-bomsibDo
+%%break-tbn
+%%break-tbamibDo
+%%break-tbamibmib
+%%break-tbasibDo
+%%break-tbasibsib8acima
+%%break-tbasibsib8abaixo
 \section{Roda e Chicotinho Queimado}
 \label{sec:roda-e-chicotinho-queimado}
 
@@ -1176,7 +1201,29 @@ ela.
 
 Volte ao início e termine no \textbf{\textit{Fim}}.
 
-\break
+%%break-reg
+%%break-per
+%%break-fl
+%%break-ob
+%%break-cl
+%%break-saxa
+%%break-saxt
+%%break-fg
+%%break-tpa
+%%break-Optpa
+%%break-GrOptpa
+%%break-saxh
+%%break-tpt
+%%break-bomsibClaveSol
+%%break-bomdo
+%%break-bomsibsib
+%%break-bomsibDo
+%%break-tbn
+%%break-tbamibDo
+%%break-tbamibmib
+%%break-tbasibDo
+%%break-tbasibsib8acima
+%%break-tbasibsib8abaixo
 \section{Balão}
 \label{sec:balao}
 
@@ -1313,7 +1360,8 @@ Volte à melodia principal, ou \textbf{Tema}, e termine no
 %%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-
+%%break-tpa
+%%break-GrOptpa
 \section{Cromatismo}
 \label{sec:cromatismo}
 \begin{lilypond}
@@ -1323,6 +1371,7 @@ Volte à melodia principal, ou \textbf{Tema}, e termine no
 \end{lilypond}
 
 
+%%break-AgOptpa
 \section{Improvisando sobre a Canção do Cego}
 \label{sec:impr-cancao-cego}
 \begin{lilypond}
@@ -1358,6 +1407,8 @@ Volte ao início e termine no \textbf{\textit{Fim}}.
 \end{lilypond}
 
 %%break-fg
+%%break-tpa
+%%break-AgOptpa
 %%break-bomdo
 %%break-bomsibsib
 %%break-bomsibDo
@@ -1529,6 +1580,8 @@ completa ou parte dela.
 %%break-fg
 %%break-tpt
 %%break-tpa
+%%break-AgOptpa
+%%break-GrOptpa
 %%break-saxa
 %%break-saxh
 %%break-saxt
@@ -1601,6 +1654,7 @@ aqueles selecionados para aquela voz.
 As notas em formato de triângulo indicam notas agudas, em formato de
 barra, notas de registro médio, e em formato de ``x'', notas graves.
 
+%%break-GrOptpa
 \section{Desafio}
 \label{sec:desafio}
 \begin{lilypond}
@@ -1792,6 +1846,7 @@ Volte à melodia principal, ou \textbf{Tema}, e termine no
 
 %%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%break-AgOptpa
 \section{Improvisando em Engenho Novo}
 \label{sec:impr-engenho-novo}
 \begin{lilypond}
@@ -1959,6 +2014,7 @@ Volte à melodia principal, ou \textbf{Tema}, e termine no
 \end{lilypond}
 
 
+%%break-AgOptpa
 \section{Qui Tollis}
 \label{sec:qui-tollis}
 % CORAL
@@ -1991,6 +2047,7 @@ e publicado pela Funarte em 1984.
     \include "cl-95.ly"}
 \end{lilypond}
 
+%%break-AgOptpa
 %%break-tbamibDo
 %%break-tbasibsib8acima
 \section{Requiescat}
@@ -2014,6 +2071,7 @@ Música Brasileira - Restauração e Difusão de Partituras, 2003,
 trabalho coordenado por Paulo Castagna e publicado pela Fundação
 Cultural e Educacional da Arquidiocese de Mariana, BH.
 
+%%break-tpa
 %%break-tbasibsib8abaixo
 \section{Missa e Credo}
 \label{sec:missa-e-credo}
@@ -2034,6 +2092,8 @@ Adaptado para banda da edição de Pablo Sotuyo Blanco (copyright
 2003-2006). [Ms 6.20, Arquivo Histórico Municipal da Fundação Gregório
 de Matos, Salvador, BA].
 
+%%break-AgOptpa
+%%break-GrOptpa
 \section{Duelo}
 \label{sec:duelo}
 \begin{lilypond}
@@ -2155,6 +2215,7 @@ de Matos, Salvador, BA].
     \include "cl-105bc.ly"}
 \end{lilypond}
 
+%%break-tpa
 %%break-bomsibDo
 \subsection*{Variação 3}
 \begin{lilypond}
@@ -2176,6 +2237,7 @@ de Matos, Salvador, BA].
 Volte à melodia principal, ou \textbf{Tema}, e termine no
 \textbf{\textit{Fim}}.
 
+%%break-AgOptpa
 %%break-tpt
 %%break-bomsibClaveSol
 \section{Escravo de Jó ou Chapeuzinho Vermelho}
