@@ -50,6 +50,12 @@
     \stopStaff
     s^\markup {\halign #3 "Descanso"}
   }
+  %% TROMPA OP AGUDO
+  \tag #'tpaopag {
+    \override Staff.Clef #'transparent = ##t
+    \stopStaff
+    s^\markup {\halign #3 "Descanso"}
+  }
   %% TROMPA OP
   \tag #'tpaop {
     \override Staff.Clef #'transparent = ##t
