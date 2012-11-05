@@ -39,9 +39,13 @@
   \tag #'tpa {
     bes
   }
+  %% TROMPA OP AGUDO
+  \tag #'tpaopag {
+    f''
+  }
   %% TROMPA OP
   \tag #'tpaop {
-    bes
+    bes,,
   }
   %% TROMBONE
   \tag #'tbn {
