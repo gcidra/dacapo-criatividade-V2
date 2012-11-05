@@ -1,8 +1,8 @@
 # file = dacapo.lytex
 # file = dacapo-vol1.lytex
-# file = dacapo-vol2.lytex
+file = dacapo-vol2.lytex
 # file = dacapo-resumido.lytex
-file = teste.lytex
+# file = teste.lytex
 # file-regencia = dacapo-regencia.lytex
 # file-regencia = dacapo-reg-vol1.lytex
 file-regencia = dacapo-reg-vol2.lytex
@@ -539,7 +539,7 @@ trompaop.lytex: $(file) Makefile
 	-e 's/%#sinatural#%/mi natural/g' \
 	-e 's/%#fasinaturais#%/si bemol e mi natural/g' \
 	-e 's/%#notafa#%/si bemol/g' \
-	-e 's/%%break-tpaop/\\break/g' \
+	-e 's/%%break-Optpa/\\break/g' \
 	-e 's/%#ISBN-V1#%/978-85-86981-54-8/g' \
 	-e 's/%#ISBN-V2#%/978-85-86981-55-5/g' \
 	-e 's/%#ISBN-V1-fig#%/cod-barra-tpaop-v1/g' \
@@ -598,7 +598,7 @@ trompaop-Agudo.lytex: $(file) Makefile
 	-e 's/%#sinatural#%/mi natural/g' \
 	-e 's/%#fasinaturais#%/si bemol e mi natural/g' \
 	-e 's/%#notafa#%/si bemol/g' \
-	-e 's/%%break-tpaop/\\break/g' \
+	-e 's/%%break-AgOptpa/\\break/g' \
 	-e 's/%#ISBN-V1#%/978-85-86981-54-8/g' \
 	-e 's/%#ISBN-V2#%/978-85-86981-55-5/g' \
 	-e 's/%#ISBN-V1-fig#%/cod-barra-tpaop-v1/g' \
@@ -657,7 +657,7 @@ trompaop-Grave.lytex: $(file) Makefile
 	-e 's/%#sinatural#%/mi natural/g' \
 	-e 's/%#fasinaturais#%/si bemol e mi natural/g' \
 	-e 's/%#notafa#%/si bemol/g' \
-	-e 's/%%break-tpaop/\\break/g' \
+	-e 's/%%break-GrOptpa/\\break/g' \
 	-e 's/%#ISBN-V1#%/978-85-86981-54-8/g' \
 	-e 's/%#ISBN-V2#%/978-85-86981-55-5/g' \
 	-e 's/%#ISBN-V1-fig#%/cod-barra-tpaop-v1/g' \

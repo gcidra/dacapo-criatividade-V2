@@ -98,6 +98,54 @@
 % 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
+
+%%%%%%%%%%%%%%%%%%%%%%%% INICIO QUADRO 24 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[ht]
+  \centering
+ \renewcommand{\tablename}{Quadro}
+ \caption{}
+  \label{Quadro_24}
+  \begin{tabular}[t]{|c|}
+    \hline
+    \\[7pt]
+
+    %%% PRÓXIMA LINHA
+    \quadtitulo{Colcheia e semínima pontuada}
+
+
+    %%% PRÓXIMA LINHA
+    \\
+    \includegraphics[scale=1]{colcheia-seminima-pontuada}
+
+
+    %%% FINAL DAS LINHAS
+  \\[10pt]
+  \hline
+  \end{tabular}
+\end{table}    
+
+%%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%%break-tpt
+%%break-bomsibClaveSol
+\section{Escravo de Jó ou Chapeuzinho Vermelho}
+\label{sec:escravo-de-jo-chapeuzinho-vermelho}
+Escolha uma destas melodias e componha uma variação para ela.
+
+\begin{lilypond}
+  \transpose c c {
+    \keepWithTag #'cl
+    \include "cl-pauta.ly"}
+\end{lilypond}
+
+%%break-cl
+%%break-fl
+%%break-ob
+%%break-fg
 \section{Escolha uma música para aprender ``de ouvido'' e apresente  a
   seus colegas.  }
 \label{sec:escolha-musica-apresente-colegas}
@@ -112,7 +160,6 @@
     \keepWithTag #'cl
     \include "cl-106.ly"}
 \end{lilypond}
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
