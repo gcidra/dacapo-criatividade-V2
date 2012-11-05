@@ -582,8 +582,8 @@ trompaop-Agudo.lytex: $(file) Makefile
 	-e 's/%#nota-17#%//g' \
 	-e 's/%#nota-18#%//g' \
 	-e 's/%#nota-19#%//g' \
-	-e 's/%#nota-20#%//g' \
-	-e 's/%#nota-21#%//g' \
+	-e 's/%#nota-20#%/Mi/g' \
+	-e 's/%#nota-21#%/Fá/g' \
 	-e 's/%#nota-22#%//g' \
 	-e 's/%#armadura-01-01#%/Si bemol/g' \
 	-e 's/%#armadura-01-02#%/as notas si e mi são bemóis/g' \
