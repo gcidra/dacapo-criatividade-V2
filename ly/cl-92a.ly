@@ -161,13 +161,30 @@
 
 
     }
+                                % TROMPA OP AGUDO
+
+    \tag #'tpaopag {
+
+      \repeat volta 2 { 
+	f'8\p^\markup {\column {\bold {Andante  A}}}  a d,4 d f8 a d,2 
+        \breathe 
+	a'8^\markup{\bold {B}} a bes4 a g8 fis g2
+        \breathe
+	bes8^\markup{\bold {C}}  bes c4 bes8 bes a g bes4 a 
+        \breathe
+	a8^\markup{\bold {D}} bes a4 g8 g f e d2^\markup { \italic \bold Fim  }
+
+      }
+
+
+    }
 
                                 % TROMPA OP
 
     \tag #'tpaop {
 
       \repeat volta 2 { 
-	f8\p^\markup {\column {\bold {Andante  A}}}  a d,4 d f8 a d,2 
+	f,8\p^\markup {\column {\bold {Andante  A}}}  a d,4 d f8 a d,2 
         \breathe 
 	a'8^\markup{\bold {B}} a bes4 a g8 fis g2
         \breathe

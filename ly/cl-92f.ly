@@ -131,13 +131,27 @@
 
 
   }
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+
+    \repeat volta 2 { 
+      e'4^\markup{\bold {A5}} c e g a g
+      e^\markup{\bold {B5}} a g e d2
+      d4^\markup{\bold {C5}} b d f g f
+      d^\markup{\bold {D5}} g f d c2 
+
+    }
+
+
+  }
 
                                 % TROMPA OP
 
   \tag #'tpaop {
 
     \repeat volta 2 { 
-      e4^\markup{\bold {A5}} c e g a g
+      e,4^\markup{\bold {A5}} c e g a g
       e^\markup{\bold {B5}} a g e d2
       d4^\markup{\bold {C5}} b d f g f
       d^\markup{\bold {D5}} g f d c2 

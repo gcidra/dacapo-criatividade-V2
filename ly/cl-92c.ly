@@ -126,13 +126,27 @@
 
   }
 
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+
+    \repeat volta 2 { 
+      d'8\f^\markup{\column {\bold {Allegro  A2}} }   f a4.( d,8) f a\> a2
+      bes8\p^\markup{\bold {B2}}  a g4( d8) g bes a g2
+      a8\f^\markup{\bold {C2}} bes c2   bes8\> a bes4.\p
+      g8\<(^\markup{\bold {D2}}  a)  bes\! c\> bes a g f e\! d2 
+    }
+
+
+  }
+
 
                                 % TROMPA OP
 
   \tag #'tpaop {
 
     \repeat volta 2 { 
-      d8\f^\markup{\column {\bold {Allegro  A2}} }   f a4.( d,8) f a\> a2
+      d,8\f^\markup{\column {\bold {Allegro  A2}} }   f a4.( d,8) f a\> a2
       bes8\p^\markup{\bold {B2}}  a g4( d8) g bes a g2
       a8\f^\markup{\bold {C2}} bes c2   bes8\> a bes4.\p
       g8\<(^\markup{\bold {D2}}  a)  bes\! c\> bes a g f e\! d2 

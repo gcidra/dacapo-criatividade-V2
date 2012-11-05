@@ -179,13 +179,33 @@
 
   }
 
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+
+    \repeat volta 2 {
+      c'8\p^\markup {\column {\bold {Allegro  A3}} }  
+      a' a a a 
+      a( g) g\< g
+      g( f) f f\!
+      a4\mf
+      f8^\markup {\bold B3} a
+      g( f) f f
+      f( e) e\> e
+      f( e) f g\!
+      f4.\p
+    }
+
+
+  }
+
 
                                 % TROMPA OP
 
   \tag #'tpaop {
 
     \repeat volta 2 {
-      c8\p^\markup {\column {\bold {Allegro  A3}} }  
+      c,8\p^\markup {\column {\bold {Allegro  A3}} }  
       a' a a a 
       a( g) g\< g
       g( f) f f\!

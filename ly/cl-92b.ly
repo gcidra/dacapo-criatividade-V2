@@ -126,13 +126,27 @@
 
   }
 
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+
+    \repeat volta 2 { 
+      d'8\p^\markup{\column {\bold {Moderato  A1}} }   e f4( d\<) f8 g a2\!
+      g8(^\markup{\bold {B1}}  a) bes4 bes a8\>( f) g2\!
+      e8^\markup{\bold {C1}} f g4( a\<) c8 bes a4\!( bes4)
+      c8^\markup{\bold {D1}}  bes a\>( g) f g( f) e\! d2 
+    }
+
+
+  }
+
 
                                 % TROMPA OP
 
   \tag #'tpaop {
 
     \repeat volta 2 { 
-      d8\p^\markup{\column {\bold {Moderato  A1}} }   e f4( d\<) f8 g a2\!
+      d,8\p^\markup{\column {\bold {Moderato  A1}} }   e f4( d\<) f8 g a2\!
       g8(^\markup{\bold {B1}}  a) bes4 bes a8\>( f) g2\!
       e8^\markup{\bold {C1}} f g4( a\<) c8 bes a4\!( bes4)
       c8^\markup{\bold {D1}}  bes a\>( g) f g( f) e\! d2 
