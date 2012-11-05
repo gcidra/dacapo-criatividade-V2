@@ -968,6 +968,125 @@
 
   }
 
+                                % TROMPA OP AGUDO
+
+  \tag #'tpaopag {
+
+    \time 4/4
+    \key f \major
+
+    \override Score.BarNumber #'transparent = ##t
+    \set Score.markFormatter = #format-mark-numbers
+    \override Score.RehearsalMark #'font-size = #-2
+    \override Staff.TimeSignature #'style = #'()
+
+    \mark \default
+    \override Stem #'transparent = ##t	
+
+    c4*4/3\mf f a
+
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-4
+    \mark \default
+    c,4*4/3 f a
+
+    \bar "||" 
+
+    \revert NoteHead #'style 
+    \revert NoteHead #'font-size
+    \revert Stem #'transparent
+    \mark \default
+    c,1
+
+    \override Stem #'transparent = ##t
+    \mark \default
+    c4*4/3 e g
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-4
+    \mark \default
+    c,4*4/3 e g
+
+    \bar "||"
+    \revert NoteHead #'style 
+    \revert NoteHead #'font-size
+    \revert Stem #'transparent
+    \mark \default
+    f2 c
+
+    \override Stem #'transparent = ##t
+    \mark \default
+    c4*4/3 f a
+    c,4*4/3 e g
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-4
+    \mark \default
+    c,4*4/3 f a
+    c,4*4/3 e g
+
+    \bar "||"
+    \revert NoteHead #'style 
+    \revert NoteHead #'font-size
+    \revert Stem #'transparent
+    \revert Beam #'transparent
+    \mark \default
+    c,2 f2
+
+
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t
+    \mark \default
+    c4*4/3 e g
+    c,4*4/3 f a
+
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-4
+    \mark \default
+    c,4*4/3 e g
+    c,4*4/3 f a
+    \bar "||"
+
+    \revert NoteHead #'style 
+    \revert NoteHead #'font-size
+    \revert Stem #'transparent
+    \revert Beam #'transparent
+    \mark \default
+    f'2\< bes,\! 
+    c\> f\!
+    
+    \override Stem #'transparent = ##t
+    \override Beam #'transparent = ##t
+    \mark \default
+    c,4*4/3 f a
+    d,4*4/3 f bes
+    c,4 e g bes
+    c,4*4/3 f a
+
+    \override NoteHead #'style = #'slash
+    \override NoteHead #'font-size = #-4
+    \mark \default
+    
+    c,4*4/3 f a
+    d,4*4/3 f bes
+    c,4 e g bes
+    c,4*4/3 f a
+
+    \bar "||"
+
+    \revert NoteHead #'style 
+    \revert NoteHead #'font-size
+    \revert Stem #'transparent
+    \revert Beam #'transparent
+    \mark \default
+    
+    c,4\mf d8 e\> f4 f8 f
+    f4\! r f2\p\fermata 
+
+
+  }
 
                                 % TROMPA OP
 
