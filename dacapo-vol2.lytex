@@ -1272,11 +1272,13 @@ Volte à melodia principal, ou \textbf{Tema}, e termine no
  \renewcommand{\tablename}{Quadro}
  \caption{}
   \label{Quadro_19}
-  \begin{tabular}[t]{|l|}
+  \begin{tabular}[t]{|ll|}
     \hline
 
     %%% PRÓXIMA LINHA
-    \quadtitulo{%#nota-16#%}
+    \quadtitulo{%#nota-16#%} 
+    &
+    \quadtitulo{%#nota-16a#%}
 
 
     %%% PRÓXIMA LINHA
@@ -1287,11 +1289,20 @@ Volte à melodia principal, ou \textbf{Tema}, e termine no
         \include "notas-16.ly"
       }
     \end{lilypond}
+    &
+    \begin[fragment]{lilypond}
+      \transpose c c {
+        \keepWithTag #'cl
+        \include "notas-16a.ly"
+      }
+    \end{lilypond}
 
 
     %%% PRÓXIMA LINHA
     \\
     \includegraphics[scale=3.15]{%#fig-posicoes#%-16}
+      &
+    \includegraphics[scale=3.15]{%#fig-posicoes#%-16a}
 
 
     %%% FINAL DAS LINHAS
@@ -1300,6 +1311,7 @@ Volte à melodia principal, ou \textbf{Tema}, e termine no
   \end{tabular}
 \end{table}    
 %%%%%%%%%%%%%%%%%%%%%%%% FINAL QUADRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 
 \section{Cromatismo}
